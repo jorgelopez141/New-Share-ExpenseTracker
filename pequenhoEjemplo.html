@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejemplo pequenho</title>
+
+	<style type="text/css">
+
+		form.demoForm {
+    margin: 2em 0 3em;
+}
+
+form.demoForm select {
+    vertical-align: top;
+    margin-right: 1em;
+}
+
+select#choices {
+    min-width: 140px;
+}
+
+
+	</style>
+</head>
+<body>
+
+<form action="/" method="POST" enctype="multipart/form-data" id="demoForm" class="demoForm">		
+
+<label>Categoria Gasto</label>						
+ <select class="form-control" name="categoriaGasto">
+    <option value="Supermercado">Supermercado</option>
+    <option value="Online Shopping">Online Shopping</option>		
+    <option value="Gastos para Madres">Gastos para Madres</option>
+    <option value="Gastos Taxi">Gastos Taxi</option>
+    <option value="Otros Gastos">Otros Gastos</option>
+    <!-- renta, luz, agua, celular, cable son gastos recurrentes y estos se programan para correr automaticamente -->	    
+ </select>
+<br> <br>
+  <label>Categoria Especifica Gasto</label>	
+ <select name="catEspecifica" id="categoriaEspecifica" multiple="multiple" size="4">
+		 <!-- js populates -->
+</select>
+<br><br>
+ <button id="btnEnviar" class="btn btn-lg btn-primary btn-block">metalo!</button>
+
+
+</form>
+
+
+<script type="text/javascript">
+
+document.querySelector("#categoriaEspecifica")
+
+</script>
+
+</body>
+</html>

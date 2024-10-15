@@ -1,0 +1,22 @@
+<%- include("partials/header")%>
+
+<%var ultimoSaldo2= ultimoSaldo.recordset%>
+								<%ultimoSaldo2.forEach(function(el){%>   
+
+										<ul>
+								    		 <li style="font-size:25px;">
+								    		 		
+										     	<span style="color: blue; font-size: 1.2em">Nombre_Cuenta: <b><%=el.cuentaBanco%></b> </span>
+										     	<br> Saldo: <b>$<%=el.saldo%></b> 
+
+										     	<br><br>
+										     	Id: <%=el.id%> | <%=el.fecha.toISOString().substring(0, 10)%>
+
+
+								    		 </li><br>
+										</ul>            
+
+								<% }) %>
+
+</body>
+</html>

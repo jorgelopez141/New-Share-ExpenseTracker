@@ -1,0 +1,217 @@
+<%- include("partials/header")%>
+	
+<br>
+<div class="container" >
+		<div class="row">
+			<div class="col-md-4"></div>
+				<div class="col-md-4">
+
+									<h3 style="text-align: center;">Formulario</h3> 
+									<span id="nuevo"></span>
+
+									
+									<form action="/" method="POST" enctype="multipart/form-data" id="demoForm" class="demoForm">		
+										<!-- <label>Titulo</label> 		
+										<input class="form-control" type="text" name="nombrePersona"> -->
+										
+
+<!-- 										aqui comienza los otros campos -->							
+										
+										<fieldset>
+											<legend>Generalidades</legend>
+										<label>Fecha Gasto</label>
+										<input class="form-control" type="date" name="Fecha">
+										
+										<label>Monto Gasto</label>	
+										<input class="form-control" type="number" step=any name="montoGastado" placeholder="monto del gasto">
+
+										<label>Categoria Gasto</label>						
+										 <select class="form-control" name="categoriaGasto">
+										 	<option selected disabled>Elije una Opcion</option>
+										 	<option value="Educacion">Educacion</option>
+										 	<option value="Electricidad">Electricidad</option>
+										 	<option value="Gastos para Madres">Gastos para Madres</option>
+										 	<option value="Gastos Taxi">Gastos Taxi/Transporte</option>
+										 	 <option value="Online Shopping">Online Shopping</option>	
+										 	<option value="Otros Gastos">Otros Gastos</option>
+										 	<option value="Prestamos">Prestamos</option>
+										 	<option value="Prestamo Mama">Prestamo Mama</option>
+										 	<option value="Renta">Renta</option>
+										 	<option value="Restaurantes">Restaurantes</option>
+											<option value="Supermercado">Supermercado</option>		    
+										    
+										    <option value="Transferencia">Transferencia o Pagos TC</option>
+										     
+										    <option value="Vehiculo">Vehiculo</option>
+										     <option value="Prueba">Prueba</option>
+										     
+
+										    <!-- renta, luz, agua, celular, cable son gastos recurrentes y estos se programan para correr automaticamente -->	    
+										 </select>
+										 
+
+										 <label>Categoria Especifica Gasto</label>	
+										 <input class="form-control" list="browsers" name="catEspecifica" autocomplete="off">
+											  <datalist id="browsers">
+<!-- 											    aqui van las opciones agregadas con javascript -->
+											  </datalist>
+										<br>
+
+										</fieldset>
+
+										<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="checkbox" value="1" id="esFactura1" name="esFactura">
+										  <label class="form-check-label" for="defaultCheck1" id="label-factura">
+										    Es Factura
+										  </label>
+										</div>
+
+										<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+										  <label class="form-check-label" for="defaultCheck1" id="label-banco">
+										    Ver Info de Bancos
+										  </label>
+										</div>
+										<br>
+
+										<fieldset class="bancoOrigen">
+
+										<legend class="bancoOrigen">info de Bancos</legend> <!-- este es el titulo-->
+
+
+
+										<label class="bancoOrigen">Banco Origen</label>
+										<select class="form-control bancoOrigen" name="banco_origen">
+											<option selected disabled >Elije una Opcion</option>
+										    <option value="Bank of America">Bank of America</option>
+										    <option value="Wells Fargo">Wells Fargo</option>
+										    <option value="Aspire">Aspire</option>			
+										    <option value="Merrick Bank">Merrick Bank</option>	    
+										    <option value="Milestone">Milestone</option>
+											<option value="Capital One">Capital One</option>
+											<option value="Premier Bank">Premier Bank</option>
+											<option value="Credit One">Credit One</option>
+
+										</select>
+
+										<label class="bancoOrigen">Cuenta Origen</label>
+
+										<input class="form-control" list="browsers2" name="cuenta_origen" autocomplete="off">
+										<datalist id="browsers2">
+<!-- 											    aqui van las opciones agregadas con javascript -->
+										</datalist>
+
+										<!--aqui van el banco destino-->
+										<label class="bancoOrigen">Banco Destino</label>
+										<select class="form-control bancoOrigen" name="banco_destino">
+											<option selected disabled >Elije una Opcion</option>
+										    <option value="Bank of America">Bank of America</option>
+										    <option value="Wells Fargo">Wells Fargo</option>
+										    <option value="Aspire">Aspire</option>						    
+										    <option value="Milestone">Milestone</option>
+										     <option value="Merrick Bank">Merrick Bank</option>	    
+											<option value="Capital One">Capital One</option>
+											<option value="Premier Bank">Premier Bank</option>
+											<option value="Credit One">Credit One</option>
+
+										</select>
+
+										<label class="bancoOrigen">Cuenta Destino</label>
+
+										<input class="form-control" list="browsers3" name="cuenta_destino" autocomplete="off">
+										<datalist id="browsers3">
+<!-- 											    aqui van las opciones agregadas con javascript -->
+										</datalist>
+
+										<label class="bancoOrigen">Num. Confirmacion</label>
+										<input class="form-control bancoOrigen" type="text" name="num_confirmacion" placeholder="numero de confirmacion">
+
+										</fieldset>
+
+										<fieldset>
+											<legend>Info Opcional</legend>
+										<label>Descripcion Adicional</label> 	
+										<textarea class="form-control" rows="4" name="descripcion" placeholder="descripcion del gasto" id="localidad"></textarea>	
+
+										<!-- aqui terminan los otros campos -->									
+										<label>Imagen</label>										
+									 	<input class="form-control-file btn btn-secondary active" type="file" name="imagen" multiple = 'multiple' id="elQueSubeImagen"> 	
+
+									 	</fieldset>	
+
+									 	<div class="loadingFrame">
+										 	<div class="loader"></div>
+										 	<span class="palabraLoading">loading</span>	
+
+									 	</div>
+
+										<button id="btnEnviar" class="btn btn-lg btn-primary btn-block">metalo!</button>
+									</form>
+									
+				</div>
+		</div>
+</div>		
+<br> <br>
+
+<br>
+
+<div class="container">
+	<div class="row">
+				<div class="col-md-2"></div>
+	
+				<div class="col-md-8">
+					<div class="col-md-12 parrafo form-control">
+						<%var listatop3= last3.recordset%>
+						<%listatop3.forEach(function(el){%>   
+
+						<ul>
+						     <li style= "font-size: 1.8em;">						     	
+
+						     	Id: <a href="/show/<%=el.id%>">	<%=el.id%></a>|Fecha: 	<%=el.Fecha.toISOString().substring(0, 10)%>
+						     	<br>						     	
+
+						     	Cantidad: $<%=el.MontoGasto%> | Cat Gasto: <%=el.cat_gasto%> |
+						     	Cat Especifica: <%=el.cat_especifica%> | Descripcion: <%=el.descripcion%> 
+						     	<br>
+						     	Banco Origen: <%=el.bancoOrigen%> <br>
+						     <a href="/show/<%=el.id%>"> <%=el.imagen%></a>
+						 	</li>
+						</ul>            
+						<% }) %>
+					</div>
+
+				</div>
+				<div class="col-md-2"></div>
+
+	</div>
+
+	
+</div>
+
+
+
+<script type="text/javascript">
+	
+var opcionesSuper1 = []
+
+<%var listaSuper= supermercado.recordset%>
+<%listaSuper.forEach(function(el){%>   
+
+     opcionesSuper1.push('<%=el.cat_especifica%> ')   
+                
+<% }) %>
+
+
+
+
+</script>
+
+<!-- <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh3ItbtWFLqt4dKgNZ2Hwji0jii5q6skU&callback=init Map&libraries=&v=weekly"defer
+></script> -->
+<script type="text/javascript" src = "/logica/logica1.js"></script>
+<!-- Logica 2: mira la logica de cambiar categoria de banco y cambia categoria especifica -->
+<script type="text/javascript" src = "/logica/logica2.js"></script> 
+
+</body>
+</html>

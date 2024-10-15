@@ -1,0 +1,78 @@
+<%- include("partials/header")%>
+<%var listado2 = data1.recordset%>
+
+<%listado2.forEach(function(el){%>
+								
+<%if(el.nombreArchivo == undefined){%>
+				<%var extensionDelArchivo = 'es indefinido'%>
+				<%var nombreArchivoFinal = 'NULL'%>
+<%} else {%>
+
+				<%var extensionDelArchivo = el.nombreArchivo.split(".")[1]%>
+				<%var nombreArchivoFinal = el.nombreArchivo%>
+<%}%>
+
+<div class="container">
+		<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+									<h3 style="text-align: center;">Editar Info</h3>
+									<form action="/seEdita" method="POST" enctype="multipart/form-data">			    
+										<label>Id - No Editable</label>	
+										<input  class="form-control" type="text" name="elId" value = <%=el.id%> readonly>	
+										<label>Titulo</label>
+										<input class="form-control" type="text" name="nombrePersona" value='<%=el.nombrePersona%>'  >
+										<label>Descripcion</label> 	
+
+										<textarea class="form-control" rows="3" name="descripcion">
+											<%=el.descripcion%>
+										</textarea>	
+
+										
+										<label>Imagen</label> <i id="elIcono" class="glyphicon glyphicon-trash"></i>
+										<input id="elInput" type="text" name="nombreArchivo" value="<%=nombreArchivoFinal%>" readonly>										
+									 	<input class="form-control-file btn btn-secondary active" type="file" name="imagen"> 
+									 	<input class="esconde" type="text" name="noSeMira" value = "<%=nombreArchivoFinal%>">					 	
+										<button id="btnEnviar" class="btn btn-lg btn-primary btn-block">editalo!</button>
+									</form>
+									
+				</div>
+				<div class="col-md-6">
+						
+
+						<%console.log(extensionDelArchivo)%>
+
+						<%if(['m4v','avi','mpg','mp4'].indexOf(extensionDelArchivo) > -1){%>
+
+									<div class="embed-responsive embed-responsive-16by9">
+										<iframe src="/uploads/<%=el.nombreArchivo%>" allowfullscreen></iframe>
+									</div>
+									
+						<%} else if (['tiff','tif','jpg','jpeg','gif','png'].indexOf(extensionDelArchivo) > -1) {%>
+
+								<img src="/uploads/<%=el.nombreArchivo%>" class="img-thumbnail">
+								
+						<%}else if (['mp3'].indexOf(extensionDelArchivo) > -1) {%>
+
+								<audio controls>
+								  <source src="/uploads/<%=el.nombreArchivo%>">					  
+										Your browser does not support the audio element.
+								</audio>
+								
+						<%} else if (['es indefinido'].indexOf(extensionDelArchivo) > -1) {%>
+
+								<h4>no hay archivo</h4>
+
+						<%} else {%>
+
+								<h4>el tipo de archivo es <%=extensionDelArchivo%></h4>
+						<%}%>
+				</div>
+		</div>
+</div>		
+
+<%})%>
+
+<script type="text/javascript" src="/logica/laLogica.js"></script>
+</body>
+</html>

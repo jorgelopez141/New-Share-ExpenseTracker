@@ -1,0 +1,136 @@
+img{
+	width: 300px;
+}
+
+i.icon{
+	font-size: 1.5em;
+}
+
+div{
+	zoom: 1.3;
+	/*background-color: red;*/
+}
+
+.ytambien {
+	overflow: auto;
+	height: 10vh;
+}
+
+.extraDiv{
+
+	height: 500px;
+}
+
+i.glyphicon {
+	color: red;
+	font-size: 0.7em;
+}
+
+#elIcono:hover{
+	cursor: pointer;
+}
+
+.esconde {
+	display: none;
+}
+
+.parrafo{
+	/*background-color: blue;*/
+	font-size: 0.4em;
+	word-wrap: break-word;
+	height: 50vw;
+	overflow: auto;
+}
+
+.parrafo1{
+  /*background-color: blue;*/
+  font-size: 0.4em;
+  word-wrap: break-word;
+  height: 14vw;
+  overflow: auto;
+}
+
+.fit-image{
+width: 100%;
+object-fit: cover;
+ /* only if you want fixed height */
+}
+
+
+/*otros fromators 
+*/
+form.demoForm {
+    margin: 2em 0 3em;
+}
+
+form.demoForm select {
+    vertical-align: top;
+    margin-right: 1em;
+}
+
+select#choices {
+    min-width: 140px;
+}
+
+.bancoOrigen {
+    display: none;
+}
+
+.loadingFrame {
+ width: 140px;
+  height: 140px;
+  position: relative;
+  display: none;
+  margin: auto;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  animation: spin 2s linear infinite;
+  
+  margin: auto;
+  
+}
+
+.palabraLoading{
+position: absolute;
+ top: 50px;
+  left: 50px;
+  
+
+}
+
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:20px;
+    height:20px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+    /*vertical-align: top;*/
+}
+input[type='checkbox']:checked {
+    background: blue;
+}
+
+input[type='checkbox']:hover{
+    cursor: pointer;
+}
+
+#label-banco{
+  
+  vertical-align: bottom;
+}
+

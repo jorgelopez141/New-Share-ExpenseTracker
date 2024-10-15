@@ -1,0 +1,72 @@
+<%- include("partials/header")%>
+<%var listado2 = data1.recordset%>
+
+
+<div class="container" >
+	<div class="row" >
+			<div class="col-md-2"></div>
+			<div class="col-md-8" >		
+					<%listado2.forEach(function(el){%>
+								<br> <br>
+								<h2><%=el.id %>|<%=el.cat_gasto%></h2>
+								<br>
+
+
+								<div class="row" >
+													<%if(el.imagen == undefined){%>
+															<%var extensionDelArchivo = 'es indefinido'%>
+													<%} else {%>
+
+															<%var extensionDelArchivo = el.imagen.split(".")[1]%>
+
+													<%}%>
+													<%if (['tiff','tif','jpg','jpeg','gif','png'].indexOf(extensionDelArchivo) > -1) {%>
+															<div class="col-md-12 parrafo1 form-control">
+																			<img src="/uploads/<%=el.imagen%>" class="image-responsive fit-image">
+															</div>
+													<%} else if (['pdf'].indexOf(extensionDelArchivo) > -1) {%>
+														
+														<iframe src="/uploads/<%=el.imagen%>" class="image-responsive fit-image"></iframe>
+													<%} else {%>
+															<div class="parrafo form-control">es un documento de tipo "<%=extensionDelArchivo%>"</div>
+																	
+													<%}%>
+
+								</div>		
+
+								<%if(el.imagen == undefined){%>
+									<%var metoBorrar  = el.id%> <!-- metoBorrar es la variable final a ocupar para el -->
+																	<!-- anchorTag. Si no tiene nombre de archivo se pone el id que es un int, sino se pone el nombre de la foto que es un varchar -->
+								<%} else {%>
+									<%var metoBorrar  = el.imagen%>
+								<%}%>
+
+													<div class="row">
+															<div class="col-md-3 col-sm-4"> 
+																<a href="/editar/<%=el.id%>" class = "btn btn-secondary btn-sm active">Edita</a>
+															</div>
+															<div class="col-md-3 col-sm-4"> 		
+																	<a href="/borrar/<%=metoBorrar%>" class = "btn btn-secondary btn-sm active">Borrar</a>
+															</div>
+															<div class="col-md-3 col-sm-4"> 
+																	<a href="/uploads/<%=el.imagen%>" class = "btn btn-secondary btn-sm active" Download>Bajelo</a>
+															</div>
+													</div>
+
+										<%})%>
+
+							
+			</div>
+	</div>
+
+			
+
+</div>
+
+<div class="extraDiv"> 
+
+</div>
+
+
+</body>
+</html>

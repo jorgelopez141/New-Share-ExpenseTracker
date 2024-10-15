@@ -1,0 +1,62 @@
+<%- include("partials/header")%>
+
+<br><br>
+<div class="container">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4"> <!-- formulario -->
+
+				<form action="/filtroBase" method="POST" id="demoForm1" class="demoForm">
+						<label>Categoria Gasto</label>						
+							 <select class="form-control" name="categoriaGasto1">
+							 		<option value="Educacion">Educacion</option>
+										 	<option selected disabled>Elije una Opcion</option>
+										 	<option value="Educacion">Educacion</option>
+										 	<option value="Electricidad">Electricidad</option>
+										 	<option value="Gastos para Madres">Gastos para Madres</option>
+										 	<option value="Gastos Taxi">Gastos Taxi/Transporte</option>
+										 	 <option value="Online Shopping">Online Shopping</option>	
+										 	<option value="Otros Gastos">Otros Gastos</option>
+										 	<option value="Prestamos">Prestamos</option>
+										 	<option value="Prestamo Mama">Prestamo Mama</option>
+										 	<option value="Renta">Renta</option>
+										 	<option value="Restaurantes">Restaurantes</option>
+											<option value="Supermercado">Supermercado</option>		    
+										    
+										    <option value="Transferencia">Transferencia o Pagos TC</option>
+										     
+										    <option value="Vehiculo">Vehiculo</option>
+										     <option value="Prueba">Prueba</option>
+							    <!-- renta, luz, agua, celular, cable son gastos recurrentes y estos se programan para correr automaticamente -->	    
+							</select>
+
+						 <label>Categoria Especifica Gasto</label>	
+						 <input class="form-control" name="catEspecifica1">
+
+
+						 <label >Banco Destino</label>
+										<select class="form-control" name="banco_destino">
+											<option selected disabled >Elije una Opcion</option>
+										   <option value="Bank of America">Bank of America</option>
+										    <option value="Wells Fargo">Wells Fargo</option>
+										    <option value="Aspire">Aspire</option>			
+										    <option value="Merrick Bank">Merrick Bank</option>	    
+										    <option value="Milestone">Milestone</option>
+											<option value="Capital One">Capital One</option>
+											<option value="Premier Bank">Premier Bank</option>
+											<option value="Credit One">Credit One</option>
+										</select>
+
+						<br>
+						<button id="btnEnviar1" class="btn btn-lg btn-primary btn-block">Quere-elo!</button>				 	
+
+				</form>
+
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+</div>
+
+
+</body>
+</html>
