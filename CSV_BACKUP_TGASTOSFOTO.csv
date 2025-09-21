@@ -1,0 +1,1340 @@
+﻿id,Fecha,MontoGasto,cat_gasto,cat_especifica,descripcion,imagen,bancoOrigen,cuentaOrigen,numConfirmacion,esFactura,bancoDestino,cuentaDestino,FECHA_LOADED
+19970,2025-09-20,0.00,Prueba,,,1758416861448.jpg,undefined,,,0,undefined,,2025-09-20
+19969,2025-09-20,10.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,2025-09-20
+19968,2025-09-20,30.00,Gastos para Madres,Karina,para la elena fiesta de cumple,NULL,undefined,,,0,undefined,,2025-09-20
+19967,2025-09-16,0.00,Otros Gastos,test hiba,Latitude: 32.9411783 Longitude: -96.6412597,NULL,undefined,,,0,undefined,,2025-09-16
+19966,2025-09-14,35.00,Gastos Taxi,,Latitude: 32.9030577 Longitude: -96.6307259,NULL,undefined,,,0,undefined,,2025-09-14
+19965,2025-09-11,140.00,Gastos para Madres,Karina,Latitude: 32.85477198148148 Longitude: -96.55545825925925,NULL,undefined,,,0,undefined,,2025-09-11
+19964,2025-09-09,10.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,2025-09-09
+19963,2025-09-05,45.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,2025-09-05
+19962,2025-09-04,10.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,2025-09-04
+19961,2025-09-02,13.00,Gastos para Madres,Paola,Latitude: 32.8546334 Longitude: -96.555202,NULL,undefined,,,0,undefined,,2025-09-02
+19960,2025-09-01,90.00,Gastos para Madres,Paola,Latitude: 32.854714562677565 Longitude: -96.55544597585143,NULL,undefined,,,0,undefined,,2025-08-31
+19959,2025-08-30,140.00,Gastos para Madres,Karina,Latitude: 32.85472608741757 Longitude: -96.55543529532412,NULL,undefined,,,0,undefined,,2025-08-29
+19958,2025-08-16,0.00,Otros Gastos,Licencia,Latitude: 32.8546419 Longitude: -96.5552248,1755395525991.jpg,undefined,,,0,undefined,,2025-08-16
+19957,2025-08-16,0.00,Otros Gastos,Licencia,Latitude: 32.8546356 Longitude: -96.555214,1755395493316.jpg,undefined,,,0,undefined,,2025-08-16
+19956,2025-08-15,0.00,Otros Gastos,Poema Abuelita,Latitude: 32.8546363 Longitude: -96.5552103,1755272807422.jpg,undefined,,,0,undefined,,2025-08-15
+19955,2025-08-14,30.00,Restaurantes,Sandwich de Pollo rico,"Latitude: 32.8785459 Longitude: -96.6681537
+Restaurante Lito",1755191816759.jpg,undefined,,,0,undefined,,2025-08-14
+19954,2025-08-13,140.00,Gastos para Madres,Karina,,NULL,undefined,,,0,undefined,,2025-08-13
+19953,2025-08-13,150.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,2025-08-13
+19952,2025-08-11,25.00,Restaurantes,Chiloso Tacos de Camarones,Latitude: 32.9505082 Longitude: -96.738364,NULL,undefined,,,0,undefined,,2025-08-11
+19951,2025-08-09,5.00,Prueba,,Latitude: 32.8546331 Longitude: -96.5552128,NULL,undefined,,,0,undefined,,2025-08-09
+19950,2025-08-09,32.00,Restaurantes,"Pizza Leila ?? ",Latitude: 32.828828828828826 Longitude: -96.70575751909847,1754766067219.jpg,undefined,,,0,undefined,,2025-08-09
+19949,2025-08-09,0.00,Otros Gastos,Parque dallas,Latitude: 32.828828828828826 Longitude: -96.70575751909847,NULL,undefined,,,0,undefined,,2025-08-09
+19948,2025-08-03,15.00,Gastos para Madres,Paola,Latitude: 32.85471211640212 Longitude: -96.55543934391535,NULL,undefined,,,0,undefined,,2025-08-03
+19947,2025-07-31,150.00,Gastos para Madres,Karina,,NULL,undefined,,,0,undefined,,2025-08-03
+19946,2025-07-22,150.00,Gastos para Madres,Karina,,NULL,undefined,,,0,undefined,,2025-08-03
+19945,2025-07-19,40.00,Gastos para Madres,Karina,,NULL,undefined,,,0,undefined,,2025-08-03
+19944,2025-08-01,55.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,2025-08-03
+19943,2025-07-31,150.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,2025-08-03
+19942,2025-07-29,20.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,2025-08-03
+19941,2025-07-27,15.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,2025-08-03
+19940,2025-07-22,300.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,2025-08-03
+19939,2025-07-21,33.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,2025-08-03
+19938,2025-07-17,125.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,2025-08-03
+19937,2025-07-13,11.64,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,2025-08-03
+19935,2025-07-04,54.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,2025-08-03
+19934,2025-07-03,100.00,Gastos para Madres,Paola,Latitude: 32.86486486486486 Longitude: -96.55197252116201,NULL,undefined,,,0,undefined,,2025-07-03
+19933,2025-07-03,150.00,Gastos para Madres,Karina,Latitude: 32.86486486486486 Longitude: -96.55197252116201,NULL,undefined,,,0,undefined,,2025-07-03
+19932,2025-06-06,140.00,Gastos para Madres,Karina,Latitude: 32.85532819908333 Longitude: -96.5562621214918,NULL,undefined,,,0,undefined,,2025-06-08
+19931,2025-06-07,75.00,Gastos para Madres,Paola,"Latitude: 32.855400172627974 Longitude: -96.55628459906546
+Celebracion de nuevo trabajo",NULL,undefined,,,0,undefined,,2025-06-08
+19930,2025-06-05,150.00,Gastos para Madres,Paola,Latitude: 32.855400172627974 Longitude: -96.55628459906546,NULL,undefined,,,0,undefined,,2025-06-08
+19929,2025-06-04,125.00,Gastos para Madres,Paola,Latitude: 32.855393914702695 Longitude: -96.55626472302664,NULL,undefined,,,0,undefined,,2025-06-08
+19928,2025-05-26,25.00,Gastos para Madres,Paola,Latitude: 32.855393914702695 Longitude: -96.55626472302664,NULL,undefined,,,0,undefined,,2025-06-08
+19927,2025-05-21,125.00,Gastos para Madres,Karina,Latitude: 32.855685867405285 Longitude: -96.55677117233023,NULL,undefined,,,0,undefined,,2025-05-21
+19926,2025-05-21,125.00,Gastos para Madres,Paola,Latitude: 32.86486486486486 Longitude: -96.55197252116201,NULL,undefined,,,0,undefined,,2025-05-21
+18927,2025-05-07,125.00,Gastos para Madres,Paola,Latitude: 32.855645838352345 Longitude: -96.55682479780414,NULL,undefined,,,0,undefined,,2025-05-08
+18926,2025-05-08,140.00,Gastos para Madres,Karina,Latitude: 32.855645838352345 Longitude: -96.55682479780414,NULL,undefined,,,0,undefined,,2025-05-08
+18925,2025-04-30,15.00,Gastos para Madres,Paola,"Latitude: 32.85565639631955 Longitude: -96.55679939175502
+Celebracion trabajo pizza",NULL,undefined,,,0,undefined,,2025-04-30
+18924,2025-04-27,125.00,Gastos para Madres,Karina,Latitude: 32.8556353252595 Longitude: -96.55687004084889,NULL,undefined,,,0,undefined,,2025-04-27
+18923,2025-04-23,600.00,Prestamos,,Latitude: 12.1097621 Longitude: -86.2425151,1745457107916.jpg,undefined,,,0,undefined,,2025-04-23
+18922,2025-04-23,2300.00,Otros Gastos,Ap. 1 y Ap5,Latitude: 12.1097578 Longitude: -86.2424913,NULL,undefined,,,0,undefined,,2025-04-23
+18921,2025-04-21,61.55,Gastos para Madres,Paola,"Latitude: 32.8546892 Longitude: -96.555337
+Gastos en amazon para Paola",1745282015215.pdf,undefined,,,0,undefined,,2025-04-21
+18920,2025-04-21,39.91,Gastos para Madres,Paola,"Latitude: 32.8564736 Longitude: -96.5476352
+Gastos con la tarjeta de credito para Paola en Amazon ",1745281979999.pdf,undefined,,,0,undefined,,2025-04-21
+18919,2025-04-21,47.53,Gastos para Madres,Paola,"Latitude: 32.8564736 Longitude: -96.5476352
+Gastos con la Tarjeta de Credito en Amazon",1745281932884.pdf,undefined,,,0,undefined,,2025-04-21
+18918,2025-04-21,20.00,Gastos para Madres,Paola,Latitude: 32.8546496 Longitude: -96.5553519,NULL,undefined,,,0,undefined,,2025-04-21
+18917,2025-04-21,20.00,Gastos para Madres,Paola,"Latitude: 32.846846846846844 Longitude: -96.55381180612818
+Gastos celular",NULL,undefined,,,0,undefined,,2025-04-21
+18916,2025-04-19,30.00,Gastos para Madres,Paola,"Latitude: 32.86486486486486 Longitude: -96.57342374811628
+Gastos bebe",NULL,undefined,,,0,undefined,,2025-04-20
+17935,2025-04-13,22.00,Gastos para Madres,Karina,Latitude: 32.846846846846844 Longitude: -96.55381180612818,NULL,undefined,,,0,undefined,,2025-04-13
+17934,2025-04-11,9.00,Gastos para Madres,Paola,Latitude: 32.846846846846844 Longitude: -96.55381180612818,NULL,undefined,,,0,undefined,,2025-04-11
+17933,2025-04-11,36.00,Gastos para Madres,Paola,"Latitude: 32.85563001395221 Longitude: -96.55689507039726
+Internet para JD",NULL,undefined,,,0,undefined,,2025-04-11
+17932,2025-04-11,130.00,Gastos para Madres,Karina,Latitude: 32.85562051209067 Longitude: -96.55692198774291,NULL,undefined,,,0,undefined,,2025-04-11
+17931,2025-04-10,40.00,Gastos para Madres,Paola,Latitude: 32.846846846846844 Longitude: -96.55381180612818,NULL,undefined,,,0,undefined,,2025-04-10
+17930,2025-04-08,195.84,Otros Gastos,audífonos shock 2,Latitude: 32.810810810810814 Longitude: -96.62183128236249,1744155480584.jpg,undefined,,,0,undefined,,2025-04-08
+17929,2025-04-07,75.00,Gastos para Madres,Paola,"Latitude: 32.86486486486486 Longitude: -96.55197252116201
+materiales para JD",NULL,undefined,,,0,undefined,,2025-04-07
+17928,2025-04-04,414.00,Gastos para Madres,Paola,"Latitude: 32.846846846846844 Longitude: -96.55381180612818
+Colegio JD",1743781649642.jpg,undefined,,,0,undefined,,2025-04-04
+17927,2025-04-02,40.00,Gastos Taxi,gasolina,"Latitude: 33.009009009009006 Longitude: -96.70946512578207
+no se llenó el tanque",NULL,undefined,,,0,undefined,,2025-04-02
+17926,2025-04-01,25.00,Gastos para Madres,Paola,"Latitude: 32.846846846846844 Longitude: -96.55381180612818
+uniforme niño para el pureza de maria",NULL,undefined,,,0,undefined,,2025-04-01
+17925,2025-04-01,21.00,Gastos para Madres,Paola,Latitude: 32.846846846846844 Longitude: -96.55381180612818,NULL,undefined,,,0,undefined,,2025-04-01
+17924,2025-03-31,130.00,Otros Gastos,Limpieza Maribel,Latitude: 32.855727961025906 Longitude: -96.55678530944878,NULL,undefined,,,0,undefined,,2025-03-31
+17923,2025-03-29,36.00,Gastos para Madres,Paola,"Latitude: 32.846846846846844 Longitude: -96.55381180612818
+McDonald",NULL,undefined,,,0,undefined,,2025-03-29
+17922,2025-03-29,130.00,Gastos para Madres,Karina,Latitude: 32.855570023319764 Longitude: -96.55697028514,NULL,undefined,,,0,undefined,,2025-03-29
+17921,2025-01-10,45.00,Gastos para Madres,Paola,Latitude: 32.855633 Longitude: -96.557144,NULL,undefined,,,0,undefined,,2025-03-29
+17920,2025-01-22,72.00,Gastos para Madres,Paola,Latitude: 32.855633 Longitude: -96.557144,NULL,undefined,,,0,undefined,,2025-03-29
+17919,2025-01-27,140.00,Gastos para Madres,Paola,Latitude: 32.855633 Longitude: -96.557144,NULL,undefined,,,0,undefined,,2025-03-29
+17918,2025-02-10,12.56,Gastos para Madres,Paola,Latitude: 32.855633 Longitude: -96.557144,NULL,undefined,,,0,undefined,,2025-03-29
+17917,2025-02-21,15.00,Gastos para Madres,Paola,Latitude: 32.855633 Longitude: -96.557144,NULL,undefined,,,0,undefined,,2025-03-29
+17915,2025-03-28,126.00,Gastos para Madres,Paola,Latitude: 32.855633 Longitude: -96.557144,NULL,undefined,,,0,undefined,,NULL
+17913,2025-03-21,5.00,Gastos para Madres,Paola,Latitude: 32.86486486486486 Longitude: -96.55197252116201,NULL,undefined,,,0,undefined,,NULL
+17912,2025-03-19,40.00,Gastos para Madres,Paola,"Latitude: 32.846846846846844 Longitude: -96.55381180612818
+Envio de dinero para celebracion de aniversario",NULL,undefined,,,0,undefined,,NULL
+17911,2025-03-16,125.00,Gastos para Madres,Karina,Latitude: 32.85562695218615 Longitude: -96.55663383622702,NULL,undefined,,,0,undefined,,NULL
+17910,2025-03-16,16.00,Gastos para Madres,Paola,"Latitude: 32.85562695218615 Longitude: -96.55663383622702
+
+zelle para comprar pupusas",NULL,undefined,,,0,undefined,,NULL
+17909,2025-03-16,135.00,Gastos para Madres,Paola,"Latitude: 32.85562695218615 Longitude: -96.55663383622702
+
+Estos son los zelle qwue le pase el 14 de Marzo",NULL,undefined,,,0,undefined,,NULL
+17908,2025-03-04,60.00,Gastos para Madres,Paola,Latitude: 32.792792792792795 Longitude: -96.68798540020144,NULL,undefined,,,0,undefined,,NULL
+17907,2025-03-02,120.00,Gastos para Madres,Karina,Latitude: 32.85547545742728 Longitude: -96.55620170027953,NULL,undefined,,,0,undefined,,NULL
+17906,2025-02-20,180.00,Gastos para Madres,Paola,gasto de niño cr,NULL,undefined,,,0,undefined,,NULL
+17905,2025-02-13,140.00,Gastos para Madres,Karina,Latitude: 32.8564736 Longitude: -96.5574656,NULL,undefined,,,0,undefined,,NULL
+17904,2025-02-12,13.00,Gastos para Madres,Karina,"Latitude: 32.846846846846844 Longitude: -96.55381180612818
+Gasto para pizza de Elena",NULL,undefined,,,0,undefined,,NULL
+17903,2025-02-11,2000.00,Gastos para Madres,Paola,Latitude: 32.85554544246842 Longitude: -96.55619083405733,NULL,undefined,,,0,undefined,,NULL
+17902,2025-02-07,25.00,Gastos para Madres,Karina,Latitude: 32.855755739108254 Longitude: -96.55598465247861,NULL,undefined,,,0,undefined,,NULL
+17901,2025-01-31,0.00,Restaurantes,rest chino buffette,Latitude: 32.846846846846844 Longitude: -96.66104615953348,NULL,undefined,,,1,undefined,,NULL
+17900,2025-01-31,130.00,Gastos para Madres,Karina,Latitude: 32.846846846846844 Longitude: -96.55381180612818,NULL,undefined,,,0,undefined,,NULL
+17899,2025-01-26,3178.00,Gastos para Madres,Paola,Latitude: 32.846846846846844 Longitude: -96.57525867680924,NULL,undefined,,,0,undefined,,NULL
+17898,2025-01-26,0.00,Otros Gastos,Iglesia Dallas,Latitude: 32.828828828828826 Longitude: -96.68431500080155,1737921602115.jpg,undefined,,,0,undefined,,NULL
+17897,2025-01-26,140.00,Gastos para Madres,Paola,Latitude: 32.85564146500445 Longitude: -96.55644099459778,NULL,undefined,,,0,undefined,,NULL
+17896,2025-01-18,100.00,Gastos para Madres,Paola,Gastos de España Paola,NULL,undefined,,,0,undefined,,NULL
+17895,2025-01-18,140.00,Gastos para Madres,Karina,Latitude: 32.8554915 Longitude: -96.55643250000001,NULL,undefined,,,0,undefined,,NULL
+17894,2025-01-14,100.00,Gastos para Madres,Paola,Latitude: 32.846846846846844 Longitude: -96.55381180612818,NULL,undefined,,,0,undefined,,NULL
+17893,2025-01-13,65.00,Gastos para Madres,Karina,"Latitude: 32.85543199999999 Longitude: -96.556812
+Cumple Elena",NULL,undefined,,,0,undefined,,NULL
+17892,2025-01-04,50.00,Gastos para Madres,Paola,Latitude: 32.86486486486486 Longitude: -96.57342374811628,NULL,undefined,,,0,undefined,,NULL
+17891,2025-01-03,9.00,Gastos para Madres,Paola,Latitude: 32.846846846846844 Longitude: -96.55381180612818,NULL,undefined,,,0,undefined,,NULL
+17890,2025-01-02,100.00,Gastos para Madres,Karina,Latitude: 32.85531352800351 Longitude: -96.55591679429958,NULL,undefined,,,0,undefined,,NULL
+17889,2025-01-02,140.00,Gastos para Madres,Paola,Latitude: 32.85531352800351 Longitude: -96.55591679429958,NULL,undefined,,,0,undefined,,NULL
+17888,2024-12-31,20.00,Restaurantes,Flaming Buffette Chino Chinese,Latitude: 32.93693693693694 Longitude: -96.63057820221898,NULL,undefined,,,0,undefined,,NULL
+17887,2024-12-28,18.00,Restaurantes,Ramen. Casa Ramen,Latitude: 32.828828828828826 Longitude: -96.70575751909847,NULL,undefined,,,0,undefined,,NULL
+17886,2024-12-28,13.46,Gastos para Madres,Paola,Latitude: 32.846846846846844 Longitude: -96.55381180612818,NULL,undefined,,,0,undefined,,NULL
+17885,2024-12-26,20.00,Gastos para Madres,Paola,Latitude: 32.846846846846844 Longitude: -96.55381180612818,NULL,undefined,,,0,undefined,,NULL
+17884,2024-12-22,23.03,Restaurantes,Freddy Steak,Latitude: 35.98198198198198 Longitude: -86.57179739294497,1734922137332.jpg,undefined,,,0,undefined,,NULL
+17883,2024-12-14,100.00,Gastos para Madres,Karina,Latitude: 32.85529269634164 Longitude: -96.55586514765878,NULL,undefined,,,0,undefined,,NULL
+17882,2024-12-14,68.00,Gastos para Madres,Paola,Latitude: 32.855273514970655 Longitude: -96.55589227548047,NULL,undefined,,,0,undefined,,NULL
+17881,2024-12-03,130.00,Gastos para Madres,Paola,Latitude: 32.846846846846844 Longitude: -96.5967055474903,NULL,undefined,,,0,undefined,,NULL
+17880,2024-12-02,20.00,Gastos para Madres,Paola,Latitude: 32.86486486486486 Longitude: -96.55197252116201,NULL,undefined,,,0,undefined,,NULL
+17879,2024-11-21,129.00,Gastos para Madres,Paola,Latitude: 32.8553311584981 Longitude: -96.55588573399626,NULL,undefined,,,1,undefined,,NULL
+17878,2024-11-06,180.00,Gastos para Madres,Paola,Latitude: 32.85527847965144 Longitude: -96.55570906477637,NULL,undefined,,,0,undefined,,NULL
+17877,2024-11-06,150.00,Gastos para Madres,Karina,"Latitude: 32.86486486486486 Longitude: -96.55197252116201
+Pago colegiatura Elena",NULL,undefined,,,0,undefined,,NULL
+17876,2024-11-04,8.00,Gastos para Madres,Paola,Latitude: 32.846846846846844 Longitude: -96.55381180612818,NULL,undefined,,,0,undefined,,NULL
+17875,2024-11-01,53.00,Gastos para Madres,Karina,"Latitude: 32.846846846846844 Longitude: -96.55381180612818
+Zapatos Elena ",NULL,undefined,,,0,undefined,,NULL
+17874,2024-10-30,15.00,Gastos para Madres,Paola,Latitude: 32.86486486486486 Longitude: -96.55197252116201,NULL,undefined,,,0,undefined,,NULL
+17873,2024-10-27,15.00,Gastos para Madres,Karina,Latitude: 32.855253041666664 Longitude: -96.55541854166665,NULL,undefined,,,0,undefined,,NULL
+17872,2024-10-27,283.00,Otros Gastos,"Monitores HP monitors ",Latitude: 32.792792792792795 Longitude: -96.62368392465265,1730050393407.jpg,undefined,,,0,undefined,,NULL
+17871,2024-10-26,35.00,Gastos para Madres,Karina,Latitude: 32.855242049999994 Longitude: -96.55560009999996,NULL,undefined,,,0,undefined,,NULL
+17870,2024-10-26,653.00,Otros Gastos,Silla Serta 2024-10,"Latitude: 32.8553005 Longitude: -96.5554654230769
+
+Comprada con tarjeta Toyota (Comerica Bank)",1729978253182.png,undefined,,,0,undefined,,NULL
+17869,2024-10-25,7.00,Gastos para Madres,Paola,Latitude: 32.86486486486486 Longitude: -96.55197252116201,NULL,undefined,,,0,undefined,,NULL
+17868,2024-10-23,52.78,Restaurantes,Grimaldi with the Toyota team,Latitude: 33.08108108108108 Longitude: -96.83164184468781,1729706417043.jpg,undefined,,,0,undefined,,NULL
+17867,2024-10-19,19.00,Gastos para Madres,Karina,Latitude: 32.855370281249996 Longitude: -96.55552196874999,NULL,undefined,,,1,undefined,,NULL
+17866,2024-10-11,20.00,Gastos para Madres,Paola,"Latitude: 32.846846846846844 Longitude: -96.5967055474903
+Cine JD",NULL,undefined,,,0,undefined,,NULL
+17865,2024-10-10,215.00,Gastos para Madres,Karina,Latitude: 29.5649585 Longitude: -95.0787505,NULL,undefined,,,0,undefined,,NULL
+17864,2024-10-10,150.00,Gastos para Madres,Paola,Latitude: 29.5649585 Longitude: -95.0787505,NULL,undefined,,,0,undefined,,NULL
+17863,2024-09-30,12.00,Gastos para Madres,Karina,Pizza Elena,NULL,undefined,,,0,undefined,,NULL
+17862,2024-09-27,37.00,Gastos para Madres,Paola,Latitude: 32.846846846846844 Longitude: -96.55381180612818,NULL,undefined,,,0,undefined,,NULL
+17861,2024-09-12,150.00,Gastos para Madres,Karina,,NULL,undefined,,,0,undefined,,NULL
+17860,2024-09-12,27.00,Gastos para Madres,Paola,"Latitude: 32.855187453801804 Longitude: -96.55523256445623
+9 usd para kinder actividad,
+y 18 usd para el guipil de JD",NULL,undefined,,,0,undefined,,NULL
+17859,2024-09-10,150.00,Gastos para Madres,Paola,Latitude: 32.91891891891892 Longitude: -96.43918589892483,NULL,undefined,,,0,undefined,,NULL
+17858,2024-09-02,7.00,Gastos para Madres,Paola,Latitude: 32.8546608 Longitude: -96.5552657,NULL,undefined,,,0,undefined,,NULL
+17857,2024-09-01,25.00,Gastos para Madres,Paola,Latitude: 32.85518555068924 Longitude: -96.55522244548722,NULL,undefined,,,0,undefined,,NULL
+17856,2024-08-27,18.00,Gastos para Madres,"Paola ",Latitude: 32.8547269 Longitude: -96.5550807,NULL,undefined,,,0,undefined,,NULL
+17855,2024-08-23,15.00,Gastos para Madres,Paola,"Latitude: 32.8247873 Longitude: -96.6243446
+celular compra ",NULL,undefined,,,0,undefined,,NULL
+17854,2024-08-21,450.00,Otros Gastos,silla chair oficina office,Latitude: 32.8236545 Longitude: -96.6222471,1724281556071.jpg,undefined,,,0,undefined,,NULL
+17853,2024-08-16,25.00,Gastos para Madres,Paola,"Latitude: 32.8546438 Longitude: -96.5552788
+Gastos JD",NULL,undefined,,,0,undefined,,NULL
+17852,2024-08-16,36.00,Gastos para Madres,Paola,"Latitude: 32.8546438 Longitude: -96.5552788
+Cosas para JD del preescolar. Útiles escolares",1723832493642.jpg,undefined,,,0,undefined,,NULL
+17851,2024-08-14,140.00,Gastos para Madres,Karina,Latitude: 32.85511077489202 Longitude: -96.55510457555495,NULL,undefined,,,0,undefined,,NULL
+17850,2024-08-14,150.00,Gastos para Madres,Paola,Latitude: 32.85509803075375 Longitude: -96.55508416875139,NULL,undefined,,,1,undefined,,NULL
+17849,2024-08-10,20.00,Gastos para Madres,Paola,"Latitude: 32.854675 Longitude: -96.5552396
+20usd para pamper ",NULL,undefined,,,0,undefined,,NULL
+17848,2024-08-01,10.00,Gastos para Madres,Karina,Latitude: 32.8546143 Longitude: -96.5552825,NULL,undefined,,,0,undefined,,NULL
+17847,2024-07-31,0.00,Restaurantes,Rest muchachos bowletious,"Latitude: 33.0988855 Longitude: -96.8067348
+Rest con Mario, Derek, y Michael ",NULL,undefined,,,0,undefined,,NULL
+17846,2024-07-24,15.00,Restaurantes,"Sushi Toyota ",Latitude: 33.0696147 Longitude: -96.8827821,1721842862094.jpg,undefined,,,0,undefined,,NULL
+17845,2024-07-23,24.00,Gastos para Madres,Paola,Latitude: 32.8546722 Longitude: -96.5552408,NULL,undefined,,,0,undefined,,NULL
+17844,2024-07-19,60.00,Gastos para Madres,Paola,"Latitude: 32.7897767 Longitude: -96.8019096
+Invitación a cenar a Kalua por el 19 (mesesario) ",NULL,undefined,,,1,undefined,,NULL
+17843,2024-07-16,143.00,Gastos para Madres,Karina,"Latitude: 32.8546856 Longitude: -96.5552321
+130 + la invitación a helado",NULL,undefined,,,0,undefined,,NULL
+17842,2024-07-16,130.00,Gastos para Madres,Paola,Latitude: 32.8546856 Longitude: -96.5552321,NULL,undefined,,,0,undefined,,NULL
+17841,2024-07-15,66.00,Gastos para Madres,Paola,"Latitude: 32.85516981756115 Longitude: -96.55521074399611
+gasto de psicologa y 6 dolares para hot dog
+",NULL,undefined,,,0,undefined,,NULL
+17840,2024-07-09,10.00,Gastos para Madres,Paola,Latitude: 32.8546903 Longitude: -96.5552224,NULL,undefined,,,0,undefined,,NULL
+17839,2024-07-04,71.00,Gastos para Madres,Paola,"Latitude: 32.855159006108195 Longitude: -96.5551948809577
+Estos son los montos de 10+13+18+30 que le mande por el cumple de JD y gasolina, entre otras cosas",NULL,undefined,,,0,undefined,,NULL
+17838,2024-06-29,5.00,Gastos para Madres,Paola,Latitude: 32.8546994 Longitude: -96.5552336,NULL,undefined,,,0,undefined,,NULL
+17837,2024-06-27,12.00,Gastos para Madres,Paola,Latitude: 32.912572 Longitude: -96.4531797,NULL,undefined,,,0,undefined,,NULL
+17836,2024-06-26,0.00,Otros Gastos,Chocolate reloj camisas,"Latitude: 33.0969769 Longitude: -96.8133485
+Compre chocolate de Leche,  y me repararon el reloj",NULL,undefined,,,0,undefined,,NULL
+17835,2024-06-25,60.00,Gastos para Madres,Paola,Latitude: 32.8546952 Longitude: -96.5552327,NULL,undefined,,,0,undefined,,NULL
+17834,2024-06-19,130.00,Gastos para Madres,Karina,Latitude: 32.85515769268944 Longitude: -96.55524236764435,NULL,undefined,,,0,undefined,,NULL
+17833,2024-06-19,150.00,Gastos para Madres,Paola,Latitude: 33.1026009 Longitude: -96.8085069,NULL,undefined,,,0,undefined,,NULL
+17832,2024-06-17,45.00,Gastos para Madres,Karina,"Latitude: 32.8546943 Longitude: -96.5552311
+Me costó 50 usd mandarlo.",NULL,undefined,,,0,undefined,,NULL
+17831,2024-05-10,40.00,Gastos para Madres,Karina,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+17830,2024-05-22,140.00,Gastos para Madres,Karina,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+17829,2024-05-30,20.00,Gastos para Madres,Karina,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+17828,2024-06-13,60.00,Gastos para Madres,Paola,"Latitude: 32.855158 Longitude: -96.555228
+Dra de JD - Psicologa",NULL,undefined,,,0,undefined,,NULL
+17827,2024-06-11,30.00,Gastos para Madres,Paola,Latitude: 32.8546922 Longitude: -96.5552318,NULL,undefined,,,0,undefined,,NULL
+17826,2024-06-08,80.00,Gastos para Madres,Karina,Latitude: 32.8546895 Longitude: -96.5552284,NULL,undefined,,,0,undefined,,NULL
+17825,2024-06-07,40.00,Gastos para Madres,Paola,Latitude: 36.6674 Longitude: -78.39,NULL,undefined,,,0,undefined,,NULL
+17824,2024-06-07,38.00,Gastos para Madres,Paola,Latitude: 32.855034 Longitude: -96.555124,NULL,undefined,,,0,undefined,,NULL
+16827,2024-05-24,5.00,Gastos para Madres,Paola,Latitude: 32.8544638 Longitude: -96.5550054,NULL,undefined,,,0,undefined,,NULL
+16826,2024-05-22,10.00,Gastos para Madres,Paola,Latitude: 36.6674 Longitude: -78.39,NULL,undefined,,,0,undefined,,NULL
+16825,2024-05-22,130.00,Gastos para Madres,Paola,Latitude: 36.6674 Longitude: -78.39,NULL,undefined,,,0,undefined,,NULL
+16824,2024-05-19,15.00,Gastos para Madres,Paola,Latitude: 32.854829 Longitude: -96.555175,NULL,undefined,,,0,undefined,,NULL
+16823,2024-05-14,20.00,Gastos para Madres,Paola,Latitude: 32.9090113 Longitude: -96.5607827,NULL,undefined,,,0,undefined,,NULL
+16822,2024-05-12,10.00,Gastos para Madres,Karina,Latitude: 32.8547001 Longitude: -96.5552442,NULL,undefined,,,0,undefined,,NULL
+16821,2024-04-30,8.00,Gastos para Madres,Paola,Latitude: 32.85506851923076 Longitude: -96.5555710384615,NULL,undefined,,,0,undefined,,NULL
+16820,2024-04-24,135.42,Gastos para Madres,Karina,Latitude: 32.8547141 Longitude: -96.5552332,1714008997228.jpg,undefined,,,0,undefined,,NULL
+16819,2024-04-24,125.00,Gastos para Madres,Paola,Latitude: 32.8546892 Longitude: -96.5552554,NULL,undefined,,,0,undefined,,NULL
+16818,2024-04-22,15.00,Gastos para Madres,Paola,Latitude: 32.85465 Longitude: -96.5552378,NULL,undefined,,,0,undefined,,NULL
+16817,2024-04-19,11.00,Gastos para Madres,Paola,Latitude: 32.847309 Longitude: -96.6301866,NULL,undefined,,,0,undefined,,NULL
+16816,2024-04-19,22.00,Gastos para Madres,Paola,Latitude: 32.8473155 Longitude: -96.6301866,NULL,undefined,,,0,undefined,,NULL
+16815,2024-04-15,20.00,Gastos para Madres,Paola,Latitude: 32.8547174 Longitude: -96.5552351,NULL,undefined,,,0,undefined,,NULL
+16814,2024-04-10,30.00,Gastos para Madres,Paola,Latitude: 32.8545683 Longitude: -96.5549513,NULL,undefined,,,0,undefined,,NULL
+16813,2024-04-02,30.00,Gastos para Madres,Paola,Latitude: 32.8546749 Longitude: -96.555237,NULL,undefined,,,0,undefined,,NULL
+16812,2024-04-01,60.00,Gastos para Madres,Paola,Latitude: 32.8546558 Longitude: -96.555245,NULL,undefined,,,0,undefined,,NULL
+16811,2024-03-29,15.00,Gastos para Madres,Karina,"Latitude: 32.8547114 Longitude: -96.5552292
+Me cobraron 19.15USD",NULL,undefined,,,0,undefined,,NULL
+16810,2024-03-28,150.00,Gastos para Madres,Karina,Latitude: 32.8546473 Longitude: -96.5552436,NULL,undefined,,,0,undefined,,NULL
+16809,2024-03-28,180.00,Gastos para Madres,Karina,"Latitude: 32.8546473 Longitude: -96.5552436
+esto fue realmente el 1ero de marzo",NULL,undefined,,,0,undefined,,NULL
+16807,2024-03-27,130.00,Gastos para Madres,Paola,Latitude: 32.85505286206896 Longitude: -96.55548451724131,NULL,undefined,,,0,undefined,,NULL
+16806,2024-03-26,80.00,Gastos para Madres,Paola,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+16805,2024-03-15,30.00,Gastos para Madres,Paola,Latitude: 32.8547085 Longitude: -96.5552384,NULL,undefined,,,0,undefined,,NULL
+16804,2024-02-28,150.00,Gastos para Madres,Paola,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+16803,2024-02-16,14.00,Gastos para Madres,Paola,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+16802,2024-02-13,78.00,Gastos para Madres,Paola,"Latitude: 32.854705 Longitude: -96.5552344
+",NULL,undefined,,,0,undefined,,NULL
+16801,2024-02-10,40.00,Gastos para Madres,Paola,"Latitude: 32.8531968 Longitude: -96.5476352
+enfermedad JD",NULL,undefined,,,0,undefined,,NULL
+16800,2024-02-09,10.00,Gastos para Madres,Paola,Latitude: 32.8547082 Longitude: -96.5552364,NULL,undefined,,,0,undefined,,NULL
+16799,2024-02-01,130.00,Gastos para Madres,Paola,Latitude: 32.8547071 Longitude: -96.5552256,NULL,undefined,,,0,undefined,,NULL
+16798,2024-02-01,130.00,Gastos para Madres,Karina,Latitude: 32.8547071 Longitude: -96.5552256,NULL,undefined,,,0,undefined,,NULL
+16796,2024-01-28,17.00,Gastos para Madres,Karina,Latitude: 32.8547078 Longitude: -96.5552424,NULL,undefined,,,0,undefined,,NULL
+16795,2024-01-18,50.00,Gastos para Madres,Paola,Latitude: 32.8547054 Longitude: -96.555236,NULL,undefined,,,0,undefined,,NULL
+16794,2024-01-16,40.00,Gastos para Madres,Karina,"Latitude: 32.8546864 Longitude: -96.5552031
+Se los mande a la Paola que hizo las compras del super para el cumple de la Elena ",NULL,undefined,,,0,undefined,,NULL
+16793,2024-01-14,24.00,Gastos para Madres,Karina,"Latitude: 32.8547171 Longitude: -96.5552384
+Le pase $24 a la Paola que fue a comprar el queque de la Elena",NULL,undefined,,,0,undefined,,NULL
+16792,2024-01-07,8.00,Gastos para Madres,Paola,"Latitude: 32.8547155 Longitude: -96.5552298
+por comida en tip top",NULL,undefined,,,0,undefined,,NULL
+16791,2024-01-05,70.00,Gastos para Madres,Karina,"Latitude: 32.8531968 Longitude: -96.5476352
+para el cumple de la Elena. se los mande a la Paola",NULL,undefined,,,0,undefined,,NULL
+16790,2024-01-03,150.00,Gastos para Madres,Karina,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+16789,2024-01-03,150.00,Gastos para Madres,Paola,Latitude: 32.8547057 Longitude: -96.5552206,NULL,undefined,,,0,undefined,,NULL
+16788,2024-01-03,20.00,Gastos para Madres,Paola,Latitude: 32.8547052 Longitude: -96.5552336,NULL,undefined,,,0,undefined,,NULL
+15788,2023-12-15,100.00,Gastos para Madres,Paola,Latitude: 32.8546957 Longitude: -96.5552429,NULL,undefined,,,0,undefined,,NULL
+15787,2023-12-11,10.00,Gastos para Madres,Paola,Latitude: 32.8531968 Longitude: -96.550912,NULL,undefined,,,0,undefined,,NULL
+15786,2023-12-10,20.00,Gastos para Madres,Karina,"Latitude: 32.9074826 Longitude: -96.5575
+Pizza Elena. Eran 10 pero le pase 20",NULL,undefined,,,0,undefined,,NULL
+15785,2023-12-10,43.00,Gastos para Madres,Paola,"Latitude: 32.9089296 Longitude: -96.5579559
+Pizza salida ",NULL,undefined,,,0,undefined,,NULL
+15784,2023-12-08,40.00,Gastos para Madres,Karina,Latitude: 32.8547115 Longitude: -96.5552216,NULL,undefined,,,0,undefined,,NULL
+15783,2023-12-07,150.00,Gastos para Madres,Karina,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+15782,2023-12-07,110.00,Gastos para Madres,Paola,Latitude: 32.8547155 Longitude: -96.5552601,NULL,undefined,,,0,undefined,,NULL
+15781,2023-12-02,70.00,Gastos para Madres,Paola,Latitude: 32.8547021 Longitude: -96.5552596,NULL,undefined,,,0,undefined,,NULL
+15780,2023-11-30,10.00,Gastos para Madres,Paola,Latitude: 32.8547028 Longitude: -96.555253,NULL,undefined,,,0,undefined,,NULL
+15779,2023-11-29,50.00,Restaurantes,"Rest mediterráneo con el equipo ",Latitude: 33.101817 Longitude: -96.8072096,NULL,undefined,,,0,undefined,,NULL
+15777,2023-11-27,25.00,Gastos para Madres,Karina,"Latitude: 32.8508485 Longitude: -96.5698166
+Fueron 30 con 5 de envío ",NULL,undefined,,,0,undefined,,NULL
+15776,2023-11-25,25.00,Otros Gastos,"Barber ",Latitude: 32.9066137 Longitude: -96.5670727,NULL,undefined,,,0,undefined,,NULL
+15775,2023-11-18,40.00,Gastos para Madres,Paola,Latitude: 32.8548118 Longitude: -96.5549864,NULL,undefined,,,0,undefined,,NULL
+15774,2023-11-17,15.00,Gastos para Madres,Karina,Latitude: 32.8546894 Longitude: -96.5552702,NULL,undefined,,,0,undefined,,NULL
+15773,2023-11-17,92.42,Electricidad,,"Latitude: 32.8547019 Longitude: -96.5552521
+
+https://internet.speedpay.com/cityofgarland/#/pay-bill/payment-successful",1700237484595.png,undefined,,,0,undefined,,NULL
+15772,2023-11-10,150.00,Gastos para Madres,Karina,Latitude: 32.8547141 Longitude: -96.5552301,1699668313350.jpg,undefined,,,0,undefined,,NULL
+15771,2023-11-10,200.00,Transferencia,Mercury,Latitude: 32.8546645 Longitude: -96.5552667,NULL,undefined,,410-16519315-23,1,undefined,,NULL
+15770,2023-11-10,400.00,Educacion,,Latitude: 32.8547059 Longitude: -96.5552291,1699667976336.png,undefined,,,0,undefined,,NULL
+15769,2023-11-10,75.00,Transferencia,Cap One 2,Latitude: 32.8547068 Longitude: -96.5552282,1699667477307.png,undefined,,Q5S0Y3S3,0,undefined,,NULL
+15768,2023-11-09,80.00,Gastos para Madres,Paola,Latitude: 32.8546777 Longitude: -96.5552704,NULL,undefined,,,1,undefined,,NULL
+14773,2023-10-20,35.00,Gastos para Madres,Paola,"Latitude: 32.8546937 Longitude: -96.5552666
+Enfermedad JD",NULL,undefined,,,0,undefined,,NULL
+14772,2023-10-20,27.00,Gastos para Madres,Paola,"Latitude: 32.854683 Longitude: -96.5552649
+Enfermedad JD",NULL,undefined,,,0,undefined,,NULL
+14771,2023-10-19,7.00,Gastos para Madres,Paola,Latitude: 32.8546818 Longitude: -96.555246,NULL,undefined,,,0,undefined,,NULL
+14770,2023-10-13,20.00,Gastos para Madres,Paola,Latitude: 32.7706043 Longitude: -96.5790288,NULL,undefined,,,0,undefined,,NULL
+14769,2023-10-12,0.00,undefined,"Massage chino ",Latitude: 32.8113791 Longitude: -96.6113007,NULL,undefined,,,0,undefined,,NULL
+14768,2023-10-11,130.00,Gastos para Madres,Karina,"Latitude: 32.8546846 Longitude: -96.5552636
+Se gasto 5 USD en envío. Total era 135",NULL,undefined,,,0,undefined,,NULL
+14767,2023-10-11,130.00,Gastos para Madres,Paola,Latitude: 32.8546846 Longitude: -96.5552636,NULL,undefined,,,0,undefined,,NULL
+14766,2023-09-28,130.00,Gastos para Madres,Karina,"Latitude: 32.8546714 Longitude: -96.5552547
++5 USD de envio",NULL,undefined,,,0,undefined,,NULL
+14765,2023-09-28,130.00,Gastos para Madres,Paola,Latitude: 32.8546714 Longitude: -96.5552547,NULL,undefined,,,0,undefined,,NULL
+14764,2023-09-09,25.00,Gastos para Madres,Paola,Latitude: 32.8546355 Longitude: -96.5552868,NULL,undefined,,,0,undefined,,NULL
+14763,2023-09-03,80.00,Gastos para Madres,Paola,Latitude: 32.8546144 Longitude: -96.5553504,NULL,undefined,,,0,undefined,,NULL
+14762,2023-08-31,150.00,Gastos para Madres,Karina,"Latitude: 32.8546514 Longitude: -96.5553084
+
+me cobraron 5.04 por el envio para un total cobrado de 155.04",NULL,undefined,,,0,undefined,,NULL
+14761,2023-08-26,15.00,Gastos para Madres,Paola,Latitude: 32.854628 Longitude: -96.5553049,NULL,undefined,,,0,undefined,,NULL
+14760,2023-08-23,170.00,Gastos para Madres,Paola,Latitude: 32.8546287 Longitude: -96.5553197,NULL,undefined,,,0,undefined,,NULL
+14759,2023-08-21,20.00,Gastos para Madres,Karina,"Latitude: 32.8546266 Longitude: -96.5552943
+
+me cobraron 4 dolares de envio. fueron 24 USD realmente",NULL,undefined,,,0,undefined,,NULL
+14758,2023-08-18,16.00,Gastos para Madres,Paola,Latitude: 32.8547494 Longitude: -96.5553499,NULL,undefined,,,0,undefined,,NULL
+14757,2023-08-14,22.00,Gastos para Madres,Paola,Latitude: 32.8548018 Longitude: -96.5554143,NULL,undefined,,,0,undefined,,NULL
+14756,2023-08-14,-20.00,Gastos para Madres,Paola,Latitude: 32.8548236 Longitude: -96.555404,NULL,undefined,,,0,undefined,,NULL
+14755,2023-08-14,20.00,Gastos para Madres,Paola,Latitude: 32.8531968 Longitude: -96.550912,NULL,undefined,,,0,undefined,,NULL
+14754,2023-08-14,50.00,Gastos para Madres,Paola,Latitude: 32.8531968 Longitude: -96.550912,NULL,undefined,,,0,undefined,,NULL
+14753,2023-07-31,25.00,Gastos para Madres,Karina,Latitude: 32.8547974 Longitude: -96.5553721,NULL,undefined,,,0,undefined,,NULL
+14752,2023-07-27,133.49,Gastos para Madres,Karina,"Latitude: 32.8548204 Longitude: -96.5549608
+
+son 3.49 USD de gastos de envio",NULL,undefined,,,0,undefined,,NULL
+14751,2023-07-24,30.00,Gastos para Madres,Paola,Latitude: 32.8545934 Longitude: -96.5556373,NULL,undefined,,,0,undefined,,NULL
+14750,2023-07-24,130.00,Gastos para Madres,Paola,Latitude: 32.8547376 Longitude: -96.5550922,NULL,undefined,,,0,undefined,,NULL
+14749,2023-07-24,25.00,Gastos para Madres,Paola,Latitude: 32.8547376 Longitude: -96.5550922,NULL,undefined,,,0,undefined,,NULL
+14748,2023-07-01,11.00,Restaurantes,Subway a la par de nexgen nail spa,,NULL,undefined,,,0,undefined,,NULL
+14747,2023-07-01,1934.00,Renta,,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+14746,2023-06-28,50.00,Gastos para Madres,Karina,Latitude: 32.8546844 Longitude: -96.5551884,NULL,undefined,,,0,undefined,,NULL
+14745,2023-06-25,120.00,Gastos para Madres,Karina,Latitude: 32.8531968 Longitude: -96.5476352,1687722374445.png,undefined,,,0,undefined,,NULL
+14744,2023-06-23,100.00,Gastos para Madres,"Paola ",,NULL,undefined,,,0,undefined,,NULL
+14743,2023-06-20,1000.00,Educacion,,Latitude: 32.8531968 Longitude: -96.5476352,1687305060038.png,undefined,,,0,undefined,,NULL
+14742,2023-06-20,200.00,Otros Gastos,Supna Abogada consulta H1B,"Latitude: 32.8531968 Longitude: -96.5476352
+
+Se le pago a Supna mediante zelle y la cita es el viernes a las 3pm Dallas",NULL,undefined,,,0,undefined,,NULL
+14741,2023-06-20,40.00,Gastos para Madres,Karina,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+14740,2023-06-20,50.00,Gastos para Madres,Paola,Latitude: 32.8549051 Longitude: -96.5549265,NULL,undefined,,,1,undefined,,NULL
+14739,2023-06-02,40.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,NULL
+14738,2023-05-27,17.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,NULL
+14737,2023-05-25,130.00,Gastos para Madres,Paola,Latitude: 32.8560679 Longitude: -96.5520445,NULL,undefined,,,0,undefined,,NULL
+14736,2023-05-24,135.99,Gastos para Madres,Karina,"Latitude: 32.8560826 Longitude: -96.5520422
+Son 5.99 de envio",NULL,undefined,,,0,undefined,,NULL
+14735,2023-05-15,85.00,Gastos para Madres,Karina,,NULL,undefined,,,0,undefined,,NULL
+14734,2023-05-09,132.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,NULL
+14733,2023-05-02,20.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,NULL
+14732,2023-05-02,90.00,Gastos para Madres,Paola,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,1,undefined,,NULL
+14731,2023-04-27,200.00,Prestamo Mama,,Latitude: 32.8560552 Longitude: -96.552039,NULL,undefined,,,0,undefined,,NULL
+14730,2023-04-27,130.00,Gastos para Madres,Karina,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+14729,2023-04-27,150.00,Gastos para Madres,Paola,Latitude: 32.8560396 Longitude: -96.5520234,1682637903902.png,undefined,,,0,undefined,,NULL
+14728,2023-04-02,24.99,Gastos para Madres,Karina,"Mande 20 y 4.99 de envío ",NULL,undefined,,,0,undefined,,NULL
+14727,2023-03-30,145.99,Gastos para Madres,Karina,son 140 y 5.99 de envio,NULL,undefined,,,0,undefined,,NULL
+14726,2023-03-30,150.00,Gastos para Madres,Paola,,NULL,undefined,,,1,undefined,,NULL
+14725,2023-03-28,634.10,Transferencia,Credit One 6192 (Negra),Latitude: 32.8560504 Longitude: -96.5520419,1680063441219.png,undefined,,28MAR2023-0001339707,1,Credit One,CreditOne-CC-6192,NULL
+14724,2023-03-28,883.00,Transferencia,Merrick Bank,Paid off Merrick Bank,NULL,undefined,,327305529,1,undefined,,NULL
+14723,2023-03-28,87.00,Electricidad,,https://utilities.garlandtx.gov/Dashboard username: jdlopez13@gmail.com pwd: Modem56k!! |,NULL,undefined,,3752405,0,undefined,,NULL
+14722,2023-03-28,24.00,Gastos para Madres,Karina,,NULL,undefined,,,0,undefined,,NULL
+14721,2023-03-26,13.00,Gastos para Madres,Karina,,NULL,undefined,,,0,undefined,,NULL
+14720,2023-03-17,200.00,Prestamo Mama,,,NULL,undefined,,,0,undefined,,NULL
+14719,2023-03-17,50.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,NULL
+13721,2023-03-02,195.99,Gastos para Madres,Karina,"Latitude: 32.8560516 Longitude: -96.5520655
+Son 5.99 de envio, son 190 que le pase a ella",NULL,undefined,,,0,undefined,,NULL
+13720,2023-03-02,100.00,Gastos para Madres,Mama,Latitude: 32.8560475 Longitude: -96.5520388,NULL,undefined,,,0,undefined,,NULL
+13719,2023-03-02,130.00,Gastos para Madres,Paola,Latitude: 32.8560475 Longitude: -96.5520388,NULL,undefined,,,0,undefined,,NULL
+13718,2023-02-18,100.00,Prestamo Mama,,,NULL,undefined,,,0,undefined,,NULL
+13717,2023-02-16,750.00,Renta,,Latitude: 32.8531968 Longitude: -96.5476352,1676575227537.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+13716,2023-02-01,400.00,Educacion,,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+13715,2023-01-31,155.99,Gastos para Madres,Karina,"Latitude: 32.8560516 Longitude: -96.5521208
+son $5.99 de envio",NULL,undefined,,,1,undefined,,NULL
+13714,2023-01-21,44.99,Gastos para Madres,Karina,Son 4.99 de envio,NULL,undefined,,,0,undefined,,NULL
+13713,2023-01-19,300.00,Gastos para Madres,Paola,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+13712,2023-01-19,400.00,Educacion,,Latitude: 32.8531968 Longitude: -96.5476352,1674191009491.png,undefined,,,0,undefined,,NULL
+13711,2023-01-19,50.00,Gastos para Madres,Karina,Latitude: 32.8560702 Longitude: -96.5520616,NULL,undefined,,,0,undefined,,NULL
+13710,2023-01-06,135.99,Gastos para Madres,Karina,"Latitude: 32.8531968 Longitude: -96.5443584
+Enviado a traves de remitly
+Fueron 5.99 de gastos de envio",NULL,undefined,,,1,undefined,,NULL
+13709,2022-12-23,913.00,Renta,,Latitude: 32.8531968 Longitude: -96.5476352,1671799865083.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+13708,2022-12-23,-3500.00,undefined,,Latitude: 32.8560428 Longitude: -96.5520692,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+13707,2022-12-23,200.00,Prestamo Mama,,Latitude: 32.8560428 Longitude: -96.5520692,1671799794951.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+13706,2022-12-10,200.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,NULL
+13705,2022-12-10,0.00,Electricidad,,"Latitude: 32.8559621 Longitude: -96.5519305
+
+https://utilities.garlandtx.gov/Dashboard
+
+username: jdlopez13@gmail.com
+pwd: Modem56k!!",NULL,undefined,,,0,undefined,,NULL
+13704,2022-12-10,0.00,Restaurantes,"Mexicano street taco ","Tacos la carretera
+3630 N Belt line rd
+Sunnyvale 75182",NULL,undefined,,,0,undefined,,NULL
+13703,2022-12-10,22.00,Restaurantes,"Mexicano street taco riquísimo!!! ",,NULL,undefined,,,0,undefined,,NULL
+13702,2022-12-10,950.00,Renta,,Latitude: 32.8559234 Longitude: -96.5518206,1670707878294.png,Wells Fargo,WF-checking-1189106519,272310834,1,undefined,,NULL
+13701,2022-12-09,0.00,undefined,estoy donde la Megan,Latitude: 41.8857156 Longitude: -87.6482378,NULL,undefined,,,0,undefined,,NULL
+13700,2022-12-02,136.00,Gastos para Madres,Karina,"Latitude: 32.8531968 Longitude: -96.5443584
+Son 130, pero te cobran $6 de envio",NULL,Wells Fargo,WF-checking-1189106519,,0,undefined,,NULL
+13699,2022-12-02,110.00,Gastos para Madres,Mama,Latitude: 32.8531968 Longitude: -96.5443584,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+13698,2022-12-02,-1400.00,undefined,ingresos,Latitude: 32.8559687 Longitude: -96.55199,NULL,Wells Fargo,WF-checking-1189106519,,0,undefined,,NULL
+13697,2022-11-28,-200.00,Prueba,,Latitude: 32.8531968 Longitude: -96.5443584,NULL,Wells Fargo,WF-checking-1189106519,,0,undefined,,NULL
+13696,2022-11-28,200.00,Prueba,,Latitude: 32.8531968 Longitude: -96.5443584,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+13695,2022-11-24,990.00,Renta,,Latitude: 32.8531968 Longitude: -96.5443584,1669308022876.png,undefined,,,0,undefined,,NULL
+13694,2022-11-15,102.00,Electricidad,,"Latitude: 32.8531968 Longitude: -96.5443584
+
+Nueva pag web
+num de cuenta: 
+
+00568046-00149637
+
+pag web para pagar: https://internet.speedpay.com/cityofgarland/#/pay-bill/payment-successful
+
+password: Modem56k!!",1668578623231.png,undefined,,,0,undefined,,NULL
+13693,2022-11-11,400.00,Educacion,,Latitude: 32.8531968 Longitude: -96.5443584,1668186554560.png,undefined,,,0,undefined,,NULL
+13692,2022-11-11,950.00,Renta,,Latitude: 32.8531968 Longitude: -96.5443584,1668186484731.png,undefined,,,1,undefined,,NULL
+13691,2022-11-02,29.99,Gastos para Madres,Karina,Son 4.99 de envío y 25 para la Elena,NULL,undefined,,,0,undefined,,NULL
+13690,2022-10-28,100.00,Gastos para Madres,Karina,,NULL,undefined,,,0,undefined,,NULL
+13689,2022-10-28,52.00,Prestamo Mama,,,NULL,undefined,,,0,undefined,,NULL
+13688,2022-10-28,100.00,Prestamo Mama,,Latitude: 32.8531968 Longitude: -96.5476352,1666973020541.png,undefined,,,0,undefined,,NULL
+13687,2022-10-28,100.00,Gastos para Madres,Paola,Latitude: 32.8531968 Longitude: -96.5476352,1666972949256.png,undefined,,,0,undefined,,NULL
+13686,2022-10-28,56.00,Electricidad,,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+13685,2022-10-28,400.00,Educacion,,Latitude: 32.8560021 Longitude: -96.5520293,NULL,undefined,,,0,undefined,,NULL
+13684,2022-10-28,150.00,Transferencia,Cap One,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+13683,2022-10-28,864.00,Renta,,Latitude: 32.8531968 Longitude: -96.5476352,1666971843586.png,undefined,,,1,undefined,,NULL
+13682,2022-10-18,0.00,Restaurantes,Mejor buffet chino,Latitude: 32.8098455 Longitude: -96.6130917,NULL,undefined,,,0,undefined,,NULL
+13681,2022-10-16,34.99,Gastos para Madres,Karina,"Son 30 y 4.99 de envío ",NULL,undefined,,,0,undefined,,NULL
+13680,2022-10-14,975.00,Renta,,Latitude: 32.8531968 Longitude: -96.5443584,1665778644631.png,undefined,,,0,undefined,,NULL
+13679,2022-10-08,30.00,Restaurantes,"Carne asada rest casa mía riquísimo ",Latitude: 33.0678399 Longitude: -96.8817375,NULL,undefined,,,0,undefined,,NULL
+13678,2022-09-30,100.00,Gastos para Madres,Paola,Latitude: 32.8560374 Longitude: -96.5520108,1664573260205.png,undefined,,,0,undefined,,NULL
+13677,2022-09-30,100.00,Gastos para Madres,Karina,,1664571793381.jpg,undefined,,,1,undefined,,NULL
+13676,2022-09-30,100.00,Prestamo Mama,,Latitude: 32.8560519 Longitude: -96.552006,NULL,undefined,,,0,undefined,,NULL
+13675,2022-09-30,400.00,Educacion,,Latitude: 32.8560452 Longitude: -96.5520113,NULL,undefined,,,0,undefined,,NULL
+13674,2022-09-30,1020.00,Renta,,Latitude: 32.8560498 Longitude: -96.5520179,NULL,undefined,,,0,undefined,,NULL
+13673,2022-09-30,150.00,Transferencia,Cap One,Latitude: 32.8560498 Longitude: -96.5520179,1664570018779.png,undefined,,,0,undefined,,NULL
+13672,2022-09-30,40.00,Otros Gastos,"Barber moe Rowlett ",Latitude: 32.9087567 Longitude: -96.5773005,1664559458226.jpg,undefined,,,0,undefined,,NULL
+13671,2022-09-28,40.00,Gastos para Madres,Karina,,1664392958210.jpg,undefined,,,1,undefined,,NULL
+13670,2022-09-25,30.00,Gastos para Madres,Karina,,NULL,undefined,,,0,undefined,,NULL
+13669,2022-09-24,25.00,Restaurantes,"Desayuno Salvadoreño ",,NULL,undefined,,,0,undefined,,NULL
+13668,2022-09-23,40.00,Gastos para Madres,Paola,,NULL,undefined,,,0,undefined,,NULL
+13667,2022-09-22,0.00,Restaurantes,"Chick fill A Rowlett ","Latitude: 32.9081793 Longitude: -96.5750645
+Itzel ",1663876142073.jpg,undefined,,,0,undefined,,NULL
+13666,2022-09-17,20.00,Gastos para Madres,Paola,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+13665,2022-09-17,400.00,Educacion,,Latitude: 32.85158 Longitude: -96.546326,NULL,undefined,,,0,undefined,,NULL
+13664,2022-09-16,950.00,Renta,,Latitude: 32.8560509 Longitude: -96.5520165,1663397629476.png,undefined,,,1,undefined,,NULL
+13663,2022-09-16,0.00,Restaurantes,"Tacos ricos que no encontrabas ",Latitude: 32.8796752 Longitude: -96.6214461,NULL,undefined,,,1,undefined,,NULL
+13662,2022-09-13,0.00,Otros Gastos,"Gym gimnasio 24hr fitness ",Latitude: 32.8993547 Longitude: -96.7674806,NULL,undefined,,,0,undefined,,NULL
+13661,2022-09-13,30.00,Gastos para Madres,Karina,,1663119174025.jpg,undefined,,,1,undefined,,NULL
+13660,2022-09-05,100.00,Prestamo Mama,,Latitude: 32.8560445 Longitude: -96.5520222,NULL,undefined,,,0,undefined,,NULL
+13659,2022-09-04,120.00,Gastos para Madres,Karina,,1662338456811.jpg,Wells Fargo,,,1,undefined,,NULL
+13658,2022-09-02,70.00,Transferencia,Best Buy CC,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+13657,2022-09-02,136.00,Transferencia,,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,1,Aspire,Aspire-TC-8645,NULL
+13656,2022-09-02,12.00,Transferencia,,Latitude: 32.8531968 Longitude: -96.5476352,NULL,Premier Bank,Premier-TC-7453,W0267580963,1,undefined,,NULL
+13655,2022-09-02,100.00,Transferencia,,Latitude: 32.8531968 Longitude: -96.5476352,1662159412842.png,undefined,,,1,Merrick Bank,MerrickBank-CC-0147,NULL
+13654,2022-09-02,100.00,Transferencia,,Latitude: 32.856049 Longitude: -96.5519951,1662159185667.png,undefined,,,0,Merrick Bank,MerrickBank-CC-0147,NULL
+13653,2022-09-02,155.00,Vehiculo,Insurance,Latitude: 32.856049 Longitude: -96.5519951,NULL,undefined,,,0,undefined,,NULL
+13652,2022-09-02,330.00,Vehiculo,,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,,0,undefined,,NULL
+13651,2022-09-02,130.00,Transferencia,,Latitude: 32.8531968 Longitude: -96.5476352,NULL,undefined,,02SEP2022-0002026995,1,Credit One,CreditOne-CC-6192,NULL
+13650,2022-09-02,50.00,Transferencia,,Latitude: 32.8531968 Longitude: -96.5476352,1662158782897.png,undefined,,,1,Milestone,Milestone-TC-6585,NULL
+13649,2022-09-02,400.00,Educacion,,Latitude: 32.8560441 Longitude: -96.5519947,NULL,undefined,,,0,undefined,,NULL
+13648,2022-09-02,150.00,Transferencia,,Latitude: 32.8560464 Longitude: -96.5520517,NULL,undefined,,O388K393,1,Capital One,CapOne-TC-6231,NULL
+13647,2022-09-02,1036.00,Renta,,Latitude: 32.8560464 Longitude: -96.5520517,NULL,undefined,,,0,undefined,,NULL
+13646,2022-09-02,100.00,Gastos para Madres,Paola,Zelle,NULL,undefined,,,1,undefined,,NULL
+13645,2022-09-02,200.00,Transferencia,,,NULL,undefined,,,1,Wells Fargo,WF-TC-38163,NULL
+13644,2022-08-06,0.00,Restaurantes,Greek gyro,Latitude: 32.9081487 Longitude: -96.5645813,NULL,undefined,,,0,undefined,,NULL
+13643,2022-08-06,30.00,Restaurantes,,Latitude: 32.9081386 Longitude: -96.5645752,NULL,Credit One,CreditOne-CC-6192,,1,undefined,,NULL
+13642,2022-08-06,59.00,Gastos para Madres,Paola,Latitude: 32.8531968 Longitude: -96.5443584,NULL,undefined,,,0,undefined,,NULL
+13641,2022-08-06,8.00,Gastos para Madres,Paola,Latitude: 32.8531968 Longitude: -96.5443584,NULL,undefined,,,0,undefined,,NULL
+13640,2022-08-06,13.00,Gastos para Madres,Paola,Latitude: 32.8560157 Longitude: -96.5520327,NULL,undefined,,,0,undefined,,NULL
+13639,2022-08-06,120.00,Gastos para Madres,Karina,Latitude: 32.8560157 Longitude: -96.5520327,NULL,undefined,,,1,undefined,,NULL
+13638,2022-08-06,100.00,Gastos para Madres,Paola,Latitude: 32.8531968 Longitude: -96.5443584,NULL,undefined,,,0,undefined,,NULL
+13637,2022-08-05,100.00,Prestamo Mama,prestamo madre,Latitude: 32.8531968 Longitude: -96.5443584,NULL,undefined,,,0,undefined,,NULL
+13636,2022-08-05,600.00,Educacion,,Latitude: 32.8560572 Longitude: -96.5520586,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+13635,2022-07-23,350.00,Transferencia,Mercury,Latitude: 32.85158 Longitude: -96.546326,NULL,undefined,,,1,undefined,,NULL
+13634,2022-07-23,68.00,Transferencia,BofA,Latitude: 32.85158 Longitude: -96.546326,NULL,undefined,,,1,Bank of America,,NULL
+13633,2022-07-23,250.00,Transferencia,Aspire,Latitude: 32.85158 Longitude: -96.546326,NULL,undefined,,,1,Aspire,Aspire-TC-8645,NULL
+13632,2022-07-23,350.00,Educacion,,"Latitude: 32.85158 Longitude: -96.546326
+
+falta por pagar $1,197.50",NULL,undefined,,,1,undefined,,NULL
+13631,2022-07-23,963.00,Renta,,Latitude: 32.8560794 Longitude: -96.5520126,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+13630,2022-07-11,70.00,Otros Gastos,Pies luxor nail and spa dallas,Latitude: 32.9132655 Longitude: -96.461178,NULL,undefined,,,1,undefined,,NULL
+13629,2022-07-10,25.00,Gastos para Madres,Paola,Latitude: 32.8504812 Longitude: -96.5652127,NULL,undefined,,,1,undefined,,NULL
+13628,2022-07-10,102.00,Gastos para Madres,Karina,"Latitude: 32.8504812 Longitude: -96.5652127
+
+le mande la plata a mi mama por zelle (102) para que se la mande a la Karina. le mande 102 porque le cobran 2 dolares de envio a ella ",NULL,undefined,,,1,undefined,,NULL
+13627,2022-07-10,76.00,Prestamo Mama,,Latitude: 32.8504812 Longitude: -96.5652127,NULL,undefined,,,0,undefined,,NULL
+13626,2022-07-09,50.00,Gastos para Madres,Paola,zelle de 6519,NULL,undefined,,,1,undefined,,NULL
+13625,2022-07-08,52.00,Transferencia,Milestone,Latitude: 32.8560312 Longitude: -96.5520736,NULL,undefined,,,1,undefined,,NULL
+13624,2022-07-08,12.00,Transferencia,First Premier Bank,Latitude: 32.85158 Longitude: -96.546326,1657323616011.png,undefined,,,0,undefined,,NULL
+13623,2022-07-08,200.00,Transferencia,Aspire,Latitude: 32.85158 Longitude: -96.546326,1657323443648.png,undefined,,,1,undefined,,NULL
+13622,2022-07-08,300.00,Educacion,,Latitude: 32.85158 Longitude: -96.546326,1657323363778.png,undefined,,,1,undefined,,NULL
+13621,2022-07-08,900.00,Renta,,Latitude: 32.85158 Longitude: -96.546326,1657323213492.png,Wells Fargo,WF-checking-1189106519,246633754,1,undefined,,NULL
+12644,2022-06-10,140.00,Gastos para Madres,Paola,Latitude: 34.5869034 Longitude: -111.8568586,1654916984177.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+12643,2022-06-10,47.68,Transferencia,Milestone,Latitude: 33.4918276 Longitude: -112.0254862,1654916697603.png,undefined,,,1,Milestone,Milestone-TC-6585,NULL
+12642,2022-06-10,200.00,Transferencia,Aspire,Latitude: 34.5869034 Longitude: -111.8568586,1654916493886.png,Wells Fargo,WF-checking-1189106519,,1,Aspire,Aspire-TC-8645,NULL
+12641,2022-06-10,450.00,Educacion,,Latitude: 34.5869034 Longitude: -111.8568586,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+12640,2022-06-10,200.00,Transferencia,Cap One,Latitude: 34.5869034 Longitude: -111.8568586,1654916236992.png,undefined,,,1,Capital One,CapOne-TC-6231,NULL
+12639,2022-06-06,20.00,Gastos para Madres,Paola,"Latitude: 33.4918329 Longitude: -112.0254828
+Mandado con zelle ",NULL,undefined,,,1,undefined,,NULL
+12638,2022-06-03,10.00,Otros Gastos,Herpes medicina Cold sore,,1654314531587.jpg,undefined,,,0,undefined,,NULL
+12637,2022-05-26,200.00,Gastos para Madres,Mama,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+12636,2022-05-26,200.00,Gastos para Madres,Karina,"Latitude: 33.491845 Longitude: -112.0254859
+
+se envio a cuenta de mi mama por zelle",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+12635,2022-05-26,0.00,Otros Gastos,Licencia reverso,Latitude: 33.4918359 Longitude: -112.0254941,1653594230061.jpg,undefined,,,0,undefined,,NULL
+12634,2022-05-26,0.00,Otros Gastos,"Licencia ",Latitude: 33.4918379 Longitude: -112.0254912,1653594196484.jpg,undefined,,,0,undefined,,NULL
+12633,2022-05-25,750.00,Gastos para Madres,Paola,Latitude: 33.4823424 Longitude: -112.0305152,1653520746842.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+12632,2022-05-25,1000.00,Prestamos,Pago Extra Upstart,Latitude: 33.4918202 Longitude: -112.0254522,1653520657410.png,undefined,,,1,undefined,,NULL
+12631,2022-05-25,500.00,Otros Gastos,Best Buy Credit Card,Latitude: 33.4918202 Longitude: -112.0254522,NULL,undefined,,,0,undefined,,NULL
+12630,2022-05-25,1520.79,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,1653519972204.png,undefined,,,1,Wells Fargo,WF-TC-38163,NULL
+12629,2022-05-25,425.79,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,1653519907973.png,undefined,,SSRP4-N2NZV,1,Bank of America,BofA-TC-6930,NULL
+12628,2022-05-25,79.18,Electricidad,,Latitude: 33.4918454 Longitude: -112.0254813,1653519819439.png,undefined,,,1,undefined,,NULL
+12627,2022-05-25,1393.03,Transferencia,,Latitude: 33.4918164 Longitude: -112.0254597,1653519746624.png,undefined,,,1,Aspire,Aspire-TC-8645,NULL
+12626,2022-05-25,215.62,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,1653519617435.png,undefined,,25MAY2022-0001175577,1,Credit One,CreditOne-CC-6192,NULL
+12625,2022-05-25,274.98,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,1653519559471.png,undefined,,25MAY2022-0001174849,1,Credit One,CreditOne-CC-2340,NULL
+12624,2022-05-25,150.67,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,1653519436092.png,undefined,,22052538602084,1,Milestone,Milestone-TC-6585,NULL
+12623,2022-05-25,622.05,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,1653519357120.png,undefined,,276500861,1,Merrick Bank,MerrickBank-CC-0147,NULL
+12622,2022-05-25,429.37,Transferencia,,Latitude: 33.4918332 Longitude: -112.0254813,1653519051242.png,undefined,,,1,Capital One,CapOne-TC-6231,NULL
+12621,2022-05-25,252.60,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,1653519019216.png,undefined,,W0258993787,1,Premier Bank,Premier-TC-7453,NULL
+11621,2022-05-21,651.00,Vehiculo,Camry,Latitude: 33.4856192 Longitude: -112.0305152,1653147107866.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11620,2022-05-05,87.37,Supermercado,,Latitude: 33.6392345 Longitude: -112.0917655,1651789433099.jpg,Aspire,,,1,undefined,,NULL
+11619,2022-04-30,21.00,Restaurantes,,Latitude: 33.522532 Longitude: -112.09336,NULL,Aspire,Aspire-TC-8645,,1,undefined,,NULL
+11618,2022-04-30,15.00,Supermercado,,Latitude: 33.522467 Longitude: -112.0930135,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+11617,2022-04-30,60.00,Gastos para Madres,Paola,Latitude: 33.4918023 Longitude: -112.0254604,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11616,2022-04-29,35.00,Transferencia,,Latitude: 33.4918131 Longitude: -112.0254239,1651269014533.png,undefined,,,0,Bank of America,BofA-TC-6930,NULL
+11615,2022-04-29,30.00,Transferencia,,Latitude: 33.4856192 Longitude: -112.0305152,1651268922512.png,undefined,,,0,Credit One,CreditOne-CC-6192,NULL
+11614,2022-04-29,65.00,Electricidad,,Latitude: 33.4856192 Longitude: -112.0305152,1651268772467.png,undefined,,,0,undefined,,NULL
+11613,2022-04-29,85.00,Transferencia,,Latitude: 33.4856192 Longitude: -112.0305152,1651268720016.png,undefined,,,1,Capital One,CapOne-TC-6231,NULL
+11612,2022-04-29,963.00,Renta,,Latitude: 33.4856192 Longitude: -112.0305152,1651268570272.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11611,2022-04-29,150.00,Educacion,,Latitude: 33.4918534 Longitude: -112.0254625,1651268451121.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11610,2022-04-29,100.00,Gastos para Madres,Karina,Latitude: 33.4856192 Longitude: -112.0305152,1651249191218.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11609,2022-04-23,0.00,Otros Gastos,"Lugar ",Latitude: 33.5385903 Longitude: -112.1007701,NULL,undefined,,,1,undefined,,NULL
+11608,2022-04-22,70.00,Gastos para Madres,Mama,Latitude: 33.5982942 Longitude: -111.9773585,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11607,2022-04-22,50.00,Gastos para Madres,Paola,Latitude: 33.5982866 Longitude: -111.9773552,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11606,2022-04-22,250.00,Educacion,,Latitude: 33.4918182 Longitude: -112.0254561,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11605,2022-04-19,20.00,Gastos para Madres,Paola,Latitude: 33.4961863 Longitude: -112.0202375,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11604,2022-04-17,50.00,Supermercado,,Latitude: 33.4790544 Longitude: -112.0013152,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+11603,2022-04-16,500.00,Renta,,"Latitude: 33.4918327 Longitude: -112.0254741
+con esto estoy negativo 500 y deberia 1,000 si acaso decido irme a finales de Abril",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11602,2022-04-16,60.00,Transferencia,,Latitude: 34.5869034 Longitude: -111.8568586,NULL,undefined,,,0,Aspire,Aspire-TC-8645,NULL
+11601,2022-04-16,40.00,Transferencia,,Latitude: 34.5869034 Longitude: -111.8568586,NULL,undefined,,,0,Credit One,CreditOne-CC-2340,NULL
+11600,2022-04-16,85.00,Transferencia,,Latitude: 34.5869034 Longitude: -111.8568586,NULL,undefined,,,0,Capital One,CapOne-TC-6231,NULL
+11599,2022-04-16,200.00,Transferencia,,Latitude: 34.5869034 Longitude: -111.8568586,NULL,undefined,,,0,Wells Fargo,WF-TC-38163,NULL
+11598,2022-04-10,17.00,Restaurantes,"Rest mejores tacos ",Latitude: 33.4571746 Longitude: -112.0648728,NULL,undefined,,,1,undefined,,NULL
+11597,2022-04-09,30.00,Gastos para Madres,Paola,Latitude: 33.488896 Longitude: -112.0403456,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11596,2022-04-05,32.00,Otros Gastos,"Dry Cleaning ","Latitude: 33.4791881 Longitude: -112.0002017
+Ir a traer camisas el Jueves a las 5pm",1649177558055.jpg,undefined,,,1,undefined,,NULL
+11595,2022-04-02,27.44,Restaurantes,,Latitude: 33.4953322 Longitude: -112.0208618,1648926949564.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11594,2022-04-02,43.00,Gastos para Madres,Karina,Latitude: 33.5083316 Longitude: -112.0565795,1648884208072.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11593,2022-04-02,70.00,Gastos para Madres,Paola,"Latitude: 33.5083316 Longitude: -112.0565795
+zelle",1648884129877.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11592,2022-04-02,250.00,Educacion,,Latitude: 33.5083316 Longitude: -112.0565795,1648884067546.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11591,2022-04-02,50.00,Transferencia,,Latitude: 33.4918286 Longitude: -112.0254544,NULL,undefined,,267736925,1,Merrick Bank,MerrickBank-CC-0147,NULL
+11590,2022-04-02,12.00,Transferencia,,Latitude: 33.4918196 Longitude: -112.0254464,1648883727181.png,undefined,,,1,Premier Bank,Premier-TC-7453,NULL
+11589,2022-04-02,250.00,Transferencia,,Latitude: 33.5083316 Longitude: -112.0565795,NULL,undefined,,,1,Wells Fargo,WF-TC-38163,NULL
+11588,2022-04-02,50.00,Transferencia,,Latitude: 33.5083316 Longitude: -112.0565795,1648883086906.png,undefined,,,1,Credit One,CreditOne-CC-6192,NULL
+11587,2022-04-01,53.08,Electricidad,,Latitude: 33.5083316 Longitude: -112.0565795,1648882542940.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11586,2022-04-01,1311.00,Renta,,Latitude: 33.4918132 Longitude: -112.0254541,1648827683021.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11585,2022-03-31,50.00,Transferencia,,Latitude: 33.4918177 Longitude: -112.0254594,1648764957210.png,undefined,,,1,Bank of America,BofA-TC-6930,NULL
+11584,2022-03-31,170.00,Otros Gastos,Envio a Nestor Javier -- para la laptop Elena,Latitude: 33.5085568 Longitude: -112.050176,1648754936959.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11583,2022-03-26,44.00,Otros Gastos,"Una herbal ",Latitude: 33.4942182 Longitude: -111.9876419,NULL,undefined,,,0,undefined,,NULL
+11582,2022-03-22,25.00,Gastos para Madres,Paola,Latitude: 34.5869034 Longitude: -111.8568586,1647994130520.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11581,2022-03-18,60.39,Restaurantes,,Latitude: 33.4787495 Longitude: -112.0478775,1647651298108.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11580,2022-03-18,10.00,Gastos para Madres,Paola,Latitude: 33.478747 Longitude: -112.0478658,NULL,undefined,,,0,undefined,,NULL
+11579,2022-03-18,150.00,Transferencia,,Latitude: 34.5869034 Longitude: -111.8568586,NULL,Wells Fargo,WF-checking-1189106519,,1,Credit One,CreditOne-CC-6192,NULL
+11578,2022-03-18,150.00,Transferencia,,Latitude: 34.5869034 Longitude: -111.8568586,NULL,Wells Fargo,WF-checking-1189106519,,1,Credit One,CreditOne-CC-2340,NULL
+11577,2022-03-18,300.00,Transferencia,,Latitude: 33.4918075 Longitude: -112.0254637,1647626013084.png,Wells Fargo,WF-checking-1189106519,,1,Aspire,Aspire-TC-8645,NULL
+11576,2022-03-18,300.00,Educacion,,Latitude: 33.491819 Longitude: -112.0254643,1647625901302.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11575,2022-03-18,200.00,Transferencia,,Latitude: 33.4918231 Longitude: -112.0254656,1647625750551.png,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+11574,2022-03-18,500.00,Transferencia,,Latitude: 34.5869034 Longitude: -111.8568586,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+11573,2022-03-17,38.00,Supermercado,,"Latitude: 33.4785383 Longitude: -112.0005395
+Incluye shorts",1647565857374.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+11572,2022-03-12,19.00,Restaurantes,,Latitude: 33.5740933 Longitude: -112.1257564,1647101832255.jpg,Wells Fargo,WF-TD-8167,,1,undefined,,NULL
+11571,2022-03-10,180.00,Otros Gastos,Cambios de cama,"Latitude: 33.4943737 Longitude: -112.0269574
+El sábado 12 te hacen el cambio ",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11570,2022-03-08,41.00,Restaurantes,"Día de la mujer Sushi ",Latitude: 33.4918141 Longitude: -112.0254613,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11569,2022-03-08,23.00,Gastos para Madres,Paola,Latitude: 33.4918244 Longitude: -112.0254784,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11568,2022-03-07,28.00,Supermercado,,Latitude: 33.4797499 Longitude: -112.000423,1646689896497.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+11567,2022-03-07,120.00,Transferencia,BofA,Latitude: 33.4945401 Longitude: -112.0224862,NULL,undefined,,,1,Bank of America,BofA-TC-6930,NULL
+11566,2022-03-05,100.00,Prestamo Mama,,Latitude: 33.491795 Longitude: -112.0254654,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11565,2022-03-05,150.00,Supermercado,,"Latitude: 33.5264732 Longitude: -112.043721
+Sams",NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11564,2022-03-04,60.00,Transferencia,"Citi Card ",Latitude: 33.4918105 Longitude: -112.0254288,1646454975766.png,undefined,,,1,undefined,,NULL
+11563,2022-03-04,197.44,Transferencia,,Latitude: 33.4918182 Longitude: -112.02544,1646454385113.png,undefined,,,1,Milestone,Milestone-TC-6585,NULL
+11562,2022-03-04,37.00,Transferencia,,Latitude: 34.5869034 Longitude: -111.8568586,1646454278379.png,undefined,,,1,Premier Bank,Premier-TC-7453,NULL
+11561,2022-03-04,200.00,Transferencia,,Latitude: 34.5869034 Longitude: -111.8568586,1646454162982.png,Wells Fargo,WF-checking-1189106519,,1,Aspire,Aspire-TC-8645,NULL
+11560,2022-03-04,300.00,Educacion,,Latitude: 33.4918183 Longitude: -112.0254577,1646454024653.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11559,2022-03-04,150.00,Transferencia,,Latitude: 33.4918183 Longitude: -112.0254577,1646453801154.png,undefined,,,1,Credit One,CreditOne-CC-6192,NULL
+11558,2022-03-04,275.12,Transferencia,,Latitude: 34.5869034 Longitude: -111.8568586,1646453607433.png,undefined,,,1,Merrick Bank,MerrickBank-CC-0147,NULL
+11557,2022-03-04,100.00,Transferencia,,Latitude: 33.4918218 Longitude: -112.025448,1646453482031.png,undefined,,,1,Capital One,CapOne-TC-6231,NULL
+11556,2022-03-04,130.00,Gastos para Madres,Karina,"Latitude: 34.5869034 Longitude: -111.8568586
+Enviado con transferencia de Wells Fargo",1646431554087.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11555,2022-03-04,100.00,Gastos para Madres,Paola,"Latitude: 34.5869034 Longitude: -111.8568586
+Zelle Paola
+",1646431472960.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11554,2022-03-01,1310.00,Renta,,Latitude: 33.5104554 Longitude: -111.9976073,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11553,2022-02-19,50.00,Transferencia,,Latitude: 33.4918182 Longitude: -112.0254367,1645313797452.png,undefined,,,0,Bank of America,BofA-TC-6930,NULL
+11552,2022-02-19,45.00,Transferencia,,Latitude: 33.5249408 Longitude: -112.1026048,1645313538185.png,undefined,,,1,Credit One,CreditOne-CC-2340,NULL
+11551,2022-02-19,50.00,Electricidad,,Latitude: 33.5249408 Longitude: -112.1026048,1645313385761.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11550,2022-02-19,40.00,Transferencia,,Latitude: 33.5249408 Longitude: -112.1026048,1645313318760.png,undefined,,,1,Aspire,Aspire-TC-2540,NULL
+11549,2022-02-19,250.00,Educacion,,Latitude: 33.5249408 Longitude: -112.1026048,1645313163978.png,Wells Fargo,WF-checking-1189106519,,0,undefined,,NULL
+11548,2022-02-19,100.00,Transferencia,,Latitude: 33.5249408 Longitude: -112.1026048,NULL,undefined,,,1,Capital One,CapOne-TC-6231,NULL
+11547,2022-02-19,100.00,Transferencia,,Latitude: 33.4918071 Longitude: -112.0254237,NULL,undefined,,,1,Wells Fargo,WF-TC-38163,NULL
+11546,2022-02-17,40.00,Restaurantes,,Latitude: 33.4945401 Longitude: -112.0224862,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11545,2022-02-16,20.00,Restaurantes,"Panera Bread ",Latitude: 33.4917998 Longitude: -112.0254492,NULL,undefined,,,1,undefined,,NULL
+11544,2022-02-14,8.00,Restaurantes,,Latitude: 33.4918136 Longitude: -112.0254223,NULL,undefined,,,1,undefined,,NULL
+11543,2022-02-12,80.00,Restaurantes,Así es la Vida,Latitude: 33.4918134 Longitude: -112.0254535,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11542,2022-02-12,20.00,Restaurantes,Subway,Latitude: 33.4918134 Longitude: -112.0254535,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11541,2022-02-10,50.00,Otros Gastos,50,Latitude: 33.488896 Longitude: -112.0272384,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11540,2022-02-08,14.00,Restaurantes,"Chipotle ",Latitude: 33.4948981 Longitude: -112.0146721,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11539,2022-02-07,16.00,Supermercado,,Latitude: 33.4789927 Longitude: -112.0006635,1644274875984.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+11538,2022-02-07,34.00,Otros Gastos,chocolate,Latitude: 33.4856192 Longitude: -112.0370688,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11537,2022-02-07,200.00,Transferencia,,Latitude: 33.4856192 Longitude: -112.0370688,NULL,undefined,,,1,Wells Fargo,WF-TC-38163,NULL
+11536,2022-02-06,64.00,Supermercado,Sam club,Latitude: 33.638245 Longitude: -112.0922187,1644176232993.jpg,Wells Fargo,,,1,undefined,,NULL
+11535,2022-02-06,53.00,Otros Gastos,"Corte de pelo y Barba ",Latitude: 33.4962314 Longitude: -112.0202875,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11534,2022-02-06,17.00,Otros Gastos,"Cover the cama queen para guardarla ",Latitude: 33.4962314 Longitude: -112.0202875,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11533,2022-02-04,190.00,Otros Gastos,"Oil change and brake oil change ",Latitude: 33.4814658 Longitude: -112.0126131,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11532,2022-02-04,500.00,Transferencia,,Latitude: 33.4814673 Longitude: -112.0125944,NULL,undefined,,,1,Wells Fargo,WF-TC-38163,NULL
+11531,2022-02-04,100.00,Gastos para Madres,Paola,"Latitude: 33.5359975 Longitude: -112.2648649
+Zelle",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11530,2022-02-04,1800.64,Otros Gastos,"Cama king American furniture ",Latitude: 33.5204682 Longitude: -112.2707987,1644000693615.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11529,2022-02-04,50.00,Transferencia,,Latitude: 33.4918456 Longitude: -112.0254477,1643996000377.png,undefined,,,1,Credit One,CreditOne-CC-6192,NULL
+11528,2022-02-04,60.00,Transferencia,,Latitude: 33.4856192 Longitude: -112.0370688,1643995812058.png,undefined,,,1,Milestone,Milestone-TC-6585,NULL
+11527,2022-02-04,20.00,Transferencia,,Latitude: 33.4856192 Longitude: -112.0370688,1643995709065.png,undefined,,,1,Merrick Bank,MerrickBank-CC-0147,NULL
+11526,2022-02-04,35.00,Transferencia,,Latitude: 33.491816 Longitude: -112.0254542,1643995490283.png,undefined,,,1,Premier Bank,Premier-TC-7453,NULL
+11525,2022-02-04,100.00,Transferencia,,Latitude: 33.491816 Longitude: -112.0254542,NULL,undefined,,,1,Aspire,Aspire-TC-8645,NULL
+11524,2022-02-04,150.00,Transferencia,,Latitude: 33.491816 Longitude: -112.0254542,NULL,undefined,,,1,Capital One,CapOne-TC-6231,NULL
+11523,2022-02-04,250.00,Transferencia,,Latitude: 33.4918151 Longitude: -112.0254456,NULL,undefined,,,1,Wells Fargo,WF-TC-38163,NULL
+11522,2022-02-04,250.00,Educacion,,Latitude: 33.4918362 Longitude: -112.0254612,1643995086854.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11521,2022-02-04,138.00,Gastos para Madres,Karina,Latitude: 33.488896 Longitude: -112.0403456,1643994768389.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11520,2022-02-04,100.00,Prestamo Mama,,"Latitude: 33.4918028 Longitude: -112.0254042
+Mande 300 por el prestamo de 200 que me había hecho",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11519,2022-02-03,33.00,Vehiculo,"Gasolina ",Latitude: 33.4948313 Longitude: -112.0191327,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11518,2022-02-02,1310.00,Renta,,Latitude: 33.488896 Longitude: -112.0403456,1643809269876.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11517,2022-01-31,26.00,Supermercado,,Latitude: 33.4789631 Longitude: -112.000713,1643677095368.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+11516,2022-01-31,39.00,Supermercado,,Latitude: 33.4789591 Longitude: -112.0006936,NULL,Credit One,CreditOne-CC-2340,,1,undefined,,NULL
+11515,2022-01-31,85.00,Prestamos,taxes FY 2021,Latitude: 33.4856192 Longitude: -112.0468992,NULL,Milestone,Milestone-TC-6585,,1,undefined,,NULL
+11514,2022-01-31,20.00,Restaurantes,,Latitude: 33.4918091 Longitude: -112.0254285,NULL,Bank of America,BofA-TC-6930,,1,undefined,,NULL
+11513,2022-01-28,105.00,Supermercado,,Latitude: 33.6382803 Longitude: -112.0923321,1643420555730.jpg,Aspire,Aspire-TC-8645,,1,undefined,,NULL
+11512,2022-01-27,13.00,Restaurantes,,Latitude: 33.4918218 Longitude: -112.0254497,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11511,2022-01-26,17.00,Supermercado,,Latitude: 33.4789967 Longitude: -112.0007852,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+11510,2022-01-26,200.00,Supermercado," ","Latitude: 33.4918031 Longitude: -112.0254309
+Estas compras se hicieron en dos giras al Super con la Paola. Se gastó 200USD",NULL,undefined,,,1,undefined,,NULL
+11509,2022-01-11,20.00,Supermercado,,Latitude: 33.4948313 Longitude: -112.0191327,1641961397538.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11508,2022-01-11,58.00,Gastos para Madres,Karina,Latitude: 33.4528512 Longitude: -112.099328,1641919383807.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11507,2022-01-11,20.00,Otros Gastos,"Parke diversiones ",Latitude: 33.4917843 Longitude: -112.0254508,NULL,Bank of America,BofA-TC-6930,,1,undefined,,NULL
+11506,2022-01-11,57.00,Otros Gastos,"Parke diversiones ",Latitude: 33.4917843 Longitude: -112.0254508,NULL,Credit One,CreditOne-CC-2340,,1,undefined,,NULL
+11505,2022-01-10,74.00,Supermercado,,Latitude: 33.4790069 Longitude: -112.0006521,1641850022033.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+11504,2022-01-08,34.00,Otros Gastos,"Ropa niño ","Latitude: 33.491811 Longitude: -112.0254247
+Zelle a Paola",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11503,2022-01-08,71.00,Otros Gastos,"Zapatos Elena y JD niños ",Latitude: 33.4311545 Longitude: -111.908029,1641676319998.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11502,2022-01-08,77.00,Otros Gastos,"Ropa Elena y JD niños ","Latitude: 33.4947754 Longitude: -112.0146761
+",1641674937409.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11501,2022-01-08,42.00,Restaurantes,,Latitude: 33.4947754 Longitude: -112.0146761,1641671174690.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11500,2022-01-08,75.00,Gastos para Madres,Paola,"Latitude: 33.4918057 Longitude: -112.0254446
+Zelle transferencia ",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11499,2022-01-08,50.00,Restaurantes,,Latitude: 33.4918006 Longitude: -112.0254472,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11498,2022-01-07,100.00,Transferencia,,Latitude: 33.4873517 Longitude: -112.0127402,1641595688255.png,undefined,,,1,Credit One,CreditOne-CC-6192,NULL
+11497,2022-01-07,39.00,Transferencia,,Latitude: 33.4873517 Longitude: -112.0127402,1641595424823.png,undefined,,,1,Milestone,Milestone-TC-6585,NULL
+11496,2022-01-07,59.00,Transferencia,,Latitude: 33.4873517 Longitude: -112.0127402,1641595144111.png,undefined,,,1,Merrick Bank,MerrickBank-CC-0147,NULL
+11495,2022-01-07,55.00,Transferencia,,Latitude: 33.4873517 Longitude: -112.0127402,1641594931476.png,undefined,,,1,Premier Bank,Premier-TC-7453,NULL
+11494,2022-01-07,150.00,Transferencia,,Latitude: 33.4873517 Longitude: -112.0127402,1641594729961.png,undefined,,,1,Aspire,Aspire-TC-8645,NULL
+11493,2022-01-07,130.00,Gastos para Madres,Karina,Latitude: 33.488896 Longitude: -112.033792,1641578976362.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11492,2022-01-06,92.00,Supermercado,,Latitude: 33.480463 Longitude: -112.0085697,1641532797143.jpg,Credit One,CreditOne-CC-2340,,1,undefined,,NULL
+11491,2022-01-06,25.00,Restaurantes,"Burger King ","Latitude: 33.4943253 Longitude: -112.2188191
+Aqui queda otro lugar de cama",NULL,undefined,,,0,undefined,,NULL
+11490,2022-01-05,45.00,Otros Gastos,Nebulizador,Latitude: 33.4918115 Longitude: -112.0254322,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11489,2022-01-05,55.95,Otros Gastos,Solución Salina para JD,Latitude: 33.4918098 Longitude: -112.0254349,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+11488,2022-01-05,100.00,Gastos para Madres,Mama,"Latitude: 33.4918112 Longitude: -112.0254422
+Le hice compras a mi papa por 170 USD y le dije que yo le ponía 70 y que los 100 eran para mi mamá ",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11487,2022-01-02,1300.00,Renta,,Latitude: 33.4918126 Longitude: -112.0254424,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+11486,2022-01-02,80.00,Supermercado,,Latitude: 33.4918126 Longitude: -112.0254424,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10499,2021-12-28,19.00,Vehiculo,"Gasolina ",Latitude: 33.4789909 Longitude: -112.0003706,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10498,2021-12-27,50.00,Restaurantes,Buffet Chino,Latitude: 33.5104998 Longitude: -111.9976483,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10497,2021-12-26,80.33,Otros Gastos,"Cortina ",Latitude: 33.4786082 Longitude: -112.0033716,1640566058680.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10496,2021-12-26,50.00,Supermercado,,Latitude: 33.4789523 Longitude: -111.999998,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10495,2021-12-25,180.00,Transferencia,WF CC,Latitude: 33.4921728 Longitude: -112.0403456,1640471090984.png,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+10494,2021-12-25,50.00,Transferencia,BofA CC,Latitude: 33.4921728 Longitude: -112.0403456,1640471009132.png,Wells Fargo,WF-checking-1189106519,,1,Bank of America,BofA-TC-6930,NULL
+10493,2021-12-25,25.00,Transferencia,Credit One,Latitude: 33.4921728 Longitude: -112.0403456,1640470869369.png,Wells Fargo,WF-checking-1189106519,,1,Credit One,CreditOne-CC-2340,NULL
+10492,2021-12-23,100.00,Supermercado,"Navidad Walmart ",Latitude: 33.4917888 Longitude: -112.0254547,1640325034566.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10491,2021-12-23,106.00,Supermercado,,Latitude: 33.6399036 Longitude: -112.0938541,1640289380854.jpg,Wells Fargo,,,1,undefined,,NULL
+10490,2021-12-22,8.05,Restaurantes,Starbucks,Latitude: 33.495391 Longitude: -112.0213085,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10489,2021-12-19,22.00,Restaurantes,,Latitude: 33.4917722 Longitude: -112.0254607,NULL,Wells Fargo,WF-TD-8167,,1,undefined,,NULL
+10488,2021-12-18,60.00,Vehiculo,Gasolina,"Latitude: 33.49178 Longitude: -112.0254308
+Alquiler carro refill",NULL,Credit One,CreditOne-CC-2340,,1,undefined,,NULL
+10487,2021-12-17,30.00,Restaurantes,Papa Johns,Latitude: 35.1874824 Longitude: -111.6662191,NULL,Credit One,CreditOne-CC-2340,,1,undefined,,NULL
+10486,2021-12-17,40.00,Vehiculo,Gasolina,Latitude: 33.4917933 Longitude: -112.0254649,NULL,Merrick Bank,MerrickBank-CC-0147,,1,undefined,,NULL
+10485,2021-12-12,11.00,Supermercado,"Jugo de manzana sprout ",Latitude: 33.4917846 Longitude: -112.02551,NULL,Merrick Bank,MerrickBank-CC-0147,,1,undefined,,NULL
+10484,2021-12-12,68.00,Supermercado,,Latitude: 33.4917918 Longitude: -112.0255138,1639341068241.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10483,2021-12-12,96.00,Supermercado,Sams,Latitude: 33.4917932 Longitude: -112.0255201,1639341023636.jpg,Aspire,Aspire-TC-2540,,1,undefined,,NULL
+10482,2021-12-12,117.48,Educacion,,Latitude: 33.4917906 Longitude: -112.0254977,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10481,2021-12-10,158.00,Gastos para Madres,Karina,Latitude: 33.4917867 Longitude: -112.0254738,1639176680515.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10480,2021-12-10,30.00,Transferencia,,Latitude: 33.4918079 Longitude: -112.0254936,NULL,undefined,,,1,Credit One,CreditOne-CC-6192,NULL
+10479,2021-12-10,40.00,Transferencia,,Latitude: 33.4918079 Longitude: -112.0254936,1639176031204.png,undefined,,,1,Milestone,Milestone-TC-6585,NULL
+10478,2021-12-10,65.00,Transferencia,,Latitude: 34.5869034 Longitude: -111.8568586,1639175736844.png,undefined,,,1,Aspire,Aspire-TC-8645,NULL
+10477,2021-12-10,100.00,Transferencia,cap one,Latitude: 34.5869034 Longitude: -111.8568586,1639175650973.png,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+10476,2021-12-10,150.00,Educacion,,Latitude: 34.5869034 Longitude: -111.8568586,1639175482244.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10475,2021-12-09,36.00,Supermercado,,Latitude: 33.4960568 Longitude: -112.0204904,1639108106611.jpg,Aspire,Aspire-TC-2540,,1,undefined,,NULL
+10474,2021-12-09,30.00,Otros Gastos,"Home depot ",Latitude: 33.4792153 Longitude: -112.0033512,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10473,2021-12-09,30.00,Restaurantes,Rising Cane,Latitude: 33.4789793 Longitude: -112.0034136,NULL,Aspire,Aspire-TC-8645,,1,undefined,,NULL
+10472,2021-12-08,40.00,Supermercado,,Latitude: 33.4961029 Longitude: -112.0198629,1639014902192.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10471,2021-12-08,10.00,Restaurantes,,"Latitude: 33.541017 Longitude: -111.8767827
+Saluda a top golf Shamrock",NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10470,2021-12-06,120.00,Supermercado,"Incluye juguetes, luces y sábanas ",Latitude: 33.488256 Longitude: -112.0238401,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10469,2021-12-05,52.00,Supermercado,,Latitude: 33.4918087 Longitude: -112.0254385,1638767825884.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10468,2021-11-28,250.00,Transferencia,para ps5,Latitude: 33.491807 Longitude: -112.0254764,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+10467,2021-11-26,100.00,Transferencia,,Latitude: 33.4917764 Longitude: -112.0254742,1637978949050.jpg,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+10466,2021-11-26,63.00,Supermercado,,Latitude: 33.4789749 Longitude: -112.0017883,1637971176701.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10465,2021-11-26,40.00,Otros Gastos,"Gillette ",Latitude: 33.4789595 Longitude: -112.001767,1637970748472.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10464,2021-11-26,204.00,Transferencia,,Latitude: 33.4856192 Longitude: -112.0305152,1637912591710.png,Wells Fargo,WF-checking-1189106519,,1,Bank of America,BofA-TC-6930,NULL
+10463,2021-11-26,45.00,Transferencia,,Latitude: 33.4856192 Longitude: -112.0305152,1637912504257.png,Wells Fargo,WF-checking-1189106519,,1,Bank of America,BofA-TC-6930,NULL
+10462,2021-11-26,10.00,Transferencia,Credit One Plat,Latitude: 33.4856192 Longitude: -112.0305152,1637912269470.png,Wells Fargo,WF-checking-1189106519,,1,Credit One,CreditOne-CC-2340,NULL
+10461,2021-11-26,100.00,Transferencia,"Cap One ",Latitude: 33.4918074 Longitude: -112.0254695,1637911630976.jpg,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+10460,2021-11-25,275.00,Educacion,,Latitude: 33.4856192 Longitude: -112.0305152,1637885436137.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10459,2021-11-24,0.00,Otros Gastos,"Lentes prescription ",,1637740020715.jpg,undefined,,,0,undefined,,NULL
+10458,2021-11-23,10.00,Restaurantes,Rising Cane,Latitude: 33.4797334 Longitude: -111.9885413,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10457,2021-11-20,48.00,Supermercado,,Latitude: 33.4798093 Longitude: -112.0003044,1637473250269.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10456,2021-11-17,134.00,Supermercado,Sams club,Latitude: 33.6384571 Longitude: -112.0922479,1637203278878.jpg,Credit One,CreditOne-CC-6192,,1,undefined,,NULL
+10455,2021-11-15,216.00,Otros Gastos,Best Buy membership,"Latitude: 33.4856192 Longitude: -112.0305152
+Se compro utilizando la nueva tarjeta de Best Buy",1637003718708.png,undefined,,,1,undefined,,NULL
+10454,2021-11-14,300.00,Transferencia,,Latitude: 33.4917991 Longitude: -112.0254754,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+10453,2021-11-13,25.00,Gastos para Madres,Paola,Latitude: 33.4856192 Longitude: -112.0305152,1636850270916.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10452,2021-11-13,38.74,Restaurantes,Mariscos Camarón Pelao,Latitude: 33.4800367 Longitude: -112.0283878,1636835095324.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10451,2021-11-12,47.77,Otros Gastos,ora quick cvs,Latitude: 33.4798394 Longitude: -112.0036891,1636782869237.jpg,undefined,,,1,undefined,,NULL
+10450,2021-11-12,118.00,Gastos para Madres,Karina,Latitude: 33.4856192 Longitude: -112.0305152,1636753634196.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10449,2021-11-11,45.00,Transferencia,Credit One 6192,Latitude: 33.4856192 Longitude: -112.0305152,1636673572203.png,Credit One,CreditOne-CC-6192,,1,undefined,,NULL
+10448,2021-11-11,50.00,Transferencia,Milestone,Latitude: 33.4856192 Longitude: -112.0305152,1636673425622.png,Wells Fargo,WF-checking-1189106519,,1,Milestone,Milestone-TC-6585,NULL
+10447,2021-11-11,57.88,Transferencia,Merrick Bank,Latitude: 33.4856192 Longitude: -112.0305152,1636673285004.png,Wells Fargo,WF-checking-1189106519,,1,Merrick Bank,MerrickBank-CC-0147,NULL
+10446,2021-11-11,70.00,Transferencia,Aspire 8645,Latitude: 33.4856192 Longitude: -112.0305152,1636673096029.png,Wells Fargo,WF-checking-1189106519,,1,Aspire,Aspire-TC-8645,NULL
+10445,2021-11-11,100.00,Transferencia,Cap One,Latitude: 33.4856192 Longitude: -112.0305152,1636672914965.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10444,2021-11-11,300.00,Educacion,,Latitude: 33.4856192 Longitude: -112.0305152,1636672814547.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10443,2021-11-11,100.00,Prestamo Mama,,Latitude: 33.4856192 Longitude: -112.0305152,1636672614702.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10442,2021-11-08,150.99,Otros Gastos,placa renovacion,Latitude: 33.4918113 Longitude: -112.0254766,1636408829123.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10441,2021-11-05,157.00,Otros Gastos,lentes Optical Expressions,Latitude: 33.4917999 Longitude: -112.0254719,1636169232586.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10440,2021-11-04,32.96,Restaurantes,Sushi,Latitude: 33.4918385 Longitude: -112.0254814,1636088604166.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10439,2021-11-03,0.00,Otros Gastos,Dentista limpieza,"Latitude: 33.4917925 Longitude: -112.0254711
+
+Me atendio Melissa
+
+Choules Family Dentistry/William Choules, DDS, 2222 E. Highland Avenue , Suite 226 , Phoenix, AZ 85016",NULL,undefined,,,1,undefined,,NULL
+10438,2021-11-03,300.00,Transferencia,,Latitude: 33.4917789 Longitude: -112.0254794,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+10437,2021-11-02,1310.00,Renta,,Latitude: 33.4918108 Longitude: -112.0254729,1635920802680.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10436,2021-11-02,60.85,Restaurantes,,Latitude: 33.4574576 Longitude: -112.0474281,1635882448439.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10435,2021-11-02,2450.00,Transferencia,Cancelo Oportun,Latitude: 33.4917985 Longitude: -112.0254773,1635874979648.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10434,2021-11-02,1673.00,Transferencia,Cancelo Avant,Latitude: 33.4823424 Longitude: -112.033792,1635874930534.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10433,2021-11-02,317.00,Transferencia,First Premier,Latitude: 33.4823424 Longitude: -112.033792,1635874865673.png,Wells Fargo,WF-checking-1189106519,,1,Premier Bank,Premier-TC-7453,NULL
+10432,2021-11-02,12.00,Restaurantes,Subway,Latitude: 33.4918064 Longitude: -112.0254655,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10431,2021-10-31,25.00,Vehiculo,gasolina,Latitude: 33.4948545 Longitude: -112.0180114,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10430,2021-10-30,50.00,Otros Gastos,Barbero,"Latitude: 33.4917962 Longitude: -112.0254828
+
+me cobro 40 pero le deje 50",NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10429,2021-10-29,0.00,Otros Gastos,vacunas Covid foto,Latitude: 33.4918042 Longitude: -112.025479,1635573495437.jpg,undefined,,,0,undefined,,NULL
+10428,2021-10-29,0.00,Otros Gastos,vacunas Covid foto,Latitude: 33.4918042 Longitude: -112.025479,NULL,undefined,,,1,undefined,,NULL
+10427,2021-10-29,121.00,Transferencia,Credit One,Latitude: 33.4917887 Longitude: -112.0254754,1635530326105.png,Wells Fargo,WF-checking-1189106519,,1,Credit One,CreditOne-CC-6192,NULL
+10426,2021-10-29,200.00,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+10425,2021-10-29,100.00,Transferencia,BofA,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Wells Fargo,WF-checking-1189106519,,1,Bank of America,BofA-TC-6930,NULL
+10424,2021-10-29,300.00,Educacion,,Latitude: 33.4823424 Longitude: -112.0305152,1635529909998.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10423,2021-10-29,100.00,Transferencia,Cap One,Latitude: 33.4823424 Longitude: -112.0305152,1635527237843.png,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+10422,2021-10-29,11.00,Supermercado,"Frijoles ",Latitude: 33.4823424 Longitude: -112.0305152,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10421,2021-10-29,57.46,Supermercado,,Latitude: 33.4799869 Longitude: -112.001846,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10420,2021-10-28,31.78,Restaurantes,,Latitude: 33.4962672 Longitude: -112.0211544,1635470627168.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10419,2021-10-27,15.00,Restaurantes,,Latitude: 33.4952189 Longitude: -112.0116806,1635386020727.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10418,2021-10-25,73.09,Supermercado,,Latitude: 33.6382729 Longitude: -112.0922576,1635215253097.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10417,2021-10-24,65.28,Supermercado,boxer Walmart,Latitude: 33.4789187 Longitude: -112.0009347,1635135980621.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10416,2021-10-21,15.00,Otros Gastos,Paola,Latitude: 33.5104276 Longitude: -111.9976361,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10415,2021-10-19,0.00,Restaurantes,Rest Mexicano sopa,Latitude: 33.3947991 Longitude: -111.9410419,1634700442549.jpg,undefined,,,1,undefined,,NULL
+10414,2021-10-19,35.43,Restaurantes,,Latitude: 33.5085223 Longitude: -111.9956584,1634673897716.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10413,2021-10-17,32.83,Restaurantes,restaurante camarones pescado marino seafood,Latitude: 33.4870491 Longitude: -112.1004518,1634516281244.jpg,Bank of America,BofA-TC-6930,,1,undefined,,NULL
+10412,2021-10-17,0.00,Otros Gastos,cama de niña,Latitude: 33.4762014 Longitude: -112.1340697,1634513397480.jpg,undefined,,,1,undefined,,NULL
+10411,2021-10-17,180.00,Otros Gastos,cama niña,Latitude: 33.4762035 Longitude: -112.1340778,1634513363255.jpg,undefined,,,1,undefined,,NULL
+10410,2021-10-16,32.52,Restaurantes,Philly cheese,Latitude: 33.4500865 Longitude: -111.7195397,1634432046833.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10409,2021-10-16,100.00,Transferencia,,Latitude: 33.4856192 Longitude: -112.0305152,1634423539171.png,Wells Fargo,WF-checking-1189106519,,1,Aspire,Aspire-TC-8645,NULL
+10408,2021-10-15,27.00,Otros Gastos,,"Latitude: 33.4917891 Longitude: -112.0254646
+Se compro dentek y stand de celular",NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10407,2021-10-15,15.00,Restaurantes,firehouse subs,Latitude: 33.4918089 Longitude: -112.0254781,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10406,2021-10-15,171.00,Otros Gastos,lentes overnight,Latitude: 33.4856192 Longitude: -112.0305152,1634331024137.png,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10405,2021-10-15,100.00,Transferencia,,Latitude: 33.4918089 Longitude: -112.0254781,NULL,Wells Fargo,WF-TC-38163,,1,Capital One,CapOne-TC-6231,NULL
+10404,2021-10-15,200.00,Transferencia,,Latitude: 33.4918089 Longitude: -112.0254781,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+10403,2021-10-15,300.00,Educacion,,Latitude: 33.4918065 Longitude: -112.0254789,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10402,2021-10-13,11.00,Otros Gastos,short en Walmart,Latitude: 33.5081756 Longitude: -112.0370958,1634138872355.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10401,2021-10-13,24.88,Restaurantes,Desayuno Snooze,Latitude: 33.5081756 Longitude: -112.0370958,1634138828647.jpg,Bank of America,BofA-TC-6930,,1,undefined,,NULL
+10400,2021-10-11,52.00,Supermercado,,Latitude: 33.478966 Longitude: -112.0006485,1634002239296.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10399,2021-10-10,15.83,Restaurantes,,Latitude: 33.5027743 Longitude: -111.9954909,1633891182559.jpg,Bank of America,BofA-TC-6930,,1,undefined,,NULL
+10398,2021-10-08,90.00,Transferencia,Cap One,Latitude: 33.4856192 Longitude: -112.0305152,NULL,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+10397,2021-10-05,89.90,Otros Gastos,PS4 controller,,1633465873448.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10396,2021-10-05,20.60,Supermercado,,,1633465829999.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10395,2021-10-03,41.79,Supermercado,,Latitude: 33.4959407 Longitude: -112.0204107,1633296803636.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10394,2021-10-01,60.00,Transferencia,Milestone,Latitude: 33.4918058 Longitude: -112.025475,1633132821271.png,Wells Fargo,WF-checking-1189106519,,1,Milestone,Milestone-TC-6585,NULL
+10393,2021-10-01,50.00,Transferencia,Merrick Bank,Latitude: 33.491803 Longitude: -112.0254686,1633132678230.png,Wells Fargo,WF-checking-1189106519,,1,Merrick Bank,MerrickBank-CC-0147,NULL
+10392,2021-10-01,60.00,Transferencia,First Premier CC,Latitude: 33.4918025 Longitude: -112.0254643,1633132561650.png,Wells Fargo,WF-checking-1189106519,,1,Premier Bank,Premier-TC-7453,NULL
+10391,2021-10-01,50.00,Transferencia,BofA CC,Latitude: 33.4917964 Longitude: -112.0254612,1633132427259.png,Wells Fargo,WF-checking-1189106519,,1,Bank of America,BofA-TC-6930,NULL
+10390,2021-10-01,70.00,Transferencia,,Latitude: 33.4917952 Longitude: -112.025468,NULL,Wells Fargo,WF-checking-1189106519,130-4393252-21-1,1,Aspire,Aspire-TC-8645,NULL
+10389,2021-10-01,50.00,Transferencia,Credit One 6192,Latitude: 33.4918102 Longitude: -112.0254605,NULL,Wells Fargo,WF-checking-1189106519,,1,Credit One,CreditOne-CC-6192,NULL
+10388,2021-10-01,50.00,Transferencia,Credit One Plat,Latitude: 33.4918102 Longitude: -112.0254605,1633132064746.png,Wells Fargo,WF-checking-1189106519,,1,Credit One,CreditOne-CC-2340,NULL
+10387,2021-10-01,600.00,Educacion,,Latitude: 33.4918031 Longitude: -112.0254647,1633131710534.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10386,2021-10-01,150.00,Gastos para Madres,Mama,"Latitude: 33.4917855 Longitude: -112.025472
+se hizo con Zelle",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10385,2021-10-01,180.00,Gastos para Madres,Paola,Latitude: 33.49179 Longitude: -112.0254617,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10384,2021-10-01,188.00,Gastos para Madres,Karina,"Latitude: 33.4823424 Longitude: -112.033792
+son 180 para Karina y 8 de gastos de envio",1633117807706.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10383,2021-10-01,200.00,Transferencia,,Latitude: 33.4823424 Longitude: -112.033792,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+10382,2021-10-01,150.00,Transferencia,,Latitude: 33.4918124 Longitude: -112.0254691,NULL,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+10381,2021-10-01,30.00,Otros Gastos,shower head,"Latitude: 33.4918124 Longitude: -112.0254691
+la compré en walmart",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10380,2021-10-01,1304.33,Renta,,Latitude: 33.4918124 Longitude: -112.0254691,NULL,Wells Fargo,WF-checking-1189106519,254145523,1,undefined,,NULL
+10379,2021-09-28,60.00,Otros Gastos,Educacion,Latitude: 33.4823424 Longitude: -112.033792,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10378,2021-09-28,60.00,Otros Gastos,Fifa 22,Latitude: 33.4917862 Longitude: -112.0254663,1632815237903.png,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10377,2021-09-28,23.00,Supermercado,,Latitude: 33.4918002 Longitude: -112.0254763,1632815151558.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10376,2021-09-25,19.00,Otros Gastos,limpia carro,Latitude: 33.4917869 Longitude: -112.0254626,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10375,2021-09-25,138.00,Supermercado,,Latitude: 33.4666065 Longitude: -112.2395237,1632600279707.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10374,2021-09-24,200.00,Transferencia,,Latitude: 33.4823424 Longitude: -112.033792,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+10373,2021-09-24,16.00,Restaurantes,Subway,Latitude: 33.4917755 Longitude: -112.0254636,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10372,2021-09-24,27.00,Vehiculo,gasolina,Latitude: 33.4917755 Longitude: -112.0254636,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10371,2021-09-20,14.39,Restaurantes,,Latitude: 33.4954689 Longitude: -112.0307644,1632164991056.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10370,2021-09-20,6.67,Otros Gastos,jabones,Latitude: 33.4954727 Longitude: -112.0307605,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10369,2021-09-19,55.00,Supermercado,,Latitude: 33.4917879 Longitude: -112.0254725,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10368,2021-09-19,12.00,Restaurantes,,Latitude: 33.49181 Longitude: -112.0254667,NULL,Credit One,CreditOne-CC-6192,,1,undefined,,NULL
+10367,2021-09-18,13.00,Restaurantes,,Latitude: 33.4918003 Longitude: -112.0254614,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10366,2021-09-18,150.00,Transferencia,,Latitude: 33.4823424 Longitude: -112.03379199999999,1631952127324.png,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+10365,2021-09-16,58.00,Gastos para Madres,Karina,"Latitude: 33.4917807 Longitude: -112.0254075
+Gastos son 50 para Karina y 8 banco",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10364,2021-09-15,13.00,Restaurantes,,Latitude: 33.4917992 Longitude: -112.0254715,NULL,Credit One,CreditOne-CC-6192,,1,undefined,,NULL
+10363,2021-09-14,30.00,Transferencia,,Latitude: 33.4917925 Longitude: -112.0254622,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+10362,2021-09-14,44.37,Supermercado,,Latitude: 33.4789503 Longitude: -112.0012002,1631660616279.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10361,2021-09-14,90.00,Transferencia,,Latitude: 33.4789676 Longitude: -112.0012724,1631660575646.jpg,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+10360,2021-09-12,25.50,Restaurantes,New Delhi Palace Rest Indu,Latitude: 33.4917866 Longitude: -112.0255,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10359,2021-09-12,16.26,Otros Gastos,duck tape,Latitude: 33.4789308 Longitude: -112.0029669,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10358,2021-09-12,57.78,Supermercado,WMT,Latitude: 33.4792158 Longitude: -112.0002153,1631472287581.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10357,2021-09-11,9.00,Supermercado,,Latitude: 33.4675657 Longitude: -112.0298556,NULL,Credit One,CreditOne-CC-6192,,1,undefined,,NULL
+10356,2021-09-11,18.00,Gastos para Madres,Paola,"Latitude: 33.4917947 Longitude: -112.0254607
+enviado con zelle",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10355,2021-09-10,87.00,Otros Gastos,Grill de Amazon,Latitude: 33.4917936 Longitude: -112.02543870000001,1631309494915.png,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10354,2021-09-10,200.00,Transferencia,,Latitude: 33.4918128 Longitude: -112.0253869,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+10353,2021-09-10,12.91,Otros Gastos,envío doc power of attorney,"Latitude: 33.5548583 Longitude: -112.1005523
+enviado con UPS",1631305707890.jpg,Credit One,CreditOne-CC-6192,,1,undefined,,NULL
+10352,2021-09-10,18.36,Restaurantes,Gyro,Latitude: 33.3349808 Longitude: -111.9618559,1631299254952.jpg,Credit One,CreditOne-CC-6192,,1,undefined,,NULL
+10351,2021-09-10,0.00,undefined,,Latitude: 34.5869034 Longitude: -111.8568586,1631295996178.pdf,undefined,,,0,undefined,,NULL
+10350,2021-09-10,0.00,Otros Gastos,Geico,Latitude: 33.4918025 Longitude: -112.0254821,1631295141808.jpg,undefined,,,0,undefined,,NULL
+10349,2021-09-10,0.00,Otros Gastos,licencia,Latitude: 33.4918118 Longitude: -112.025473,1631294974584.jpg,undefined,,,0,undefined,,NULL
+10348,2021-09-10,0.00,Otros Gastos,registro,Latitude: 33.4918118 Longitude: -112.025473,1631294946894.jpg,undefined,,,0,undefined,,NULL
+10347,2021-09-10,0.00,Otros Gastos,placa,Latitude: 33.4918118 Longitude: -112.025473,1631294917215.jpg,undefined,,,0,undefined,,NULL
+10346,2021-09-09,55.50,Otros Gastos,Renovación Licencia Driver Licence,Latitude: 33.4943838 Longitude: -112.0462901,NULL,Credit One,CreditOne-CC-6192,,1,undefined,,NULL
+10345,2021-09-08,15.00,Restaurantes,,Latitude: 33.4792783 Longitude: -112.0008715,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10344,2021-09-08,27.65,Supermercado,,Latitude: 33.4793016 Longitude: -112.0004857,1631149874161.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10343,2021-09-07,0.00,Prueba,Lugar Conocer,Latitude: 33.600396 Longitude: -111.9790017,NULL,undefined,,,0,undefined,,NULL
+10342,2021-09-07,36.95,Supermercado,sprout,Latitude: 33.4960514 Longitude: -112.019905,1631033599848.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10341,2021-09-06,12.00,Otros Gastos,Mask,Latitude: 33.488896 Longitude: -112.0239616,1630985148739.png,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10340,2021-09-04,29.00,Supermercado,Sprouts,Latitude: 33.4959381 Longitude: -112.0203221,1630811833150.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10339,2021-09-04,50.00,Supermercado,,Latitude: 33.6392805 Longitude: -112.0921484,1630809023777.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10338,2021-09-04,100.00,Prestamo Mama,,Latitude: 33.4917872 Longitude: -112.0254652,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10337,2021-09-04,50.00,Otros Gastos,mesa,Latitude: 33.4917872 Longitude: -112.0254652,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10336,2021-09-04,100.00,Gastos para Madres,Paola,Latitude: 33.4823424 Longitude: -112.0305152,1630758829024.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10335,2021-09-04,98.00,Gastos para Madres,Karina,Latitude: 33.4917921 Longitude: -112.0254619,1630758641586.png,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10334,2021-09-04,40.00,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,1630758486779.png,Wells Fargo,WF-checking-1189106519,,1,Milestone,Milestone-TC-6585,NULL
+10333,2021-09-04,35.00,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,1630758211261.png,Wells Fargo,WF-checking-1189106519,,1,Merrick Bank,MerrickBank-CC-0147,NULL
+10332,2021-09-04,30.00,Transferencia,,Latitude: 33.4918204 Longitude: -112.0254711,1630758091508.png,Wells Fargo,WF-checking-1189106519,W0235620376,1,Premier Bank,Premier-TC-7453,NULL
+10331,2021-09-04,50.00,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Wells Fargo,WF-TD-8167,,1,Aspire,Aspire-TC-8645,NULL
+10330,2021-09-04,30.00,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Credit One,CreditOne-CC-6192,04SEP2021-0000133224,1,undefined,,NULL
+10329,2021-09-04,30.00,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Wells Fargo,WF-checking-1189106519,,0,Credit One,CreditOne-CC-2340,NULL
+10328,2021-09-04,23.00,Restaurantes,5 Guys,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Credit One,CreditOne-CC-6192,,1,undefined,,NULL
+10327,2021-09-04,50.00,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Wells Fargo,WF-checking-1189106519,,1,Bank of America,BofA-TC-6930,NULL
+10326,2021-09-04,300.00,Educacion,,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10325,2021-09-03,18.00,Otros Gastos,"laundry basket ",Latitude: 33.4917801 Longitude: -112.0254671,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10324,2021-09-03,90.00,Transferencia,cap one,Latitude: 33.4917871 Longitude: -112.0254709,1630669054314.jpg,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+10323,2021-09-03,200.00,Transferencia,TC wf,Latitude: 33.4917871 Longitude: -112.0254709,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+10321,2021-09-01,15.00,Otros Gastos,cortina,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10320,2021-09-01,43.17,Otros Gastos,uline,"Latitude: 33.4823424 Longitude: -112.0305152
+
+son las cajas",NULL,Wells Fargo,WF-TC-38163,56603885,1,undefined,,NULL
+10319,2021-08-31,14.00,Restaurantes,,Latitude: 33.4918158 Longitude: -112.0254568,NULL,Bank of America,BofA-TC-6930,,1,undefined,,NULL
+10318,2021-08-29,70.51,Supermercado,,Latitude: 33.478888 Longitude: -112.0011304,1630288867562.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10317,2021-08-29,28.00,Restaurantes,,Latitude: 33.4789261 Longitude: -112.0012403,NULL,Bank of America,BofA-TC-6930,,1,undefined,,NULL
+10316,2021-08-29,1304.50,Renta,,"Latitude: 33.4918225 Longitude: -112.0254671
+Urban Walk",NULL,Wells Fargo,WF-checking-1189106519,249207519,1,undefined,,NULL
+10315,2021-08-28,15.00,Restaurantes,,Latitude: 33.4918101 Longitude: -112.025476,NULL,Merrick Bank,MerrickBank-CC-0147,,1,undefined,,NULL
+10314,2021-08-27,23.72,Restaurantes,,Latitude: 33.5109313 Longitude: -111.9861808,NULL,Merrick Bank,MerrickBank-CC-0147,,1,undefined,,NULL
+10313,2021-08-27,16.00,Restaurantes,subway,Latitude: 33.4662202 Longitude: -111.9848411,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10312,2021-08-27,55.00,Otros Gastos,lexa,Latitude: 33.466328 Longitude: -111.9850917,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10311,2021-08-23,30.00,Otros Gastos,corte de pelo,Latitude: 33.4961734 Longitude: -112.0203304,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10310,2021-08-22,85.00,Otros Gastos,rasuradora,Latitude: 33.4918073 Longitude: -112.0254703,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10309,2021-08-22,23.30,Supermercado,,Latitude: 33.4917988 Longitude: -112.0254619,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+10308,2021-08-21,50.00,Transferencia,Aspire 8645,Latitude: 33.488896 Longitude: -112.0403456,NULL,Wells Fargo,WF-checking-1189106519,,1,Aspire,Aspire-TC-8645,NULL
+10307,2021-08-21,15.00,Transferencia,Aspire 2540,Latitude: 33.488896 Longitude: -112.0403456,NULL,Wells Fargo,WF-checking-1189106519,,1,Aspire,Aspire-TC-2540,NULL
+10306,2021-08-21,50.00,Transferencia,,Latitude: 33.488896 Longitude: -112.0403456,NULL,Wells Fargo,WF-checking-1189106519,L0O1R413,1,Capital One,CapOne-TC-6231,NULL
+10305,2021-08-21,60.00,Transferencia,Merrick Bank,Latitude: 33.488896 Longitude: -112.0403456,NULL,Wells Fargo,WF-checking-1189106519,233758184,1,Merrick Bank,MerrickBank-CC-0147,NULL
+10304,2021-08-21,60.00,Transferencia,Milestone,Latitude: 33.4917961 Longitude: -112.0254613,NULL,Wells Fargo,WF-checking-1189106519,,1,Milestone,Milestone-TC-6585,NULL
+10303,2021-08-21,7.59,Restaurantes,,Latitude: 33.5075643 Longitude: -112.0395398,NULL,Bank of America,BofA-TC-6930,,1,undefined,,NULL
+10302,2021-08-20,60.00,Transferencia,,Latitude: 33.4918045 Longitude: -112.0254729,NULL,Wells Fargo,WF-checking-1189106519,,1,Aspire,Aspire-TC-8645,NULL
+10301,2021-08-20,14.00,Transferencia,,Latitude: 33.4918117 Longitude: -112.0254711,NULL,Wells Fargo,WF-checking-1189106519,,1,Aspire,Aspire-TC-2540,NULL
+10300,2021-08-19,300.00,Educacion,,Latitude: 33.4918144 Longitude: -112.0254695,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+10299,2021-08-18,8.50,Restaurantes,,Latitude: 33.4917996 Longitude: -112.0254705,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+10298,2021-08-18,46.18,Supermercado,,Latitude: 33.4918034 Longitude: -112.0254655,1629352725730.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+9313,2021-08-17,20.00,Gastos para Madres,Paola,Latitude: 33.4917934 Longitude: -112.0254663,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+9312,2021-08-16,90.00,Transferencia,,Latitude: 33.4856192 Longitude: -112.033792,NULL,Wells Fargo,WF-checking-1189106519,L5O1J5A3,1,Capital One,CapOne-TC-6231,NULL
+9311,2021-08-16,96.42,Electricidad,,Latitude: 33.4856192 Longitude: -112.033792,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+9310,2021-08-15,39.30,Supermercado,,Latitude: 33.4798055 Longitude: -112.0002597,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+9309,2021-08-15,25.00,Otros Gastos,repelentes,Latitude: 33.4917945 Longitude: -112.0254513,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+9308,2021-08-14,30.00,Transferencia,Premier Bank,Latitude: 33.4918432 Longitude: -112.02539279999999,NULL,Wells Fargo,WF-checking-1189106519,,1,Premier Bank,Premier-TC-7453,NULL
+9307,2021-08-14,192.87,Otros Gastos,silla Sam club,Latitude: 33.6382269 Longitude: -112.0923471,1628984077262.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+9306,2021-08-14,43.04,Supermercado,Sam club,Latitude: 33.6383637 Longitude: -112.0922696,1628983001876.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+9305,2021-08-14,8.00,Restaurantes,,"Latitude: 33.6385453 Longitude: -112.0930307
+café",NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+9304,2021-08-13,20.00,Gastos para Madres,Paola,Latitude: 33.4918094 Longitude: -112.0254728,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+9303,2021-08-13,10.00,Otros Gastos,Udemy Power BI,Latitude: 33.491802299999996 Longitude: -112.02541509999999,NULL,Bank of America,BofA-TC-6930,,1,undefined,,NULL
+9302,2021-08-13,40.00,Restaurantes,,Latitude: 33.485619199999995 Longitude: -112.03379199999999,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+9301,2021-08-12,0.00,Prueba,,,1628814636217.png,undefined,,,0,undefined,,NULL
+9300,2021-08-12,0.00,Prueba,,Latitude: 33.485619199999995 Longitude: -112.03379199999999,1628813531837.jpeg,undefined,,,0,undefined,,NULL
+9299,2021-08-12,419.53,Otros Gastos,Bank of America,Latitude: 33.4859809 Longitude: -112.0298447,1628797396659.jpg,Aspire,Aspire-TC-8645,,1,undefined,,NULL
+9298,2021-08-12,0.00,Prueba,,Latitude: 33.4918127 Longitude: -112.0254751,1628792767986.jpg,undefined,,,1,undefined,,NULL
+9297,2021-08-08,10.00,Gastos para Madres,Paola,,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+9296,2021-08-08,52.07,Supermercado,,Sams Club,1628469146747.jpg,Wells Fargo,,,1,undefined,,NULL
+9295,2021-08-07,100.00,Prestamo Mama,,enviado por zelle,NULL,Wells Fargo,WF-checking-1189106519,RP0C4PHL68,1,undefined,,NULL
+9294,2021-08-07,50.00,Transferencia,Bank of America,,NULL,Wells Fargo,WF-checking-1189106519,RTPQD-KDC1K,1,Bank of America,BofA-TC-6930,NULL
+9293,2021-08-07,25.00,Restaurantes,pizza hawaiian,pizza Spinatos,NULL,Milestone,Milestone-TC-6585,,1,undefined,,NULL
+9292,2021-08-06,93.05,Supermercado,,,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+8315,2021-08-03,108.00,Gastos para Madres,Karina,se le paso para gasto de colegio 100 y 8 de envio,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+8314,2021-08-03,30.00,Transferencia,,,NULL,Wells Fargo,WF-checking-1189106519,,1,Credit One,CreditOne-CC-2340,NULL
+8313,2021-08-03,160.00,Educacion,,,NULL,Wells Fargo,WF-checking-1189106519,1134595,1,undefined,,NULL
+8312,2021-08-02,14.00,Restaurantes,,,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+8311,2021-08-02,8.00,Supermercado,,,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+8310,2021-07-30,80.00,Transferencia,,,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+8309,2021-07-29,1179.33,Renta,,,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+8308,2021-07-29,18.58,Supermercado,,,NULL,Bank of America,BofA-TC-6930,,1,undefined,,NULL
+8307,2021-07-26,61.59,Electricidad,,,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+8306,2021-07-26,0.00,Prueba,,,1627359097696.jpg,undefined,,,0,undefined,,NULL
+8305,2021-07-26,420.00,Otros Gastos,Bank of America,educación bank of America . último cheque,1627359097696.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+8304,2021-07-25,14.00,Restaurantes,Subway,,NULL,Bank of America,BofA-TC-6930,,1,undefined,,NULL
+8303,2021-07-25,69.56,Supermercado,,,1627237152393.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+8302,2021-07-24,270.00,Otros Gastos,CPR Same Day Test,,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+8301,2021-07-24,90.00,Transferencia,,,NULL,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+8300,2021-07-23,82.00,Restaurantes,,,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+8299,2021-07-22,149.00,Otros Gastos,covid 19 Paola,test covid 19 PCR en Scottsdale,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+8298,2021-07-16,9.00,Otros Gastos,,chips,NULL,Milestone,Milestone-TC-6585,,1,undefined,,NULL
+8297,2021-07-16,28.00,Vehiculo,Gasolina,,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+8296,2021-07-16,22.02,Restaurantes,,,1626451276158.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+8295,2021-07-15,50.00,Transferencia,,,NULL,Wells Fargo,WF-checking-1189106519,1-21196-80410118-015,1,Milestone,Milestone-TC-6585,NULL
+8294,2021-07-15,30.00,Supermercado,,,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+8293,2021-07-15,60.00,Electricidad,,,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+8292,2021-07-15,40.00,Restaurantes,,,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+8291,2021-07-13,122.00,Otros Gastos,hotel por reparacion,Latitude: 33.4917544 Longitude: -112.0253875,1626192260110.jpg,Aspire,Aspire-TC-8645,,1,undefined,,NULL
+8290,2021-07-12,100.00,Transferencia,,Latitude: 33.4823424 Longitude: -112.03379199999999,NULL,Wells Fargo,WF-checking-1189106519,IB0BWXLRDJ,1,Wells Fargo,WF-TC-38163,NULL
+8289,2021-07-12,90.00,Supermercado,,Latitude: 33.4823424 Longitude: -112.03379199999999,NULL,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+8288,2021-07-12,70.00,Transferencia,,"Latitude: 33.4823424 Longitude: -112.03379199999999
+
+Se hizo desde BofA bill pay",NULL,Wells Fargo,WF-checking-1189106519,RR1ZG-G1CFN,1,Bank of America,BofA-TC-6930,NULL
+8287,2021-07-11,200.00,Transferencia,Wells Fargo,Latitude: 33.4917908 Longitude: -112.02540499999999,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+8286,2021-07-11,17.00,Online Shopping,chucherias,Latitude: 33.4815008 Longitude: -112.0148928,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+8285,2021-07-10,419.53,Otros Gastos,Bank of America,Latitude: 33.4807736 Longitude: -111.9963889,1625936339848.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+8284,2021-07-09,30.00,Transferencia,First Premier,Latitude: 33.4917478 Longitude: -112.0253963,NULL,Wells Fargo,WF-checking-1189106519,W0230618438,1,Premier Bank,Premier-TC-7453,NULL
+8283,2021-07-09,26.00,Transferencia,Aspire 2,Latitude: 33.4823424 Longitude: -112.03379199999999,NULL,Wells Fargo,WF-checking-1189106519,,1,Aspire,Aspire-TC-2540,NULL
+8282,2021-07-09,230.00,Transferencia,Aspire,Latitude: 33.4823424 Longitude: -112.03379199999999,1625852149921.jpg,Wells Fargo,WF-checking-1189106519,,1,Aspire,Aspire-TC-8645,NULL
+8281,2021-07-09,88.00,Gastos para Madres,Karina,Latitude: 33.4917464 Longitude: -112.02538810000001,1625851733379.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+8280,2021-07-09,43.28,Restaurantes,,Latitude: 33.4918248 Longitude: -112.025476,NULL,Wells Fargo,WF-TD-8167,,1,undefined,,NULL
+8279,2021-07-07,40.00,Supermercado,,"Latitude: 33.4917969 Longitude: -112.0254575
+incluye paper towels y papel higiénico",1625724158933.jpg,Wells Fargo,WF-TD-8167,,1,undefined,,NULL
+7293,2021-07-04,18.00,Otros Gastos,ropa JD,,NULL,Wells Fargo,WF-TD-8167,,1,undefined,,NULL
+7292,2021-07-04,24.00,Otros Gastos,lavar ropa,,NULL,Wells Fargo,WF-TD-8167,,1,undefined,,NULL
+7291,2021-07-03,40.00,Transferencia,,,NULL,Wells Fargo,WF-checking-1189106519,,1,Credit One,CreditOne-CC-2340,NULL
+7290,2021-07-01,20.00,Supermercado,leche bebé,,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+7289,2021-07-01,11.04,Otros Gastos,,cumple JD,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+7288,2021-07-01,36.29,Otros Gastos,,,1625180710341.jpg,Wells Fargo,we tc,,1,undefined,,NULL
+7287,2021-07-01,27.00,Vehiculo,gasolina,,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+7286,2021-07-01,11.00,Restaurantes,,danish,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+7285,2021-06-30,30.93,Otros Gastos,Instacart,,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+7284,2021-06-29,1304.33,Renta,Urban Walk,,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+7283,2021-06-28,419.53,Otros Gastos,bank of America,,1624941543990.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+7282,2021-06-27,100.00,Prestamo Mama,,,1624854339074.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+7281,2021-06-26,39.62,Supermercado,,incluye pampers,1624744672527.jpg,undefined,,,1,undefined,,NULL
+7280,2021-06-26,5.00,Restaurantes,cafe,,NULL,Wells Fargo,WF-TD-8167,,1,undefined,,NULL
+7279,2021-06-26,40.00,Restaurantes,pizza hungry howies,,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6308,2021-06-21,48.87,Supermercado,,incluye leche de bebé,1624337355260.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+6307,2021-06-21,22.00,Otros Gastos,cargador Paola,Latitude: 33.485619199999995 Longitude: -112.03379199999999,NULL,Bank of America,BofA-TC-6930,,1,undefined,,NULL
+6306,2021-06-19,70.58,Otros Gastos,PS4 Control,"Latitude: 33.4921728 Longitude: -112.03379199999999
+
+Se compro en playstation.com
+mira el numero de confirmacion",NULL,Wells Fargo,WF-TD-8167,3009189839,1,undefined,,NULL
+6305,2021-06-19,300.00,Transferencia,,Latitude: 33.4921728 Longitude: -112.03379199999999,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+6304,2021-06-17,31.67,Restaurantes,,Latitude: 33.4949932 Longitude: -112.0180634,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6303,2021-06-17,27.85,Vehiculo,gasolina,Latitude: 33.4948669 Longitude: -112.0179489,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6302,2021-06-16,300.00,Transferencia,,Latitude: 33.4921728 Longitude: -112.03379199999999,NULL,Wells Fargo,WF-checking-1189106519,IB0BQFQBQ4,1,Wells Fargo,WF-TC-38163,NULL
+6301,2021-06-15,28.66,Supermercado,,Latitude: 33.4917965 Longitude: -112.0254941,1623814244716.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6300,2021-06-15,12.00,Restaurantes,human bean,Latitude: 33.4917965 Longitude: -112.0254941,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6299,2021-06-15,50.00,Transferencia,,Latitude: 33.4917433 Longitude: -112.0253882,1623787733527.jpg,Wells Fargo,WF-checking-1189106519,,1,Milestone,Milestone-TC-6585,NULL
+6298,2021-06-13,17.00,Supermercado,,"Latitude: 33.4950819 Longitude: -112.0289812
+mi tienda latina",NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6297,2021-06-13,24.00,Restaurantes,almuerzo bk,Latitude: 33.4950819 Longitude: -112.0289812,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6296,2021-06-12,38.45,Restaurantes,,Latitude: 33.4239234 Longitude: -111.9258257,1623559513884.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6295,2021-06-12,30.54,Supermercado,,Latitude: 33.491819 Longitude: -112.0254628,1623534119100.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+6294,2021-06-12,16.17,Restaurantes,ihop,Latitude: 33.4752577 Longitude: -111.986595,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6293,2021-06-12,419.53,Otros Gastos,bank of America,Latitude: 33.4737509 Longitude: -111.9866066,1623517544985.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+6292,2021-06-12,5.48,Restaurantes,chocolates y agua,Latitude: 33.4803971 Longitude: -111.9995377,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6291,2021-06-12,10.00,Otros Gastos,para Mireya,"Latitude: 33.4918024 Longitude: -112.0254669
+se lo envié a mi mamá por zelle",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+6290,2021-06-11,45.00,Transferencia,,Latitude: 33.4917885 Longitude: -112.0254716,1623471245925.jpg,Wells Fargo,WF-checking-1189106519,,1,Credit One,CreditOne-CC-2340,NULL
+6289,2021-06-11,28.63,Otros Gastos,barbero,Latitude: 33.491813 Longitude: -112.0254565,1623441818937.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6288,2021-06-11,90.00,Transferencia,,Latitude: 33.485619199999995 Longitude: -112.0305152,NULL,Wells Fargo,WF-checking-1189106519,L053W359,1,Capital One,CapOne-TC-6231,NULL
+6287,2021-06-11,40.00,Transferencia,,Latitude: 33.485619199999995 Longitude: -112.0305152,1623418969566.jpg,Wells Fargo,WF-checking-1189106519,,1,Premier Bank,Premier-TC-7453,NULL
+6286,2021-06-11,85.01,Electricidad,,Latitude: 33.485619199999995 Longitude: -112.0305152,1623418772783.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+6285,2021-06-11,40.00,Transferencia,,Latitude: 33.485619199999995 Longitude: -112.0305152,NULL,Wells Fargo,WF-checking-1189106519,,1,Aspire,Aspire-TC-2540,NULL
+6284,2021-06-11,250.00,Transferencia,,Latitude: 33.485619199999995 Longitude: -112.0305152,NULL,Wells Fargo,WF-checking-1189106519,,1,Aspire,Aspire-TC-8645,NULL
+6283,2021-06-11,300.00,Transferencia,,Latitude: 33.485619199999995 Longitude: -112.0305152,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+6282,2021-06-11,88.00,Gastos para Madres,Karina,Latitude: 33.491724399999995 Longitude: -112.02543809999999,1623417511995.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+6281,2021-06-10,7.50,Otros Gastos,toallas sanitarias Paola,Latitude: 33.4800418 Longitude: -112.0035242,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6280,2021-06-08,41.01,Supermercado,,incluye leche bebé,1623216273838.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+6279,2021-06-08,90.00,Transferencia,,Latitude: 33.4917349 Longitude: -112.0254008,NULL,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+6278,2021-06-07,9.55,Otros Gastos,medicina cayos,,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6277,2021-06-07,20.00,Otros Gastos,saque plata del atm,,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+6276,2021-06-07,60.00,Transferencia,,,NULL,Wells Fargo,WF-checking-1189106519,,1,Bank of America,BofA-TC-6930,NULL
+6275,2021-06-06,65.53,Supermercado,,Latitude: 33.4789811 Longitude: -112.0006146,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+6274,2021-06-06,60.00,Otros Gastos,gastos bebé (baby stroller and baby walker),Latitude: 33.4718255 Longitude: -112.2059517,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+6273,2021-06-05,29.00,Vehiculo,Gasolina,Latitude: 33.4946377 Longitude: -112.0180766,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+6272,2021-06-05,5.00,Restaurantes,chuchería gasolinera,Latitude: 33.4947407 Longitude: -112.0176333,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6271,2021-06-05,55.00,Otros Gastos,uñas,Latitude: 33.4947407 Longitude: -112.0176333,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6270,2021-06-04,150.00,Transferencia,,Latitude: 33.5105888 Longitude: -111.9976252,NULL,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+6269,2021-06-03,20.00,Restaurantes,McDonald,Latitude: 33.5146289 Longitude: -111.9076336,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6268,2021-06-02,100.00,Prestamos,mama,Latitude: 33.4918115 Longitude: -112.0254668,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+6267,2021-06-01,10.00,Restaurantes,Ice cream coldstone,Latitude: 33.4789818 Longitude: -112.0013217,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6266,2021-06-01,7.00,Supermercado,,Latitude: 33.479007 Longitude: -112.000711,1622604409142.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+6265,2021-05-31,18.00,Otros Gastos,"Condones ",Latitude: 33.4800287 Longitude: -112.0036144,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6264,2021-05-31,105.94,Supermercado,,Latitude: 33.4799016 Longitude: -112.0035898,1622514229899.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+6263,2021-05-31,12.00,Otros Gastos,"Cable Paola ",Latitude: 33.4918433 Longitude: -112.0254717,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6262,2021-05-30,44.00,Supermercado,,"Latitude: 33.4918369 Longitude: -112.025392
+Leche, pan, huevo, zucchini, cervezas, etc... ",NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+6261,2021-05-30,68.76,Restaurantes,"Sushi día de las madres ",Latitude: 33.4329376 Longitude: -111.9053454,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+6260,2021-05-29,90.00,Transferencia,,Latitude: 33.4918087 Longitude: -112.025458,NULL,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+6259,2021-05-29,26.00,Restaurantes,,Latitude: 33.4918036 Longitude: -112.025454,NULL,Wells Fargo,,,1,undefined,,NULL
+6258,2021-05-28,1304.00,Renta,,Latitude: 33.4873638 Longitude: -112.0127868,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+6257,2021-05-27,45.00,Gastos para Madres,Paola,se mando la plata utilizando zelle,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5277,2021-05-25,250.00,Transferencia,,,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+5276,2021-05-24,48.10,Supermercado,,,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+5275,2021-05-24,90.00,Transferencia,,,NULL,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+5274,2021-05-23,29.27,Restaurantes,Flagstaff Irish Pub,,1621793413823.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5273,2021-05-21,10.00,Restaurantes,Cafe,,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5272,2021-05-18,41.97,Supermercado,,,1621389874046.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+5271,2021-05-18,35.00,Supermercado,"Cabeza de ducha ",,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5270,2021-05-18,22.00,Restaurantes,"IHOP ",,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5269,2021-05-17,50.00,Gastos para Madres,Paola,,1621288723950.jpg,Wells Fargo,WF-checking-1189106519,RP0BJ26HJ4,1,undefined,,NULL
+5268,2021-05-16,71.99,Gastos para Madres,Karina,"se envio con xoom
+se enviaron 65 usd + el fee son 71.99",1621232025740.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5267,2021-05-15,419.53,Educacion,"Banco de América ","Primer pago de los 2090 USD
+Pago Banco de América educación ",1621129802481.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5266,2021-05-15,31.48,Supermercado,,cabezas de cepillo de diente. se compraron en amazon,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5265,2021-05-14,60.00,Gastos para Madres,Paola,le mande 60 a Paola,NULL,Wells Fargo,WF-checking-1189106519,RP0BHH63KN,1,undefined,,NULL
+5264,2021-05-14,63.02,Electricidad,,,NULL,Wells Fargo,WF-checking-1189106519,37589236,1,undefined,,NULL
+5263,2021-05-14,50.00,Transferencia,,,NULL,Wells Fargo,WF-checking-1189106519,1-21135-15006860-061,1,Milestone,Milestone-TC-6585,NULL
+5262,2021-05-14,40.00,Transferencia,,,NULL,Wells Fargo,WF-checking-1189106519,14MAY2021-0001620201,1,Credit One,CreditOne-CC-2340,NULL
+5261,2021-05-14,40.00,Transferencia,,,NULL,Wells Fargo,WF-checking-1189106519,W0225750229,1,Premier Bank,Premier-TC-7453,NULL
+5260,2021-05-14,95.00,Transferencia,,,NULL,Wells Fargo,WF-checking-1189106519,,1,Aspire,Aspire-TC-8645,NULL
+5259,2021-05-14,17.00,Supermercado,,"Frijoles y tajadas en Mi tienda Latina ",NULL,Wells Fargo,WF-TD-8167,,1,undefined,,NULL
+5258,2021-05-14,36.00,Restaurantes,Peí Wei,,NULL,Wells Fargo,WF-TD-8167,,1,undefined,,NULL
+5257,2021-05-14,300.00,Transferencia,,,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+5256,2021-05-10,90.00,Transferencia,,Latitude: 33.491808 Longitude: -112.0254872,1620709413614.jpg,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+5255,2021-05-10,178.72,Supermercado,,Latitude: 33.6383778 Longitude: -112.0922347,1620701276501.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5254,2021-05-10,25.00,Gastos para Madres,Paola,Latitude: 33.4918382 Longitude: -112.02539449999999,1620687702201.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5253,2021-05-07,60.00,Transferencia,,"Latitude: 40.2195442 Longitude: -92.5800947
+Financial Credit Union ",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5252,2021-05-07,60.00,Otros Gastos,"Pago Zelle Jorele ",Latitude: 40.2195514 Longitude: -92.5801456,1620447369847.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5251,2021-05-07,200.00,Transferencia,,Latitude: 40.1711117 Longitude: -92.5712477,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+5250,2021-05-07,223.25,Otros Gastos,Hotel Kirksville,Latitude: 40.1710843 Longitude: -92.571254,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5249,2021-05-06,19.00,Restaurantes,"Rest indio ",Latitude: 38.5944381 Longitude: -90.2710343,NULL,Credit One,CreditOne-CC-2340,,1,undefined,,NULL
+5248,2021-05-06,62.00,Supermercado,,Latitude: 38.6419414 Longitude: -90.2607267,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5247,2021-05-06,115.00,Otros Gastos,"Renta hotel st Lois ",Latitude: 38.6856385 Longitude: -90.2188442,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5246,2021-05-06,200.00,Transferencia,,Latitude: 38.733812 Longitude: -90.3550779,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+5245,2021-05-06,350.00,Otros Gastos,Renta Carro St Lois,Latitude: 38.7340545 Longitude: -90.3548442,1620331285188.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5244,2021-05-05,45.00,Transferencia,,Latitude: 33.4917877 Longitude: -112.0254756,NULL,Wells Fargo,WF-checking-1189106519,,1,Credit One,CreditOne-CC-2340,NULL
+5243,2021-05-01,25.89,Otros Gastos,Juego Dragon Ball,Latitude: 33.4917525 Longitude: -112.02540139999999,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5242,2021-05-01,18.99,Otros Gastos,"Car wash o lavado de carro ",,1619911366889.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5241,2021-05-01,150.00,Gastos para Madres,Paola,Latitude: 33.4917923 Longitude: -112.02540619999999,1619855748902.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5240,2021-04-30,-1750.00,Otros Gastos,"Ingresos ",,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5239,2021-04-30,600.00,Transferencia,,,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+5238,2021-04-30,1304.00,Renta,,Latitude: 33.491776 Longitude: -112.0253918,1619769768112.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5237,2021-04-29,168.77,Supermercado,Hoover o Vacum o Aspiradora,"Latitude: 33.4790092 Longitude: -112.0013086
+compraste garantía por 3 años para reparaciones",1619737750649.jpg,Credit One,CreditOne-CC-2340,,1,undefined,,NULL
+5236,2021-04-28,57.31,Supermercado,,Latitude: 33.4917947 Longitude: -112.0254764,1619671538398.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+5235,2021-04-28,90.00,Transferencia,,Latitude: 33.4918278 Longitude: -112.0254776,1619659553514.jpg,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+5234,2021-04-28,14.42,Restaurantes,"Burger King ",Latitude: 33.4951403 Longitude: -112.0290525,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5233,2021-04-27,-125.00,Otros Gastos,,Latitude: 33.4918127 Longitude: -112.0254747,NULL,Wells Fargo,WF-TD-8167,,1,undefined,,NULL
+5231,2021-04-26,90.00,Otros Gastos,Prestamo Avant,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5230,2021-04-26,343.00,Otros Gastos,Pago Carro,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5229,2021-04-26,14.00,Restaurantes,Subway,Latitude: 33.491771899999996 Longitude: -112.02539879999999,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5228,2021-04-26,109.69,Otros Gastos,Oil Change o Cambio Aceite,"Latitude: 33.4917705 Longitude: -112.025375
+
+Esta localizado cerca de la Thomas. Se llama Jiffy Lube",NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5227,2021-04-26,35.00,Restaurantes,"Donas para el trabajo ",Latitude: 33.4817747 Longitude: -112.0120783,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5226,2021-04-25,440.00,Otros Gastos,Sofa y Laundry,Latitude: 33.4918109 Longitude: -112.0253797,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5225,2021-04-25,27.11,Otros Gastos,"Gasolina ",Latitude: 33.4946652 Longitude: -112.0181458,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5224,2021-04-24,300.00,Transferencia,,Latitude: 33.4918237 Longitude: -112.0253625,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+5223,2021-04-24,38.00,Restaurantes,,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5222,2021-04-24,100.00,Otros Gastos,ngrok,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5221,2021-04-24,20.00,Otros Gastos,"Saque dinero para laundry ",Latitude: 33.495428 Longitude: -111.995688,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5220,2021-04-24,10.00,Restaurantes,"Volví porque había perdido la billetera ",Latitude: 33.495447 Longitude: -111.9956928,NULL,undefined,,,0,undefined,,NULL
+5219,2021-04-24,34.87,Restaurantes,"Cold beer and cheese burger ",Latitude: 33.4953868 Longitude: -111.9956807,1619299014248.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5218,2021-04-24,80.00,Otros Gastos,Renta,Latitude: 33.4823424 Longitude: -112.0305152,1619254532297.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5217,2021-04-23,7.00,Supermercado,"Dentek limpia dientes ",Latitude: 33.4792611 Longitude: -112.000995,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5216,2021-04-23,7.43,Supermercado,"Listerine  ",Latitude: 33.4793497 Longitude: -112.0010355,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+5215,2021-04-23,21.24,Supermercado,Limpia Bocas,"Latitude: 33.4823424 Longitude: -112.0305152
+se compraron en amazon. son los palitos de limpiar los dientes",NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5214,2021-04-23,15.00,Restaurantes,Subway,Latitude: 33.4823424 Longitude: -112.0305152,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5213,2021-04-23,11.00,Gastos para Madres,Paola,Latitude: 33.4918176 Longitude: -112.0254654,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5212,2021-04-20,67.12,Supermercado,,Latitude: 33.4918277 Longitude: -112.0254674,1618987003339.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+5211,2021-04-20,90.00,Transferencia,,Latitude: 33.4918585 Longitude: -112.0254807,1618975501914.jpg,Wells Fargo,WF-checking-1189106519,,1,Capital One,CapOne-TC-6231,NULL
+5210,2021-04-19,2.58,Supermercado,"Agua  ",Latitude: 33.4802397 Longitude: -112.0032086,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5209,2021-04-19,6.47,Otros Gastos,hielo,Latitude: 33.4945375 Longitude: -112.0180065,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5208,2021-04-19,21.80,Gastos para Madres,Paola,"Latitude: 33.4918335 Longitude: -112.0254788
+le mandé dinero para sushi",NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5207,2021-04-19,8.57,Restaurantes,Taco Bell ??,Latitude: 33.4951784 Longitude: -112.0285902,1618871857195.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5206,2021-04-19,8.00,Restaurantes,QT hotdog,Latitude: 33.4917974 Longitude: -112.0254625,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5205,2021-04-18,173.40,Otros Gastos,Viaje,"Latitude: 33.4823424 Longitude: -112.03379199999999
+
+viaje american airlines comprado por segunda vez",1618802895398.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5204,2021-04-18,300.00,Transferencia,,Latitude: 33.4823424 Longitude: -112.03379199999999,NULL,Wells Fargo,WF-checking-1189106519,IB0B9VPTBQ,1,Wells Fargo,WF-TC-38163,NULL
+5203,2021-04-18,6.00,Supermercado,,Latitude: 33.4918257 Longitude: -112.0255287,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+5202,2021-04-18,10.62,Restaurantes,Sybway,Latitude: 33.4800269 Longitude: -112.0017167,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5201,2021-04-18,0.00,Prueba,,Latitude: 33.4921728 Longitude: -112.02396159999999,NULL,undefined,,nkxnkj,1,undefined,,NULL
+5200,2021-04-17,30.00,Restaurantes,"Rest Peruano ",Latitude: 33.4949683 Longitude: -112.0384057,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5199,2021-04-17,4.32,Restaurantes,"Human Bean ","Latitude: 33.4950398 Longitude: -112.0386796
+Cafe granita de chocolate ",NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5198,2021-04-17,60.00,Gastos para Madres,Karina,Latitude: 33.4917675 Longitude: -112.02539530000001,1618699918939.jpg,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5197,2021-04-16,40.00,Otros Gastos,Zelle Hari,Latitude: 33.4921728 Longitude: -112.02396159999999,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5196,2021-04-15,0.00,Otros Gastos,Viaje Copa Refund Credit,Latitude: 33.4823424 Longitude: -112.03379199999999,1618551660196.jpg,undefined,,,0,undefined,,NULL
+5195,2021-04-15,-160.00,Otros Gastos,Cancelacion Viaje,Latitude: 33.4823424 Longitude: -112.03379199999999,1618551395677.jpg,Wells Fargo,WF-TC-38163,,0,undefined,,NULL
+5192,2021-04-15,15.73,Supermercado,,Latitude: 33.4918255 Longitude: -112.0254598,NULL,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+5191,2021-04-15,160.00,Otros Gastos,"Viaje ",Latitude: 33.4823424 Longitude: -112.03379199999999,1618536918616.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5190,2021-04-15,212.00,Otros Gastos,Viaje Paola,Latitude: 33.4823424 Longitude: -112.03379199999999,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5179,2021-04-13,10.00,Educacion,,Latitude: 33.4921728 Longitude: -112.02396159999999,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5178,2021-04-13,5.00,Otros Gastos,Fghv,Latitude: 33.491817 Longitude: -112.0254801,NULL,Wells Fargo,WF-checking-1189106519,,0,undefined,,NULL
+5177,2021-04-12,119.15,Otros Gastos,"Electricidad ",Latitude: 33.4918193 Longitude: -112.0254755,NULL,Wells Fargo,WF-checking-1189106519,,1,undefined,,NULL
+5176,2021-04-13,16.13,Restaurantes,"Mexicano La Rosa ",Latitude: 33.4659389 Longitude: -112.0323312,NULL,undefined,,,1,undefined,,NULL
+5175,2021-04-12,112.54,Educacion,LIBROS,"Latitude: 33.491807200000004 Longitude: -112.0253855
+
+Se compraron 3 hps libros",1618291513500.jpg,Wells Fargo,WF-TC-38163,18650000008065,1,undefined,,NULL
+5174,2021-04-12,200.00,Transferencia,WF TC,Latitude: 33.488896 Longitude: -112.02396159999999,NULL,Wells Fargo,WF-checking-1189106519,,1,Wells Fargo,WF-TC-38163,NULL
+5173,2021-04-12,100.00,Supermercado,Hoover,"Latitude: 33.4790072 Longitude: -112.0006866
+Relacionado a factura o item 5172",NULL,undefined,,,0,undefined,,NULL
+5172,2021-04-12,124.74,Supermercado,,Latitude: 33.4790121 Longitude: -112.0009434,1618285972428.jpg,Capital One,CapOne-TC-6231,,1,undefined,,NULL
+5171,2021-04-12,10.00,Otros Gastos,"Recarga Skype ",Latitude: 33.4792958 Longitude: -112.0001338,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5170,2021-04-11,90.00,Transferencia,,Latitude: 33.4823424 Longitude: -112.0305152,1618205904806.jpg,Wells Fargo,WF-checking-1189106519,L337W1A2,1,Capital One,CapOne-TC-6231,NULL
+5169,2021-04-11,0.00,Restaurantes,"Lugar para Conocer ","Latitude: 33.4868038 Longitude: -112.0834666
+Parque encanto ",NULL,undefined,,,0,undefined,,NULL
+5168,2021-04-11,0.00,Restaurantes,"Lugar conocer ","Latitude: 33.4868025 Longitude: -112.0834607
+Rest Mi Patio",NULL,undefined,,,0,undefined,,NULL
+5167,2021-04-11,17.06,Supermercado,Mekong,Latitude: 33.4128545 Longitude: -111.8760784,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5166,2021-04-11,1.29,Restaurantes,"K mart - jugo de naranja ",Latitude: 33.4945313 Longitude: -112.0178752,NULL,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5165,2021-04-11,30.00,Otros Gastos,"Corte de pelo ",Latitude: 33.4962288 Longitude: -112.0202945,1618166536880.jpg,Wells Fargo,WF-TC-38163,,1,undefined,,NULL
+5164,2021-04-11,10.00,Transferencia,,Latitude: 33.488896 Longitude: -112.02396159999999,NULL,Wells Fargo,WF-checking-1189106519,,1,Bank of America,BofA-TC-6930,NULL
+5163,2021-04-11,4.00,Supermercado,"cebolla ",Latitude: 33.488896 Longitude: -112.02396159999999,NULL,Milestone,Milestone-TC-6585,,1,undefined,,NULL
+5162,2021-04-12,35.00,Transferencia,,Latitude: 33.488896 Longitude: -112.02396159999999,NULL,Wells Fargo,WF-checking-1189106519,,1,Bank of America,BofA-TC-6930,NULL
+5147,2021-04-09,2.00,Supermercado,"Ensa para corregir estomago ",,NULL,undefined,,,0,NULL,NULL,NULL
+5146,2021-04-08,8.00,Restaurantes,cold stone,a la par de panera bread donde esta el best buy,NULL,undefined,,,0,NULL,NULL,NULL
+5145,2021-04-07,33.00,Gastos para Madres,Karina,"Latitude: 33.485619199999995 Longitude: -112.0305152
+
+Pase dinero a Karina por el monto de 25USD con una fee de 8USD",1617813408794.jpg,Wells Fargo,WF-checking-1189106519,,1,NULL,NULL,NULL
+5144,2021-03-29,68.00,Gastos para Madres,Karina,"Se mandaron 60 usd, pague 68 por la fee de 8 usd que cobra el banco",NULL,Wells Fargo,WF-checking-1189106519,,1,NULL,NULL,NULL
+5143,2021-04-06,40.00,Transferencia,"Milestone ","Pago mínimo Milestone ",1617742135089.jpg,Wells Fargo,WF-checking-1189106519,,1,NULL,NULL,NULL
+5142,2021-04-06,90.00,Transferencia,"Capital One ","Pago de tarjeta ",1617739805807.jpg,Wells Fargo,WF-checking-1189106519,,1,NULL,NULL,NULL
+5141,2021-04-05,40.00,Gastos para Madres,Paola,Latitude: 33.491788899999996 Longitude: -112.025386,1617650585544.jpg,Wells Fargo,WF-checking-1189106519,,1,NULL,NULL,NULL
+5140,2021-04-04,81.06,Supermercado,,,1617599448795.jpg,Capital One,CapOne-TC-6231,,1,NULL,NULL,NULL
+5139,2021-04-03,241.00,Educacion,,Latitude: 33.485619199999995 Longitude: -112.0305152,1617518238473.jpg,Wells Fargo,WF-checking-1189106519,,1,NULL,NULL,NULL
+5138,2021-04-03,400.00,Transferencia,pago Aspire,Latitude: 33.4917991 Longitude: -112.025402,NULL,Wells Fargo,WF-checking-1189106519,,1,NULL,NULL,NULL
+5137,2021-04-03,23.00,Restaurantes,rest Mexicano,me como 2 enchiladas,1617493679289.jpg,Wells Fargo,WF-TC-38163,,1,NULL,NULL,NULL
+5136,2021-04-03,325.00,Otros Gastos,Vuelo a Missouri,"Latitude: 33.4918449 Longitude: -112.02538539999999
+
+",1617478165087.jpg,Wells Fargo,WF-checking-1189106519,,1,NULL,NULL,NULL
+5135,2021-04-03,90.00,Otros Gastos,renovacion pag wb,"Latitude: 33.485619199999995 Longitude: -112.0305152
+
+pague 2 veces por error la renovacion del hosting, y 1 vez normal la del domain ",NULL,Wells Fargo,WF-TC-38163,,1,NULL,NULL,NULL
+5134,2021-04-03,40.00,Transferencia,Pago Credit One,,NULL,Wells Fargo,WF-checking-1189106519,,1,NULL,NULL,NULL
+5133,2021-04-02,115.00,Otros Gastos,CARGADOR LAPTOP,"Latitude: 33.485619199999995 Longitude: -112.0305152
+
+Lo compraste en NewEgg.com
+El num de confirmacion es 496545212
+mira la foto",1617425208033.jpg,Milestone,Milestone-TC-6585,496545212,1,NULL,NULL,NULL
+5132,2021-04-02,60.00,Transferencia,pago a Milestone,Latitude: 33.4917727 Longitude: -112.02539619999999,1617423871429.jpg,Wells Fargo,WF-checking-1189106519,,1,NULL,NULL,NULL
+5131,2021-03-31,40.00,Gastos para Madres,Paola,Latitude: 33.4917793 Longitude: -112.0253879,1617400165087.jpg,undefined,,,1,NULL,NULL,NULL
+5130,2021-04-02,515.00,Otros Gastos,renta,country club Veranda. pago último de febrero,1617383394823.jpg,undefined,,,1,NULL,NULL,NULL
+5129,2021-04-02,250.00,Otros Gastos,Educación,pago 250 educación,1617383328343.jpg,Wells Fargo,WF-checking-1189106519,,1,NULL,NULL,NULL
+4146,2021-03-12,1500.00,Gastos Taxi,Lyft,,1615597209552.jpg,Aspire,Aspire-TC-8645,,1,NULL,NULL,NULL
+4145,2021-03-09,61.00,Supermercado,,,1615342020564.jpg,undefined,,,1,NULL,NULL,NULL
+4144,2021-03-06,71.00,Gastos para Madres,Karina,Le mande 65 usd pero con el fee de xoom me sale en 71,1615099730343.jpg,Wells Fargo,WF-checking-1189106519,XQK79C7Z,1,NULL,NULL,NULL
+4143,2021-03-06,6.50,Otros Gastos,fedex,Latitude: 33.3871857 Longitude: -111.8567932,NULL,undefined,,,1,NULL,NULL,NULL
+4142,2021-03-03,40.00,Otros Gastos,"shorts ?? y camiseta ",Latitude: 33.3805905 Longitude: -111.8366478,NULL,Capital One,CapOne-TC-6231,,1,NULL,NULL,NULL
+4141,2021-03-02,58.00,Otros Gastos,electricidad,,1614742327639.jpg,Aspire,Aspire-TC-8645,,1,NULL,NULL,NULL
+4140,2021-03-02,60.84,Supermercado,,Latitude: 33.3805898 Longitude: -111.9632032,1614739278418.jpg,Capital One,CapOne-TC-6231,,1,NULL,NULL,NULL
+4139,2021-03-02,100.00,Otros Gastos,ropa,"Latitude: 33.3805898 Longitude: -111.9632032
+Tommy Hilfiger",NULL,undefined,,,1,NULL,NULL,NULL
+4138,2021-03-01,0.00,Otros Gastos,EAD,,1614647793904.jpg,undefined,,,0,NULL,NULL,NULL
+4137,2021-02-28,53.42,Otros Gastos,pintura para apartamento,"Latitude: 33.4309391 Longitude: -111.8671955
+se compró pinturas,rollizo,y papel de pintura",1614556077043.jpg,undefined,,,1,NULL,NULL,NULL
+4136,2021-02-27,10.00,Supermercado,"Frijoles ","Latitude: 33.4675119 Longitude: -112.029608
+Mi tienda Latina",NULL,undefined,,,1,NULL,NULL,NULL
+4135,2021-02-23,20.00,Otros Gastos,Gasolina,,NULL,Wells Fargo,WF-TD-8167,,1,NULL,NULL,NULL
+4134,2021-02-22,30.98,Supermercado,,,1614048374869.jpg,Capital One,CapOne-TC-6231,,1,NULL,NULL,NULL
+4133,2021-02-22,24.00,Restaurantes,tsing tao comida China,compre comida como para 2 días. no tuve tiempo de cocinar,NULL,Wells Fargo,WF-TD-8167,,1,NULL,NULL,NULL
+4132,2021-02-21,72.98,Supermercado,,"Detergente
+Listerine.
+Jabón de Lavar Platos
+Hand Sanitizer
+tijeras
+",1613937722351.jpg,Capital One,CapOne-TC-6231,,1,NULL,NULL,NULL
+4131,2021-02-19,80.00,Gastos para Madres,Paola,Latitude: 33.441522 Longitude: -111.8394763,1613784175855.jpg,undefined,,,1,NULL,NULL,NULL
+4130,2021-02-17,15.00,Restaurantes,,China bhffer,1613614417788.jpg,undefined,,,1,NULL,NULL,NULL
+4129,2021-02-17,20.00,Gastos para Madres,Paola,"Se envió con zelle para medicina de niño ",NULL,Wells Fargo,WF-checking-1189106519,,1,NULL,NULL,NULL
+4128,2021-02-15,13.00,Restaurantes,"Pizza Hut wings ",Latitude: 33.4517397 Longitude: -111.8200959,NULL,undefined,,,1,NULL,NULL,NULL
+4127,2021-01-10,100.00,Otros Gastos,Nicaragua Rum,Latitude: 33.579739 Longitude: -111.9277215,1610311104144.jpg,Wells Fargo,WF-TC-38163,,1,NULL,NULL,NULL
+4126,2021-01-03,0.00,Otros Gastos,"Masaje ",Latitude: 33.4232949 Longitude: -111.7732137,NULL,undefined,,,0,NULL,NULL,NULL
+4125,2020-12-31,0.00,Otros Gastos,Misa,Latitude: 33.4908203 Longitude: -112.2130179,NULL,undefined,,,0,NULL,NULL,NULL
+4124,2020-12-29,50.00,Restaurantes,Texas Grill,Latitude: 33.5239541 Longitude: -112.0471311,1609292142241.jpg,Wells Fargo,WF-TC-38163,,1,NULL,NULL,NULL
+4123,2020-12-27,0.00,Otros Gastos,Bar,Latitude: 33.3559197 Longitude: -111.7898135,NULL,undefined,,,0,NULL,NULL,NULL
+4122,2020-12-27,0.00,Otros Gastos,"Misa ","Latitude: 33.3274361 Longitude: -112.0063969
+Corpus Christi ",NULL,undefined,,,0,NULL,NULL,NULL
+4121,2020-12-27,96.57,Supermercado,,Latitude: 33.4324516 Longitude: -111.8656837,1609108366285.jpg,Wells Fargo,WF-TC-38163,,1,NULL,NULL,NULL
+4120,2020-12-27,3.38,Supermercado,"Tortilla  ",Latitude: 33.4325197 Longitude: -111.865603,NULL,undefined,,,0,NULL,NULL,NULL
+4119,2020-12-27,3.75,Supermercado,"Manzana  ",Latitude: 33.4325197 Longitude: -111.865603,NULL,undefined,,,0,NULL,NULL,NULL
+4118,2020-12-27,1.27,Supermercado,"tomate  ",Latitude: 33.4325197 Longitude: -111.865603,NULL,undefined,,,0,NULL,NULL,NULL
+4117,2020-12-27,6.00,Supermercado,"Jabón lavar manos  ",Latitude: 33.4325598 Longitude: -111.8655732,NULL,undefined,,,0,NULL,NULL,NULL
+4116,2020-12-27,6.94,Supermercado,Jugo Piña Colada,Latitude: 33.4325598 Longitude: -111.8655732,NULL,undefined,,,0,NULL,NULL,NULL
+4115,2020-12-27,1.45,Supermercado,"banano ",Latitude: 33.4325026 Longitude: -111.8656229,NULL,undefined,,,0,NULL,NULL,NULL
+4114,2020-12-27,1.34,Supermercado,"Leche chocolate ",Latitude: 33.4325026 Longitude: -111.8656229,NULL,undefined,,,0,NULL,NULL,NULL
+4113,2020-12-27,2.98,Supermercado,"Queso ",Latitude: 33.4325026 Longitude: -111.8656229,NULL,undefined,,,0,NULL,NULL,NULL
+4112,2020-12-27,3.42,Supermercado,"leche galón ","Latitude: 33.4324799 Longitude: -111.8656094
+Shamrock foods ",NULL,undefined,,,0,NULL,NULL,NULL
+4111,2020-12-27,12.97,Supermercado,"Razuradora ",Latitude: 33.4324799 Longitude: -111.8656094,NULL,undefined,,,0,NULL,NULL,NULL
+4110,2020-12-27,2.97,Supermercado,"Jabón lavar manos ",Latitude: 33.432531 Longitude: -111.8654805,NULL,undefined,,,0,NULL,NULL,NULL
+4109,2020-12-27,6.57,Supermercado,"Listerine ",Latitude: 33.432531 Longitude: -111.8654805,NULL,undefined,,,0,NULL,NULL,NULL
+4108,2020-12-27,2.96,Supermercado,Crema,Latitude: 33.432531 Longitude: -111.8654805,NULL,undefined,,,0,NULL,NULL,NULL
+4107,2020-12-27,3.47,Supermercado,Huevos 36ct,Latitude: 33.432132 Longitude: -111.8656079,NULL,undefined,,,0,NULL,NULL,NULL
+4106,2020-12-21,85.13,Supermercado,,,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+4105,2020-12-20,13.00,Otros Gastos,"Sandwich chino ","Mekong Supermercado ",NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+4104,2020-12-20,15.00,Supermercado,Supermercado chino,,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+4103,2020-12-14,42.60,Supermercado,,,1607998541242.jpg,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+4102,2020-12-13,8.00,Otros Gastos,"Restaurante ",,1607910990382.jpg,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+4101,2020-12-10,30.00,Transferencia,Pague Premier Bank,Latitude: 33.4299136 Longitude: -111.8437376,NULL,Wells Fargo,WF_checking-1269778096,W0212247535,1,NULL,NULL,NULL
+4100,2020-12-07,19.00,Otros Gastos,"Gasolina ",Latitude: 33.4323491 Longitude: -111.865263,NULL,Wells Fargo,WF_checking-1269778096,,1,NULL,NULL,NULL
+4099,2020-12-07,17.31,Otros Gastos,"Lentes Case ","Latitude: 33.4324304 Longitude: -111.865231
+Caaw de lentes y limpiador ",1607377406213.jpg,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+4098,2020-12-07,15.96,Supermercado,,Latitude: 33.4322134 Longitude: -111.8646014,1607377323938.jpg,Milestone,CapOne-TC-6231,,1,NULL,NULL,NULL
+4097,2020-12-06,28.69,Supermercado,,Latitude: 33.3805942 Longitude: -111.8367752,1607292174070.jpg,Milestone,CapOne-TC-6231,,1,NULL,NULL,NULL
+4096,2020-12-04,56.13,Supermercado,,Latitude: 33.432256 Longitude: -111.8653611,1607111109677.jpg,Wells Fargo,WF_checking-1269778096,,1,NULL,NULL,NULL
+4095,2020-12-01,83.92,Supermercado,,Latitude: 33.4299136 Longitude: -111.8437376,NULL,Milestone,CapOne-TC-6231,,1,NULL,NULL,NULL
+4094,2020-12-01,10.00,Otros Gastos,cable de carro para el telefono - emergencia,Latitude: 33.4299136 Longitude: -111.8437376,NULL,undefined,undefined,,1,NULL,NULL,NULL
+4093,2020-11-30,55.00,Otros Gastos,"Barbero ",Latitude: 33.4941808 Longitude: -111.9777922,NULL,Wells Fargo,WF-TD-2398,,1,NULL,NULL,NULL
+4092,2020-11-27,3.00,Otros Gastos,7/11,"Latitude: 33.4181961 Longitude: -111.9095382
+",NULL,Wells Fargo,WF-TD-2398,,1,NULL,NULL,NULL
+4091,2020-11-26,0.00,Otros Gastos,Insurance,Latitude: 33.4415311 Longitude: -111.8394704,1606438301173.jpg,undefined,undefined,,0,NULL,NULL,NULL
+4090,2020-11-26,0.00,Otros Gastos,Registration,Latitude: 33.4415124 Longitude: -111.8394727,1606438232002.jpg,undefined,undefined,,0,NULL,NULL,NULL
+4089,2020-11-25,0.00,Otros Gastos,Foto,Latitude: 33.4415275 Longitude: -111.8394561,1606367752241.jpg,undefined,undefined,,0,NULL,NULL,NULL
+4088,2020-11-25,8.20,Otros Gastos,"Restaurante ",Latitude: 33.4656617 Longitude: -112.0401056,1606347477550.jpg,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+4087,2020-11-25,11.00,Otros Gastos,"Restaurante ","Latitude: 33.4656617 Longitude: -112.0401056
+Tacos Chiwas",NULL,undefined,undefined,,1,NULL,NULL,NULL
+4086,2020-11-25,52.00,Otros Gastos,Teléfono para Lyft,"Latitude: 33.4318206 Longitude: -111.9043393
+Activacion de chip ",NULL,undefined,undefined,,1,NULL,NULL,NULL
+4085,2020-11-23,62.00,Supermercado,,Latitude: 33.4415234 Longitude: -111.8394483,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+4084,2020-11-22,7.10,Otros Gastos,"Chuchería ",Latitude: 33.4416115 Longitude: -111.8394049,NULL,Bank of America,BofA-TC-6930,,1,NULL,NULL,NULL
+4083,2020-11-21,5.80,Otros Gastos,chucherias,Latitude: 33.436467199999996 Longitude: -111.84046079999999,NULL,Bank of America,BofA-TC-6930,,1,NULL,NULL,NULL
+3098,2020-11-20,0.00,Otros Gastos,Insurance,,1605914975269.pdf,undefined,undefined,,0,NULL,NULL,NULL
+3097,2020-11-20,0.00,Otros Gastos,"Licencia ",,1605902256620.jpg,undefined,undefined,,0,NULL,NULL,NULL
+3096,2020-11-19,15.00,Gastos Taxi,Lyft,,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3095,2020-11-19,15.00,Otros Gastos,"Restaurante ",,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3094,2020-11-17,12.00,Otros Gastos,"Subway ",,NULL,undefined,undefined,,1,NULL,NULL,NULL
+3093,2020-11-16,72.00,Otros Gastos,Filmshare - grabar videos,se compro para crear videos de Udemy,NULL,Aspire,Aspire-TC-8645,,1,NULL,NULL,NULL
+3092,2020-11-15,55.00,Supermercado,,,NULL,undefined,undefined,,1,NULL,NULL,NULL
+3091,2020-11-15,60.00,Otros Gastos,renta camioneta,,NULL,undefined,undefined,,1,NULL,NULL,NULL
+3090,2020-11-13,5.00,Otros Gastos,"Cena ",,NULL,undefined,undefined,,1,NULL,NULL,NULL
+3089,2020-11-14,150.00,Otros Gastos,"Bicicleta y vagancia ",,NULL,Wells Fargo,BofA_checking-457041240605,,1,NULL,NULL,NULL
+3088,2020-11-13,35.00,Transferencia,BofA CC,,NULL,Bank of America,BofA_checking-457041240605,0329371205,1,NULL,NULL,NULL
+3087,2020-11-13,30.00,Transferencia,Credit One CC,,NULL,Wells Fargo,WF_checking-1269778096,13NOV2020-0000901535,1,NULL,NULL,NULL
+3086,2020-11-13,60.94,Otros Gastos,Pago Luz,,NULL,Aspire,Aspire-TC-8645,485925789,1,NULL,NULL,NULL
+3085,2020-11-13,28.00,Transferencia,Cap One CC,,NULL,Wells Fargo,WF_checking-1269778096,,1,NULL,NULL,NULL
+3084,2020-11-13,25.00,Transferencia,WF CC,,NULL,Wells Fargo,WF_checking-1269778096,,1,NULL,NULL,NULL
+3083,2020-11-12,0.00,Otros Gastos,"No es Gasto ",,1605240688068.jpg,undefined,undefined,,0,NULL,NULL,NULL
+3082,2020-11-12,16.00,Gastos Taxi,Lyft,Latitude: 33.4572659 Longitude: -111.9698225,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3081,2020-11-12,5.00,Otros Gastos,"Chuchería ",Latitude: 33.4415191 Longitude: -111.8394526,NULL,Aspire,Aspire-TC-8645,,1,NULL,NULL,NULL
+3080,2020-11-09,8.50,Gastos Taxi,Lyft,Latitude: 33.4329502 Longitude: -111.8652825,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3079,2020-11-09,57.45,Supermercado,,Latitude: 33.4327424 Longitude: -111.8652408,1604972886445.jpg,Milestone,CapOne-TC-6231,,1,NULL,NULL,NULL
+3078,2020-11-09,7.00,Gastos Taxi,Lyft,Latitude: 33.4415658 Longitude: -111.839376,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3077,2020-11-08,11.92,Gastos Taxi,Lyft,Latitude: 33.4415144 Longitude: -111.8394655,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3076,2020-11-08,9.00,Gastos Taxi,Lyft,Latitude: 33.4425978 Longitude: -111.8397562,1604891280547.jpg,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3075,2020-11-07,0.00,Otros Gastos,"Licencia ",Latitude: 33.441534 Longitude: -111.8394665,1604809411981.jpg,undefined,undefined,,0,NULL,NULL,NULL
+3074,2020-11-07,16.40,Otros Gastos,"Restaurante ","Latitude: 33.4415235 Longitude: -111.8394604
+Pizza Panera Bread ",NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3073,2020-11-05,12.00,Otros Gastos,Udemy Python Flask,Latitude: 33.4331904 Longitude: -111.8437376,NULL,Aspire,Aspire-TC-8645,,1,NULL,NULL,NULL
+3072,2020-11-05,13.00,Gastos Taxi,Lyft,"Latitude: 33.4415121 Longitude: -111.8394603
+Gaston de ir a traer los diplomas. Taxi back and forth ",NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3071,2020-11-04,6.00,Otros Gastos,"Chuchería ","Latitude: 33.4415481 Longitude: -111.8395066
+Doritos y Coca Cola ",NULL,Wells Fargo,WF-TD-2398,,1,NULL,NULL,NULL
+3070,2020-11-04,20.00,Otros Gastos,Lavar Ropa,"Latitude: 33.4415481 Longitude: -111.8395066
+Se sacó plata para lavar ropa",NULL,Wells Fargo,WF_checking-1269778096,,1,NULL,NULL,NULL
+3069,2020-11-04,10.00,Gastos Taxi,Lyft,Latitude: 33.4341963 Longitude: -111.8656283,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3068,2020-11-04,11.82,Otros Gastos,"Restaurante ",Latitude: 33.4338345 Longitude: -111.8677328,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3067,2020-11-04,7.00,Gastos Taxi,Lyft,Latitude: 33.4339467 Longitude: -111.8678252,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3066,2020-11-04,8.00,Gastos Taxi,Lyft,Latitude: 33.4339467 Longitude: -111.8678252,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3065,2020-11-04,17.03,Otros Gastos,"Restaurante ","Latitude: 33.4339441 Longitude: -111.8678338
+Rubios Taco trío shrimp ",1604529944646.jpg,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3064,2020-11-03,33.00,Transferencia,Pago TC BofA,Latitude: 33.4415533 Longitude: -111.8394908,NULL,Bank of America,BofA_checking-457041240605,,1,NULL,NULL,NULL
+3063,2020-11-02,10.00,Gastos para Madres,Paola,"Latitude: 33.4331904 Longitude: -111.8437376
+No se los cobres. Son los 9 USD para sacar plata del cajero",NULL,Bank of America,BofA_checking-457041240605,8ec0e8cab,1,NULL,NULL,NULL
+3062,2020-11-02,112.00,Gastos para Madres,Paola,"Latitude: 33.4415426 Longitude: -111.8394954
+Fue enviado con zelle. No hay num de confirmación ",NULL,Bank of America,BofA_checking-457041240605,,1,NULL,NULL,NULL
+3061,2020-11-02,68.00,Gastos para Madres,Karina,Latitude: 33.4414939 Longitude: -111.83935930000001,NULL,Wells Fargo,WF_checking-1269778096,wb626632538,1,NULL,NULL,NULL
+3060,2020-11-01,7.00,Gastos Taxi,Lyft,Latitude: 33.4322548 Longitude: -111.8654528,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3059,2020-11-01,83.27,Supermercado,,Latitude: 33.4338724 Longitude: -111.8677538,1604277559122.jpg,Milestone,CapOne-TC-6231,,1,NULL,NULL,NULL
+3058,2020-11-01,15.54,Otros Gastos,"Subway ",Latitude: 33.4338808 Longitude: -111.8677361,NULL,undefined,undefined,,1,NULL,NULL,NULL
+3057,2020-11-01,3.50,Otros Gastos,"Gun cookie ",Latitude: 33.4528451 Longitude: -111.7890906,NULL,undefined,undefined,,1,NULL,NULL,NULL
+3056,2020-11-01,3.50,Otros Gastos,Galleta gym,Latitude: 33.4415569 Longitude: -111.8394515,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3055,2020-11-01,10.54,Gastos Taxi,Lyft,Latitude: 33.441567 Longitude: -111.8394535,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3054,2020-10-28,20.41,Otros Gastos,"Restaurante ",Latitude: 33.4233785 Longitude: -111.8240889,1603934692833.jpg,Aspire,Aspire-TC-8645,,1,NULL,NULL,NULL
+3053,2020-10-28,6.50,Gastos Taxi,Lyft,Latitude: 33.4415615 Longitude: -111.8394556,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3052,2020-10-27,11.65,Gastos Taxi,Lyft,Latitude: 33.4414994 Longitude: -111.8394878,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3051,2020-10-27,24.00,Otros Gastos,"Hot dogs comida y dinero para lavar ropa ",Latitude: 33.4414467 Longitude: -111.8394505,NULL,Wells Fargo,WF-TD-2398,,1,NULL,NULL,NULL
+3050,2020-10-25,6.31,Gastos Taxi,Lyft,"Wmt a la casa ",NULL,undefined,undefined,,0,NULL,NULL,NULL
+3049,2020-10-25,46.96,Supermercado,,,1603664011517.jpg,Milestone,CapOne-TC-6231,,1,NULL,NULL,NULL
+3048,2020-10-25,5.98,Supermercado,Agua case 32,,NULL,undefined,undefined,,0,NULL,NULL,NULL
+3047,2020-10-25,2.98,Supermercado,"Tortilla  ",,NULL,undefined,undefined,,0,NULL,NULL,NULL
+3046,2020-10-25,4.73,Supermercado,"Manzana ","Bolsa manzana gala ",NULL,undefined,undefined,,0,NULL,NULL,NULL
+3045,2020-10-25,2.48,Supermercado,Arroz,"Bolsa grande great value long grain ",NULL,undefined,undefined,,0,NULL,NULL,NULL
+3044,2020-10-25,6.68,Supermercado,Frijoles,"Son 2 unidades ",NULL,undefined,undefined,,0,NULL,NULL,NULL
+3043,2020-10-25,2.96,Supermercado,"Spaghetti sauce ","Son 2 unidades ",NULL,undefined,undefined,,0,NULL,NULL,NULL
+3042,2020-10-25,4.96,Supermercado,"Lechuga tarro ","Tarro grande ",NULL,undefined,undefined,,0,NULL,NULL,NULL
+3041,2020-10-25,2.36,Supermercado,"Tallarines ","Son dos tallarines ",NULL,undefined,undefined,,0,NULL,NULL,NULL
+3040,2020-10-25,3.48,Supermercado,"Queso parmesano  ",,NULL,undefined,undefined,,0,NULL,NULL,NULL
+3039,2020-10-25,3.48,Supermercado,"Queso parmesano ","Son 2 tarros ",NULL,undefined,undefined,,0,NULL,NULL,NULL
+3038,2020-10-25,1.15,Supermercado,"tomate ",,NULL,undefined,undefined,,0,NULL,NULL,NULL
+3037,2020-10-25,3.00,Supermercado,Aguacate,,NULL,undefined,undefined,,0,NULL,NULL,NULL
+3036,2020-10-25,2.72,Supermercado,"banano ",,NULL,undefined,undefined,,0,NULL,NULL,NULL
+3035,2020-10-25,10.00,Gastos Taxi,Lyft,Ir a Wmt,NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3034,2020-10-25,3.00,Otros Gastos,Gym,"Galleta ",NULL,undefined,undefined,,1,NULL,NULL,NULL
+3033,2020-10-25,50.00,Otros Gastos,Gym,"Membresía y mensualidad ",NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3032,2020-10-25,13.00,Gastos para Madres,Paola,"13 usd pasa comida ",NULL,Bank of America,BofA_checking-457041240605,,1,NULL,NULL,NULL
+3031,2020-10-25,7.00,Gastos Taxi,Lyft,"Gym ida ",NULL,Wells Fargo,WF-TC-8163,,1,NULL,NULL,NULL
+3030,2020-10-23,0.00,Gastos para Madres,Paola,"Probando. No es de verdad ",NULL,Bank of America,BofA_checking-457041240605,"Abecedario ",0,NULL,NULL,NULL
+3029,2020-10-23,50.00,Otros Gastos,Pago TC,"No es gasto realmente. Es pago de tc ",1603504961760.jpg,undefined,undefined,,1,NULL,NULL,NULL
+3027,2020-10-22,0.12,Supermercado,,,NULL,Bank of America,CapOne-TC-6231,,1,NULL,NULL,NULL
+3026,2020-10-22,0.13,Otros Gastos,,,NULL,undefined,undefined,,0,NULL,NULL,NULL
+3025,2020-10-22,0.00,Otros Gastos,,,NULL,undefined,undefined,,1,NULL,NULL,NULL
+3024,2020-10-22,0.15,Supermercado,avion,,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+3023,2020-10-22,0.11,Supermercado,alarma,,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+3022,2020-08-08,0.00,Otros Gastos,cualquier ejemplo,,1596942094748.jpg,undefined,undefined,,NULL,NULL,NULL,NULL
+1027,2020-05-17,2.03,Supermercado,impuesto o tax,tax de factura de walmart,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1026,2020-05-17,1.05,Supermercado,banano,,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1025,2020-05-17,89.82,Supermercado,"Final Factura Walmart ","Factura Walmart ",1589757596162.jpg,undefined,undefined,,NULL,NULL,NULL,NULL
+1024,2020-05-17,11.07,Gastos Taxi,Lyft,,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1023,2020-05-17,5.50,Supermercado,Vasos,"2 vasos de plástico ",NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1022,2020-05-17,30.00,Supermercado,"Cart wheel ","Cart wheel que me ayude a llevar cosas ",NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1021,2020-05-17,4.00,Supermercado,"Platos de estyrophone ",,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1020,2020-05-17,9.98,Supermercado,paper towel,Bounty 6,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1019,2020-05-17,1.34,Supermercado,Leche chocolate,"Chuchería. Leche choc pequeña ",NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1018,2020-05-17,2.42,Supermercado,leche,,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1017,2020-05-17,10.50,Supermercado,"Agua ",2 case de agua,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1016,2020-05-17,4.75,Supermercado,jamon,"Jamón en descuento - foto ",1589755782599.jpg,undefined,undefined,,NULL,NULL,NULL,NULL
+1015,2020-05-17,2.84,Supermercado,"Chorizo ",Ball Park Franks paq de 8,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1014,2020-05-17,3.52,Supermercado,Atun,"4 unidades ",NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1013,2020-05-17,1.66,Supermercado,"Pasta Alfredo sauce ",,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1012,2020-05-17,2.50,Supermercado,pan,,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1011,2020-05-17,2.52,Supermercado,"Tortilla ",,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1010,2020-05-17,1.06,Supermercado,tomate,,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1009,2020-05-17,2.15,Supermercado,cebolla,,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1008,2020-05-17,2.00,Supermercado,chiltoma,,NULL,undefined,undefined,,NULL,NULL,NULL,NULL
+1007,2020-05-17,10.54,Gastos Taxi,Lyft,"Ida a Walmart ",NULL,undefined,undefined,,NULL,NULL,NULL,NULL
