@@ -157,31 +157,44 @@
 
 <div class="container">
 	<div class="row">
-				<div class="col-md-2"></div>
+
+				<div class="col-md-1"></div>
 	
-				<div class="col-md-8">
-					<div class="col-md-12 parrafo form-control">
-						<%var listatop3= last3.recordset%>
-						<%listatop3.forEach(function(el){%>   
-
-						<ul>
-						     <li style= "font-size: 1.8em;">						     	
-
-						     	Id: <a href="/show/<%=el.id%>">	<%=el.id%></a>|Fecha: 	<%=el.Fecha.toISOString().substring(0, 10)%>
-						     	<br>						     	
-
-						     	Cantidad: $<%=el.MontoGasto%> | Cat Gasto: <%=el.cat_gasto%> |
-						     	Cat Especifica: <%=el.cat_especifica%> | Descripcion: <%=el.descripcion%> 
-						     	<br>
-						     	Banco Origen: <%=el.bancoOrigen%> <br>
-						     <a href="/show/<%=el.id%>"> <%=el.imagen%></a>
-						 	</li>
-						</ul>            
-						<% }) %>
+				<div class="col-md-10">
+					<div class="col-md-12 parrafo form-control" style="height: 20vh;">
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th>Id</th>
+									<th>Fecha</th>
+									<th>Cantidad</th>
+									<th>Cat Gasto</th>
+									<th>Cat Especifica</th>
+									<th>Descripcion</th>
+									<th>Banco Origen</th>
+									<th>Imagen</th>
+								</tr>
+							</thead>
+							<tbody>
+								<%var listatop3= last3.recordset%>
+								<%listatop3.forEach(function(el){%>   
+								<tr>
+									<td><a href="/show/<%=el.id%>"><%=el.id%></a></td>
+									<td><%=el.Fecha.toISOString().substring(0, 10)%></td>
+									<td>$<%=el.MontoGasto%></td>
+									<td><%=el.cat_gasto%></td>
+									<td><%=el.cat_especifica%></td>
+									<td><%=el.descripcion%></td>
+									<td><%=el.bancoOrigen%></td>
+									<td><a href="/show/<%=el.id%>"><%=el.imagen%></a></td>
+								</tr>
+								<% }) %>
+							</tbody>
+						</table>
 					</div>
 
 				</div>
-				<div class="col-md-2"></div>
+				<div class="col-md-1"></div>
 
 	</div>
 
@@ -206,9 +219,9 @@ var opcionesSuper1 = []
 
 </script>
 
-<!-- <script
+<script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh3ItbtWFLqt4dKgNZ2Hwji0jii5q6skU&callback=init Map&libraries=&v=weekly"defer
-></script> -->
+></script>
 <script type="text/javascript" src = "/logica/logica1.js"></script>
 <!-- Logica 2: mira la logica de cambiar categoria de banco y cambia categoria especifica -->
 <script type="text/javascript" src = "/logica/logica2.js"></script> 

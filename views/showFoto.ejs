@@ -18,7 +18,8 @@
 													<%} else {%>
 
 															<%var extensionDelArchivo = el.imagen.split(".")[1]%>
-
+															<%console.log(extensionDelArchivo)%>
+															<%console.log(el.imagen)%>
 													<%}%>
 													<%if (['tiff','tif','jpg','jpeg','gif','png'].indexOf(extensionDelArchivo) > -1) {%>
 															<div class="col-md-12 parrafo1 form-control">
@@ -46,7 +47,9 @@
 																<a href="/editar/<%=el.id%>" class = "btn btn-secondary btn-sm active">Edita</a>
 															</div>
 															<div class="col-md-3 col-sm-4"> 		
-																	<a href="/borrar/<%=metoBorrar%>" class = "btn btn-secondary btn-sm active">Borrar</a>
+																	<form action="/borrar/<%=metoBorrar%>" method="POST" style="display:inline;">
+																		<button type="submit" class="btn btn-secondary btn-sm active">Borrar</button>
+																	</form>
 															</div>
 															<div class="col-md-3 col-sm-4"> 
 																	<a href="/uploads/<%=el.imagen%>" class = "btn btn-secondary btn-sm active" Download>Bajelo</a>

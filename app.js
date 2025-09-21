@@ -49,14 +49,15 @@ app.use(bodyParser.urlencoded({extended: true})); //para poder usar las variable
 
 var config = {
 
-	server:"DESKTOP-MEJA2OJ" /*"LAPTOP-2JKF563A\\BATMAN2012"*/,/*"DESKTOP-MEJA2OJ",*/
+	server: "192.168.1.129",//"WIN-3GIT7G6LQCJ\\SUPERMAN2025", //"DESKTOP-MEJA2OJ" /*"LAPTOP-2JKF563A\\BATMAN2012"*/,/*"DESKTOP-MEJA2OJ",*/
 	user: "sa",
 	password: "Modem56k",
 	database: "Situacion_Financiera",
 	port: 1433,
 	options: {
-		encrypt: false
-	}
+    encrypt: true, // Must be true to match "Mandatory" in SQL Server
+    trustServerCertificate: true // Allow self-signed certificates
+  }
 };
 
 const executeQuery = function (res, query) {
@@ -201,13 +202,14 @@ app.post("/filtroBase", function(req, res){
  // console.log(req.body) --> esto te sirve para ver lo que viene del formulario
  // console.log(queryBase) --> esto te sirve para ver lo que imprime el texto
 
-  var query = queryBase + `order by id desc`
+  var query = queryBase + `order by Fecha desc`
   //var query = `select * from tGastosFoto where cat_gasto = '${req.body.categoriaGasto1}'
     //            and cat_especifica = '${req.body.catEspecifica1}'`;
 
-  if(req.body.categoriaGasto1=='Gastos para Madres'){
-    var query = `select * from gastosHijos where nombre_madre = '${req.body.catEspecifica1}' order by id desc`
-  }
+  // ya no necesitas esto porque el trigger en sql ya mueve automaticamente la informacion de gastosHijos a tGastosFoto
+  // if(req.body.categoriaGasto1=='Gastos para Madres'){
+  //   var query = `select * from gastosHijos where nombre_madre = '${req.body.catEspecifica1}' order by id desc`
+  // }
 
 
   executeQuery1 (res, query);  
@@ -216,7 +218,8 @@ app.post("/filtroBase", function(req, res){
 
 app.post("/", upload.single('imagen'),function(req, res){
 
-            
+            console.log("este es el body que se envia")
+            console.log(req.body)            
             var factura = 0
 
             if(req.body.esFactura==1){
@@ -224,10 +227,14 @@ app.post("/", upload.single('imagen'),function(req, res){
             }
    
             if(req.file !== undefined){ //dado que se inserte un archivo
-        
+             //consoCOe.log(req.file.filename) //esto es el nombre del archivo
+
+              //si hay un archivo, entonces se inserta el nombre del archivo en la base de datos 
+
 
                   var query = `INSERT INTO tGastosFoto VALUES (
-                  cast(getdate() as date),${req.body.montoGastado},
+                    '${req.body.Fecha}',
+                  ${req.body.montoGastado},
                   '${req.body.categoriaGasto}',
                   '${req.body.catEspecifica}',
                   '${req.body.descripcion}',
@@ -238,16 +245,16 @@ app.post("/", upload.single('imagen'),function(req, res){
                   '${req.body.num_confirmacion}',`+factura+
                    `,
                    '${req.body.banco_destino}',
-                   '${req.body.cuenta_destino}'                   
-                   `+ 
-
-                  `)`;
+                   '${req.body.cuenta_destino}',
+                   cast(getdate() as date)                   
+                   `+ `)`;
                       
            
             } else {
                       var query = `INSERT INTO tGastosFoto (Fecha,MontoGasto,cat_gasto,cat_especifica,descripcion,
-                      bancoOrigen,cuentaOrigen,numConfirmacion,esFactura,bancoDestino,cuentaDestino) VALUES 
-                      ( cast(getdate() as date),${req.body.montoGastado},
+                      bancoOrigen,cuentaOrigen,numConfirmacion,esFactura,bancoDestino,cuentaDestino, FECHA_LOADED) VALUES (                      
+                       '${req.body.Fecha}',
+                       ${req.body.montoGastado},
                   '${req.body.categoriaGasto}',
                   '${req.body.catEspecifica}',
                   '${req.body.descripcion}',
@@ -256,7 +263,8 @@ app.post("/", upload.single('imagen'),function(req, res){
                   '${req.body.num_confirmacion}',`+ factura+
                    `,
                    '${req.body.banco_destino}',
-                   '${req.body.cuenta_destino}'                   
+                   '${req.body.cuenta_destino}',
+                    cast(getdate() as date)                   
                    `+ 
                   `)` ;
                     
@@ -280,11 +288,12 @@ app.post("/", upload.single('imagen'),function(req, res){
 
 
 
-app.get("/borrar/:id",function(req,res){
+app.post("/borrar/:id",function(req,res){
 
     if(isNaN(Number(req.params.id))){ //si es int, entonces se borra por id
       // si no es int, entoncs se borra por foto
-        var query1 = `delete from tSaldoBancos where id_origen in (select id from tGastosFoto where imagen = '${req.params.id}') \n delete from tGastosFoto where imagen = '${req.params.id}'`
+        var query1 = `delete from tSaldoBancos where id_origen in (select id from tGastosFoto where imagen = '${req.params.id}'); \n 
+        delete from tGastosFoto where imagen = '${req.params.id}';`
         fs.unlinkSync(`./public/uploads/${req.params.id}`)
     } else {
         //se borrar por id

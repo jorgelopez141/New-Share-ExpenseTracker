@@ -57,51 +57,161 @@
 		</div>
 </div>
 
+
 <div class="container">
 	<div class="row">
-				<div class="col-md-2"></div>
+				<div class="col-md-1"></div>
 	
-				<div class="col-md-8">
-					<div class="col-md-12 parrafo form-control">
-						<%if(elArraysito != undefined){%>
-
-
-								<%var listatop3= elArraysito.recordset%>
-								<%listatop3.forEach(function(el){%>   
-
-								<ul>
-								     <li>
-								     	<%if(el.cat_gasto != undefined){%>
-
-										     	<%var laFechita =  new Date(Date.parse(el.Fecha))%>
-										     	Id: <a href="/show/<%=el.id%>">	<%=el.id%></a>|Fecha: <%=el.Fecha%>
-										     	| Cantidad: $<%=el.MontoGasto%> | Cat Gasto: <%=el.cat_gasto%> |
-										     Cat Especifica: <%=el.cat_especifica%> | Descripcion: <%=el.descripcion%> |  
-										     <a href="/show/<%=el.id%>"> <%=el.imagen%></a>
-
-								     <%}else{%>
-								     		 <%var laFechita1 =  new Date(Date.parse(el.fecha))%>
-								     		 Id: <%=el.id%>|Fecha1: <%= el.fecha%> 
-										     	| Cantidad: $<%=el.monto%> |Descripcion: <%=el.descripcionGasto%> |  
-										     
-								     <%}%>
-
-								 	</li>
-								</ul>            
-								<% }) %>
-						<%}%>
+				<div class="col-md-10">
+					<div class="col-md-12 parrafo form-control" style="height: 20vh;">
+						<% if (elArraysito != undefined) { %>
+							<% var listatop3 = elArraysito.recordset %>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Id</th>
+										<th>Fecha</th>
+										<th>Cantidad</th>
+										<th>Cat Gasto</th>
+										<th>Cat Especifica</th>
+										<th>Descripcion</th>
+										<th>Imagen</th>
+										<th>Borrar</th>
+									</tr>
+								</thead>
+								<tbody>
+									<% listatop3.forEach(function(el) { %>
+										<tr>
+											<% 
+											const date = new Date(el.Fecha);
+											const formatted = date.toISOString().slice(0, 10);
+											const laFechita = isNaN(Date.parse(String(el.Fecha))) ? "Invalid Date" : formatted;
+											%>
+											<td><a href="/show/<%= el.id %>"><%= el.id %></a></td>
+											<td><%= laFechita %></td>
+											<td>$<%= el.MontoGasto %></td>
+											<td><%= el.cat_gasto %></td>
+											<td><%= el.cat_especifica %></td>
+											<td><%= el.descripcion %></td>
+											<td><a href="/show/<%= el.id %>"><%= el.imagen %></a></td>
+											
+											<td>
+												<form action="/borrar/<%= el.id %>" method="POST" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this?');">
+													<button type="submit" style="border:none; background:none; color:red; cursor:pointer;">X</button>
+												</form>
+											</td>
+										</tr>
+									<% }) %>
+								</tbody>
+							</table>
+						<% } %>
 
 
 					</div>
 
 				</div>
-				<div class="col-md-2"></div>
+				<div class="col-md-1"></div>
 
 	</div>
 
 	
 </div>
+<br>
+<br>
 
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+					
+						<div id="graph-container"></div>
+						<div id="date-picker-container">
+							<label for="start-date">Start Date:</label>
+							<input type="date" id="start-date" name="start-date">
+							<label for="end-date">End Date:</label>
+							<input type="date" id="end-date" name="end-date">
+							<button id="filter-button" class="btn btn-primary">Filter</button>
+						</div>
+
+						<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+						<script>
+							document.addEventListener("DOMContentLoaded", function () {
+								const rawData = <%- JSON.stringify(elArraysito ? elArraysito.recordset : []) %>;
+
+								function processData(data) {
+									const groupedData = data.reduce((acc, item) => {
+										const dateField = item.cat_gasto !== undefined ? 'Fecha' : 'fecha';
+										const amountField = item.cat_gasto !== undefined ? 'MontoGasto' : 'monto';
+										const date = new Date(item[dateField]);
+										const monthYear = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
+										acc[monthYear] = (acc[monthYear] || 0) + (item[amountField] || 0);
+										return acc;
+									}, {});
+
+									const months = Object.keys(groupedData).sort();
+									const values = months.map(month => groupedData[month]);
+
+									return { months, values };
+								}
+
+								function plotGraph(data) {
+									const { months, values } = processData(data);
+
+									const trace = {
+										x: values,
+										y: months,
+										type: 'bar',
+										orientation: 'h', // Set orientation to horizontal
+										marker: { color: 'blue' },
+										text: values.map(value => `$${value.toFixed(2)}`),
+										textposition: 'auto',
+										textfont: {
+											size: 10, // Make data labels larger
+										}
+									};
+
+									const layout = {
+										title: 'Monthly Expenses',
+										xaxis: { title: 'Total Amount ($)' },
+										yaxis: { 
+											title: 'Month',
+											tickfont: {
+												size: 6 // Adjust y-axis label size
+											}
+										},
+										barmode: 'group'
+									};
+
+									Plotly.newPlot('graph-container', [trace], layout);
+								}
+
+								function filterDataByDate(data, startDate, endDate) {
+									return data.filter(item => {
+										const dateField = item.cat_gasto !== undefined ? 'Fecha' : 'fecha';
+										const date = new Date(item[dateField]);
+										return (!startDate || date >= new Date(startDate)) && (!endDate || date <= new Date(endDate));
+									});
+								}
+
+								document.getElementById('filter-button').addEventListener('click', function () {
+									const startDate = document.getElementById('start-date').value;
+									const endDate = document.getElementById('end-date').value;
+									const filteredData = filterDataByDate(rawData, startDate, endDate);
+									plotGraph(filteredData);
+								});
+
+								plotGraph(rawData);
+							});
+						</script>
+
+		</div>
+		<div class="col-md-1"></div>
+
+	</div>
+
+	
+</div>
 
 
 </body>
