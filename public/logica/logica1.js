@@ -26,7 +26,7 @@ bancosAbilita.addEventListener("change", function(){
 /*definiendo variables a utilizar*/
 var opcionesMadre = ["Karina","Paola","Mama"]
 var opcionesTaxi = ["Lyft","Uber","Otro"]
-var opcionesSupermercado = opcionesSuper1
+var opcionesSupermercado = ['Leche','Queso']
 var listadoOpcionesCatEspecifica = document.querySelector("#browsers")
 
 /*Esto es para quitar las categorias y empezar de 0*/

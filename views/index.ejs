@@ -131,7 +131,8 @@
 										<fieldset>
 											<legend>Info Opcional</legend>
 										<label>Descripcion Adicional</label> 	
-										<textarea class="form-control" rows="4" name="descripcion" placeholder="descripcion del gasto" id="localidad"></textarea>	
+										<textarea class="form-control" rows="4" name="descripcion" placeholder="descripcion del gasto" id="localidad">											
+										</textarea>	
 
 										<!-- aqui terminan los otros campos -->									
 										<label>Imagen</label>										
@@ -179,14 +180,14 @@
 								<%var listatop3= last3.recordset%>
 								<%listatop3.forEach(function(el){%>   
 								<tr>
-									<td><a href="/show/<%=el.id%>"><%=el.id%></a></td>
+									<td><a href="/show/<%=el._id%>"><%=el.id%></a></td>
 									<td><%=el.Fecha.toISOString().substring(0, 10)%></td>
 									<td>$<%=el.MontoGasto%></td>
 									<td><%=el.cat_gasto%></td>
 									<td><%=el.cat_especifica%></td>
 									<td><%=el.descripcion%></td>
 									<td><%=el.bancoOrigen%></td>
-									<td><a href="/show/<%=el.id%>"><%=el.imagen%></a></td>
+									<td><a href="/show/<%=el._id%>"><%=el.imagen%></a></td>
 								</tr>
 								<% }) %>
 							</tbody>
@@ -201,23 +202,6 @@
 	
 </div>
 
-
-
-<script type="text/javascript">
-	
-var opcionesSuper1 = []
-
-<%var listaSuper= supermercado.recordset%>
-<%listaSuper.forEach(function(el){%>   
-
-     opcionesSuper1.push('<%=el.cat_especifica%> ')   
-                
-<% }) %>
-
-
-
-
-</script>
 
 <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh3ItbtWFLqt4dKgNZ2Hwji0jii5q6skU&callback=init Map&libraries=&v=weekly"defer

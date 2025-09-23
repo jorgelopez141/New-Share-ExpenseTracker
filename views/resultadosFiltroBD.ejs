@@ -65,7 +65,7 @@
 				<div class="col-md-10">
 					<div class="col-md-12 parrafo form-control" style="height: 20vh;">
 						<% if (elArraysito != undefined) { %>
-							<% var listatop3 = elArraysito.recordset %>
+							<% var listatop3 = (elArraysito && elArraysito.recordset) ? elArraysito.recordset : [] %>
 							<table class="table table-striped">
 								<thead>
 									<tr>
@@ -87,16 +87,16 @@
 											const formatted = date.toISOString().slice(0, 10);
 											const laFechita = isNaN(Date.parse(String(el.Fecha))) ? "Invalid Date" : formatted;
 											%>
-											<td><a href="/show/<%= el.id %>"><%= el.id %></a></td>
+											<td><a href="/show/<%= el._id %>"><%= el.id %></a></td>
 											<td><%= laFechita %></td>
 											<td>$<%= el.MontoGasto %></td>
 											<td><%= el.cat_gasto %></td>
 											<td><%= el.cat_especifica %></td>
 											<td><%= el.descripcion %></td>
-											<td><a href="/show/<%= el.id %>"><%= el.imagen %></a></td>
+											<td><a href="/show/<%= el._id %>"><%= el.imagen %></a></td>
 											
 											<td>
-												<form action="/borrar/<%= el.id %>" method="POST" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this?');">
+												<form action="/borrar/<%= el._id %>" method="POST" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this?');">
 													<button type="submit" style="border:none; background:none; color:red; cursor:pointer;">X</button>
 												</form>
 											</td>
