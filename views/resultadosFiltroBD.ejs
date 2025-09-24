@@ -75,6 +75,7 @@
 										<th>Cat Gasto</th>
 										<th>Cat Especifica</th>
 										<th>Descripcion</th>
+										<th>Lugar</th>
 										<th>Imagen</th>
 										<th>Borrar</th>
 									</tr>
@@ -93,6 +94,7 @@
 											<td><%= el.cat_gasto %></td>
 											<td><%= el.cat_especifica %></td>
 											<td><%= el.descripcion %></td>
+											<td><a href="https://maps.google.com/?q=<%=el.latitud%>,<%=el.longitud%>">Map Link</a></td>
 											<td><a href="/show/<%= el._id %>"><%= el.imagen %></a></td>
 											
 											<td>
