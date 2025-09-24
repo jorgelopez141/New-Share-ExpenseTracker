@@ -100,8 +100,17 @@ document.forms['demoForm'].elements['categoriaGasto'].onchange = function (){
 
 
 function showPosition(position) {
-  document.getElementById("localidad").value = "Latitude: " + position.coords.latitude + 
-  " Longitude: " + position.coords.longitude;
+  // Mostrar en el textarea de localidad (texto completo)
+  const localidadEl = document.getElementById("localidad");
+  // if (localidadEl) {
+  //   localidadEl.value = "Latitude: " + position.coords.latitude + " Longitude: " + position.coords.longitude;
+  // }
+
+  // Rellenar inputs separados para latitud y longitud si existen
+  const latInput = document.querySelector('input[name="latitud"]');
+  const longInput = document.querySelector('input[name="longitud"]');
+  if (latInput) latInput.value = String(position.coords.latitude);
+  if (longInput) longInput.value = String(position.coords.longitude);
 }
 
 function getLocation() {

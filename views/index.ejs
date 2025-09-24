@@ -130,9 +130,20 @@
 
 										<fieldset>
 											<legend>Info Opcional</legend>
+										
 										<label>Descripcion Adicional</label> 	
+
 										<textarea class="form-control" rows="4" name="descripcion" placeholder="descripcion del gasto" id="localidad">											
-										</textarea>	
+										</textarea>
+
+										<label>Latitud</label> 	
+										<input class="form-control" type="text" name="latitud">
+									
+
+										<label>Longitud</label> 	
+										<input class="form-control" type="text" name="longitud">
+										
+
 
 										<!-- aqui terminan los otros campos -->									
 										<label>Imagen</label>										
@@ -173,6 +184,7 @@
 									<th>Cat Especifica</th>
 									<th>Descripcion</th>
 									<th>Banco Origen</th>
+									<th>Lugar</th>
 									<th>Imagen</th>
 								</tr>
 							</thead>
@@ -187,6 +199,7 @@
 									<td><%=el.cat_especifica%></td>
 									<td><%=el.descripcion%></td>
 									<td><%=el.bancoOrigen%></td>
+									<td><a href="https://maps.google.com/?q=<%=el.latitud%>,<%=el.longitud%>">Map Link</a></td>
 									<td><a href="/show/<%=el._id%>"><%=el.imagen%></a></td>
 								</tr>
 								<% }) %>
