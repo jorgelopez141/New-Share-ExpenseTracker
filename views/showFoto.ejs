@@ -4,69 +4,71 @@
 
 <div class="container" >
 	<div class="row" >
-			<div class="col-md-2"></div>
-			<div class="col-md-8" >		
+			<div class="col-md-1"></div>
+			<div class="col-md-10" >		
 					<%listado2.forEach(function(el){%>
 								<br> <br>
-								<h2><%=el.id %>|<%=el.cat_gasto%></h2>
+								<h2>
+									<%=el.id %> | <%=el.cat_gasto%>
+									<a href="/editar/<%=el._id%>" class="btn btn-secondary btn-sm active" style="margin-left:12px;">Edita</a>
+								</h2>
 								<br>
 
-
+								<!-- aqui comienza el div de las imagenes  -->
 								<div class="row" >
-													<% if (!el.imagen) { %>
-														<% var extensionDelArchivo = 'es indefinido' %>
-													<% } else if (Array.isArray(el.imagen)) { %>
-														<% el.imagen.forEach(function(img) { %>
-															<% var extensionDelArchivo = img.split(".")[1] %>
-															<% if (['tiff','tif','jpg','jpeg','gif','png'].indexOf(extensionDelArchivo) > -1) { %>
-																<div class="col-md-12 parrafo1 form-control">
-																	<img src="/uploads/<%=img%>" class="image-responsive fit-image">
-																</div>
-															<% } else if (['pdf'].indexOf(extensionDelArchivo) > -1) { %>
-																<iframe src="/uploads/<%=img%>" class="image-responsive fit-image"></iframe>
-															<% } else { %>
-																<div class="parrafo form-control">es un documento de tipo "<%=extensionDelArchivo%>"</div>
-															<% } %>
-														<% }) %>
-													<% } else { %>
-														<% var extensionDelArchivo = el.imagen.split(".")[1] %>
-														<% if (['tiff','tif','jpg','jpeg','gif','png'].indexOf(extensionDelArchivo) > -1) { %>
-															<div class="col-md-12 parrafo1 form-control">
-																<img src="/uploads/<%=el.imagen%>" class="image-responsive fit-image">
-															</div>
-														<% } else if (['pdf'].indexOf(extensionDelArchivo) > -1) { %>
-															<iframe src="/uploads/<%=el.imagen%>" class="image-responsive fit-image"></iframe>
-														<% } else { %>
-															<div class="parrafo form-control">es un documento de tipo "<%=extensionDelArchivo%>"</div>
-														<% } %>
-													<% } %>
+										<% if (!el.imagen) { %>
+											<% var extensionDelArchivo = 'es indefinido' %>
+										<% } else if (Array.isArray(el.imagen)) { %>
+											<% el.imagen.forEach(function(img) { %>
+												<% var extensionDelArchivo = img.split(".")[1] %>
+												<% if (['tiff','tif','jpg','jpeg','gif','png'].indexOf(extensionDelArchivo) > -1) { %>
+													<div class="col-md-12 parrafo1 form-control" style="margin-bottom:12px; padding-bottom:8px;">
+														<img src="/uploads/<%=img%>" class="image-responsive fit-image">
+														<div style="margin-top:8px;">
+															<a href="/uploads/<%=img%>" class="btn btn-secondary btn-sm" download>Bajelo</a>
+															<form action="/borrar/<%=img%>" method="POST" style="display:inline; margin-left:8px;">
+																<button type="submit" class="btn btn-danger btn-sm">Borrar imagen</button>
+															</form>
+														</div>
+													</div>
+												<% } else if (['pdf'].indexOf(extensionDelArchivo) > -1) { %>
+													<div class="col-md-12 parrafo1 form-control" style="margin-bottom:12px; padding-bottom:8px;">
+														<iframe src="/uploads/<%=img%>" class="image-responsive fit-image"></iframe>
+														<div style="margin-top:8px;">
+															<a href="/uploads/<%=img%>" class="btn btn-secondary btn-sm" download>Bajelo</a>
+															<form action="/borrar/<%=img%>" method="POST" style="display:inline; margin-left:8px;">
+																<button type="submit" class="btn btn-danger btn-sm">Borrar imagen</button>
+															</form>
+														</div>
+													</div>
+												<% } else { %>
+													<div class="col-md-12 parrafo1 form-control" style="margin-bottom:12px; padding-bottom:8px;">
+														<div class="parrafo">es un documento de tipo "<%=extensionDelArchivo%>"</div>
+														<div style="margin-top:8px;">
+															<a href="/uploads/<%=img%>" class="btn btn-secondary btn-sm" download>Bajelo</a>
+															<form action="/borrar/<%=img%>" method="POST" style="display:inline; margin-left:8px;">
+																<button type="submit" class="btn btn-danger btn-sm">Borrar imagen</button>
+															</form>
+														</div>
+													</div>
+												<% } %>
+											<% }) %>
+										<% } else { %>
+											<% var extensionDelArchivo = el.imagen.split(".")[1] %>
+											<% if (['tiff','tif','jpg','jpeg','gif','png'].indexOf(extensionDelArchivo) > -1) { %>
+												<div class="col-md-12 parrafo1 form-control">
+													<img src="/uploads/<%=el.imagen%>" class="image-responsive fit-image">
+												</div>
+											<% } else if (['pdf'].indexOf(extensionDelArchivo) > -1) { %>
+												<iframe src="/uploads/<%=el.imagen%>" class="image-responsive fit-image"></iframe>
+											<% } else { %>
+												<div class="parrafo form-control">es un documento de tipo "<%=extensionDelArchivo%>"</div>
+											<% } %>
+										<% } %>
 
 								</div>		
 
-												<div class="row">
-													<div class="col-md-3 col-sm-4"> 
-														<a href="/editar/<%=el.id%>" class = "btn btn-secondary btn-sm active">Edita</a>
-													</div>
-													<div class="col-md-6 col-sm-8"> 
-														<% if (Array.isArray(el.imagen) && el.imagen.length) { %>
-															<% el.imagen.forEach(function(img){ %>
-																<div style="margin-bottom:6px;">
-																	<a href="/uploads/<%=img%>" class="btn btn-secondary btn-sm" download>Bajelo</a>
-																	<form action="/borrar/<%=img%>" method="POST" style="display:inline; margin-left:6px;">
-																		<button type="submit" class="btn btn-danger btn-sm">Borrar imagen</button>
-																	</form>
-																</div>
-															<% }) %>
-														<% } else if (el.imagen) { %>
-															<a href="/uploads/<%=el.imagen%>" class = "btn btn-secondary btn-sm" download>Bajelo</a>
-															<form action="/borrar/<%=el.imagen%>" method="POST" style="display:inline; margin-left:6px;">
-																<button type="submit" class="btn btn-danger btn-sm">Borrar imagen</button>
-															</form>
-														<% } else { %>
-															<!-- no hay imagenes -->
-														<% } %>
-													</div>
-												</div>
+												
 
 										<%})%>
 

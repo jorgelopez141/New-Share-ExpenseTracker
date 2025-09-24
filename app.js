@@ -264,7 +264,7 @@ app.get('/editar/:id', async (req, res) => {
   }
 });
 
-app.post("/seEdita", upload.single('imagen'), async function(req, res){
+app.post("/seEdita", upload.array('imagen', 10), async function(req, res){
   try {
     const documento = await GastosFoto.findById(req.body.elId);
     
@@ -272,41 +272,34 @@ app.post("/seEdita", upload.single('imagen'), async function(req, res){
       return res.send("Documento no encontrado");
     }
 
-    // Actualizar campos básicos
+    // Actualizar campos básicos recibidos desde el formulario
     const updateData = {
-      nombrePersona: req.body.nombrePersona,
-      descripcion: req.body.descripcion
+      Fecha: req.body.Fecha ? new Date(req.body.Fecha) : documento.Fecha,
+      MontoGasto: req.body.montoGastado ? parseFloat(req.body.montoGastado) : documento.MontoGasto,
+      cat_gasto: req.body.categoriaGasto || documento.cat_gasto,
+      cat_especifica: req.body.catEspecifica || documento.cat_especifica,
+      descripcion: req.body.descripcion || documento.descripcion,
+      latitud: req.body.latitud ? String(req.body.latitud) : documento.latitud,
+      longitud: req.body.longitud ? String(req.body.longitud) : documento.longitud,
+      bancoOrigen: req.body.banco_origen || documento.bancoOrigen,
+      cuentaOrigen: req.body.cuenta_origen || documento.cuentaOrigen,
+      numConfirmacion: req.body.num_confirmacion || documento.numConfirmacion
     };
 
-    // Lógica para manejo de archivos (adaptada del código original)
-    if (req.body.nombreArchivo == '') {
-      // Borrar archivo anterior si existía
+    // Manejo de archivos: si llegan archivos nuevos, los agregamos al array imagen
+    if (req.files && req.files.length) {
+      const newFiles = req.files.map(f => f.filename);
+      const existing = Array.isArray(documento.imagen) ? documento.imagen : (documento.imagen ? [documento.imagen] : []);
+      updateData.imagen = existing.concat(newFiles);
+    } else if (req.body.nombreArchivo == '') {
+      // Si el usuario dejó el campo nombreArchivo vacío y proporcionó noSeMira, borramos esos archivos
       if (req.body.noSeMira && req.body.noSeMira !== 'NULL') {
-        try {
-          fs.unlinkSync(`./public/uploads/${req.body.noSeMira}`);
-        } catch (err) {
-          console.log("Error borrando archivo:", err);
-        }
+        const toRemove = req.body.noSeMira.split(',').map(s => s.trim()).filter(Boolean);
+        toRemove.forEach(fname => {
+          try { fs.unlinkSync(`./public/uploads/${fname}`); } catch (e) { console.log('Error borrando archivo:', e); }
+        });
+        updateData.imagen = [];
       }
-      
-      if (req.file) {
-        updateData.nombreArchivo = req.file.filename;
-      } else {
-        updateData.nombreArchivo = null;
-      }
-    } else {
-      if (req.file) {
-        // Borrar archivo anterior si no es NULL
-        if (req.body.nombreArchivo !== 'NULL' && req.body.noSeMira) {
-          try {
-            fs.unlinkSync(`./public/uploads/${req.body.noSeMira}`);
-          } catch (err) {
-            console.log("Error borrando archivo:", err);
-          }
-        }
-        updateData.nombreArchivo = req.file.filename;
-      }
-      // Si no hay archivo nuevo, no se actualiza el campo nombreArchivo
     }
 
     await GastosFoto.findByIdAndUpdate(req.body.elId, updateData);

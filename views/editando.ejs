@@ -1,80 +1,102 @@
 <%- include("partials/header")%>
 
-<h1>Hello</h1>
+<%- include("partials/header")%>
 
-<%var listado2 = data1.recordset%>
+<% var listado2 = data1.recordset %>
 
-<%listado2.forEach(function(el){%>
-								
-<%if(el.nombreArchivo == undefined){%>
-				<%var extensionDelArchivo = 'es indefinido'%>
-				<%var nombreArchivoFinal = 'NULL'%>
-<%} else {%>
-
-				<%var extensionDelArchivo = el.nombreArchivo.split(".")[1]%>
-				<%var nombreArchivoFinal = el.nombreArchivo%>
-<%}%>
+<% listado2.forEach(function(el){ %>
 
 <div class="container">
-		<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-4">
-									<h3 style="text-align: center;">Editar Info</h3>
-									<form action="/seEdita" method="POST" enctype="multipart/form-data">			    
-										<label>Id - No Editable</label>	
-										<input  class="form-control" type="text" name="elId" value = <%=el.id%> readonly>	
-										<label>Titulo</label>
-										<input class="form-control" type="text" name="nombrePersona" value='<%=el.nombrePersona%>'  >
-										<label>Descripcion</label> 	
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-4">
+			<h3 style="text-align: center;">Editar Info</h3>
+			<form action="/seEdita" method="POST" enctype="multipart/form-data">       
+				<label>Id - No Editable</label>
+				<input class="form-control" type="text" name="elId" value="<%= el._id %>" readonly>
 
-										<textarea class="form-control" rows="3" name="descripcion">
-											<%=el.descripcion%>
-										</textarea>	
+				<label>Fecha Gasto</label>
+				<input class="form-control" type="date" name="Fecha" value="<%= el.Fecha ? (new Date(el.Fecha)).toISOString().substring(0,10) : '' %>">
 
-										
-										<label>Imagen</label> <i id="elIcono" class="glyphicon glyphicon-trash"></i>
-										<input id="elInput" type="text" name="nombreArchivo" value="<%=nombreArchivoFinal%>" readonly>										
-									 	<input class="form-control-file btn btn-secondary active" type="file" name="imagen"> 
-									 	<input class="esconde" type="text" name="noSeMira" value = "<%=nombreArchivoFinal%>">					 	
-										<button id="btnEnviar" class="btn btn-lg btn-primary btn-block">editalo!</button>
-									</form>
-									
+				<label>Monto Gasto</label>
+				<input class="form-control" type="number" step="any" name="montoGastado" value="<%= el.MontoGasto %>">
+
+				<label>Categoria Gasto</label>
+				<select class="form-control" name="categoriaGasto">
+					<option disabled>Elije una Opcion</option>
+					<% ["Educacion","Electricidad","Gastos para Madres","Gastos Taxi","Online Shopping","Otros Gastos","Prestamos","Prestamo Mama","Renta","Restaurantes","Supermercado","Transferencia","Vehiculo","Prueba"].forEach(function(opt){ %>
+						<option value="<%=opt%>" <%= el.cat_gasto===opt ? 'selected' : '' %>><%=opt%></option>
+					<% }) %>
+				</select>
+
+				<label>Categoria Especifica Gasto</label>
+				<input class="form-control" list="browsers" name="catEspecifica" value="<%= el.cat_especifica || '' %>">
+
+				<label>Descripcion Adicional</label>
+				<textarea class="form-control" rows="4" name="descripcion"><%= el.descripcion || '' %></textarea>
+
+				<label>Latitud</label>
+				<input class="form-control" type="text" name="latitud" value="<%= el.latitud || '' %>">
+
+				<label>Longitud</label>
+				<input class="form-control" type="text" name="longitud" value="<%= el.longitud || '' %>">
+
+				<label>Imagen(es)</label>
+				<input id="elInput" type="text" name="nombreArchivo" value="<%= (Array.isArray(el.imagen) ? el.imagen.join(',') : (el.imagen || 'NULL')) %>" readonly>
+				<input class="form-control-file btn btn-secondary active" type="file" name="imagen" multiple = 'multiple'>
+				<input class="esconde" type="text" name="noSeMira" value="<%= (Array.isArray(el.imagen) ? el.imagen.join(',') : (el.imagen || 'NULL')) %>">
+
+				<label class="bancoOrigen">Banco Origen</label>
+				<input class="form-control bancoOrigen" type="text" name="banco_origen" value="<%= el.bancoOrigen || '' %>">
+
+				<label class="bancoOrigen">Cuenta Origen</label>
+				<input class="form-control bancoOrigen" type="text" name="cuenta_origen" value="<%= el.cuentaOrigen || '' %>">
+
+				<label class="bancoOrigen">Num. Confirmacion</label>
+				<input class="form-control bancoOrigen" type="text" name="num_confirmacion" value="<%= el.numConfirmacion || '' %>">
+
+				<div style="margin-top:10px;">
+					<button id="btnEnviar" class="btn btn-lg btn-primary btn-block">editalo!</button>
 				</div>
-				<div class="col-md-6">
-						
-
-						<%console.log(extensionDelArchivo)%>
-
-						<%if(['m4v','avi','mpg','mp4'].indexOf(extensionDelArchivo) > -1){%>
-
-									<div class="embed-responsive embed-responsive-16by9">
-										<iframe src="/uploads/<%=el.nombreArchivo%>" allowfullscreen></iframe>
-									</div>
-									
-						<%} else if (['tiff','tif','jpg','jpeg','gif','png'].indexOf(extensionDelArchivo) > -1) {%>
-
-								<img src="/uploads/<%=el.nombreArchivo%>" class="img-thumbnail">
-								
-						<%}else if (['mp3'].indexOf(extensionDelArchivo) > -1) {%>
-
-								<audio controls>
-								  <source src="/uploads/<%=el.nombreArchivo%>">					  
-										Your browser does not support the audio element.
-								</audio>
-								
-						<%} else if (['es indefinido'].indexOf(extensionDelArchivo) > -1) {%>
-
-								<h4>no hay archivo</h4>
-
-						<%} else {%>
-
-								<h4>el tipo de archivo es <%=extensionDelArchivo%></h4>
-						<%}%>
-				</div>
+			</form>
 		</div>
-</div>		
 
-<%})%>
+		<div class="col-md-6">
+			<% // preview de archivos existentes %>
+			<% var archivos = Array.isArray(el.imagen) ? el.imagen : (el.imagen ? [el.imagen] : []); %>
+			<% if (archivos.length === 0) { %>
+				<h4>No hay archivos adjuntos</h4>
+			<% } else { %>
+				<% archivos.forEach(function(nombreArchivo){ %>
+					<% var extensionDelArchivo = nombreArchivo.split('.').pop().toLowerCase(); %>
+					<% if (['m4v','avi','mpg','mp4'].indexOf(extensionDelArchivo) > -1) { %>
+						<div class="embed-responsive embed-responsive-16by9" style="margin-bottom:8px;">
+							<iframe src="/uploads/<%=nombreArchivo%>" allowfullscreen></iframe>
+						</div>
+					<% } else if (['tiff','tif','jpg','jpeg','gif','png'].indexOf(extensionDelArchivo) > -1) { %>
+						<img src="/uploads/<%=nombreArchivo%>" class="img-thumbnail" style="display:block; margin-bottom:6px;">
+						<div style="margin-bottom:12px;">
+							<a href="/uploads/<%=nombreArchivo%>" class="btn btn-secondary btn-sm" download>Bajelo</a>
+							<form action="/borrar/<%=nombreArchivo%>" method="POST" style="display:inline; margin-left:8px;">
+								<button type="submit" class="btn btn-danger btn-sm">Borrar imagen</button>
+							</form>
+						</div>
+					<% } else if (['mp3'].indexOf(extensionDelArchivo) > -1) { %>
+						<audio controls style="display:block; margin-bottom:6px;"><source src="/uploads/<%=nombreArchivo%>"></audio>
+					<% } else { %>
+						<h4>el tipo de archivo es <%=extensionDelArchivo%></h4>
+						<a href="/uploads/<%=nombreArchivo%>" class="btn btn-secondary btn-sm" download>Bajelo</a>
+						<form action="/borrar/<%=nombreArchivo%>" method="POST" style="display:inline; margin-left:8px;">
+							<button type="submit" class="btn btn-danger btn-sm">Borrar archivo</button>
+						</form>
+					<% } %>
+				<% }) %>
+			<% } %>
+		</div>
+	</div>
+</div>
+
+<% }) %>
 
 <script type="text/javascript" src="/logica/laLogica.js"></script>
 </body>
