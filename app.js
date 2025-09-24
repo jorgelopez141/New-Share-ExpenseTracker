@@ -27,7 +27,7 @@ const gastosSchema = new mongoose.Schema({
   cat_gasto: { type: String, required: true },
   cat_especifica: { type: String },
   descripcion: { type: String },
-  imagen: { type: String },
+  imagen: { type: [String] },
   latitud: { type: String },
   longitud: { type: String },
   bancoOrigen: { type: String },
@@ -145,7 +145,7 @@ app.post("/filtroBase", async function(req, res){
   }
 });
 
-app.post("/", upload.single('imagen'), async function(req, res){
+app.post("/", upload.array('imagen', 10), async function(req, res){
   try {
 
     const maxIdDoc = await GastosFoto.findOne().sort({ id: -1 }).select('id');
@@ -165,17 +165,19 @@ app.post("/", upload.single('imagen'), async function(req, res){
       factura = 1;
     }
 
-    // Crear nuevo documento
-    const nuevoGasto = new GastosFoto({
+  // Crear nuevo documento
+  const uploadedFiles = req.files && req.files.length ? req.files.map(f => f.filename) : (req.file ? [req.file.filename] : null);
+
+  const nuevoGasto = new GastosFoto({
       id: nuevoId,
       Fecha: req.body.Fecha ? String(req.body.Fecha) : "",
       MontoGasto: parseFloat(req.body.montoGastado),
       cat_gasto: req.body.categoriaGasto,
       cat_especifica: req.body.catEspecifica,
       descripcion: req.body.descripcion,
-      imagen: req.file ? req.file.filename : null,
-  latitud: req.body.latitud ? String(req.body.latitud) : null,
-  longitud: req.body.longitud ? String(req.body.longitud) : null,
+  imagen: uploadedFiles,
+      latitud: req.body.latitud ? String(req.body.latitud) : null,
+      longitud: req.body.longitud ? String(req.body.longitud) : null,
       bancoOrigen: req.body.banco_origen,
       cuentaOrigen: req.body.cuenta_origen,
       numConfirmacion: req.body.num_confirmacion,
@@ -200,29 +202,44 @@ app.post("/", upload.single('imagen'), async function(req, res){
 app.post("/borrar/:id", async function(req, res){
   try {
     if (mongoose.Types.ObjectId.isValid(req.params.id)) {
-      // Borrar por ID de MongoDB
+      // Borrar por ID de MongoDB -> eliminar documento completo y archivos asociados
       const documento = await GastosFoto.findById(req.params.id);
-      
+
       if (documento && documento.imagen) {
-        // Borrar archivo físico si existe
         try {
-          fs.unlinkSync(`./public/uploads/${documento.imagen}`);
+          if (Array.isArray(documento.imagen)) {
+            documento.imagen.forEach(fname => {
+              try { fs.unlinkSync(`./public/uploads/${fname}`); } catch (e) { console.log('Error borrando archivo:', e); }
+            });
+          } else {
+            try { fs.unlinkSync(`./public/uploads/${documento.imagen}`); } catch (e) { console.log('Error borrando archivo:', e); }
+          }
         } catch (err) {
           console.log("Error borrando archivo:", err);
         }
       }
-      
+
       await GastosFoto.findByIdAndDelete(req.params.id);
     } else {
-      // Borrar por nombre de imagen
-      const documento = await GastosFoto.findOne({ imagen: req.params.id });
-      
+      // Borrar por nombre de imagen -> eliminar solo la referencia a la imagen del documento
+      const filename = req.params.id;
+      const documento = await GastosFoto.findOne({ imagen: filename });
+
       if (documento) {
-        await GastosFoto.deleteOne({ imagen: req.params.id });
-        try {
-          fs.unlinkSync(`./public/uploads/${req.params.id}`);
-        } catch (err) {
-          console.log("Error borrando archivo:", err);
+        // Si imagen es array, hacer $pull; si es string, unset/eliminar documento
+        if (Array.isArray(documento.imagen)) {
+          await GastosFoto.updateOne({ _id: documento._id }, { $pull: { imagen: filename } });
+          // borrar archivo físico
+          try { fs.unlinkSync(`./public/uploads/${filename}`); } catch (e) { console.log('Error borrando archivo:', e); }
+          // si quedó vacío, quitar campo
+          const updated = await GastosFoto.findById(documento._id);
+          if (!updated.imagen || (Array.isArray(updated.imagen) && updated.imagen.length === 0)) {
+            await GastosFoto.findByIdAndUpdate(documento._id, { $unset: { imagen: "" } });
+          }
+        } else {
+          // imagen es string -> eliminar documento completo
+          await GastosFoto.deleteOne({ _id: documento._id });
+          try { fs.unlinkSync(`./public/uploads/${filename}`); } catch (e) { console.log('Error borrando archivo:', e); }
         }
       }
     }

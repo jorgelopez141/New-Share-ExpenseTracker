@@ -200,7 +200,17 @@
 									<td><%=el.descripcion%></td>
 									<td><%=el.bancoOrigen%></td>
 									<td><a href="https://maps.google.com/?q=<%=el.latitud%>,<%=el.longitud%>">Map Link</a></td>
-									<td><a href="/show/<%=el._id%>"><%=el.imagen%></a></td>
+									<td>
+										<% if (Array.isArray(el.imagen) && el.imagen.length) { %>
+											<% el.imagen.forEach(function(img){ %>
+												<a href="/show/<%=el._id%>"><%= img %></a><br>
+											<% }) %>
+										<% } else if (el.imagen) { %>
+											<a href="/show/<%=el._id%>"><%= el.imagen %></a>
+										<% } else { %>
+											-
+										<% } %>
+									</td>
 								</tr>
 								<% }) %>
 							</tbody>
